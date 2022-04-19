@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "bd209a29fcd0f5f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2e5f1dec967e540",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Paper/Paper.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9671fe5245ec1b4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "16a8be511c451451",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9f825e8ac9ad102",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cdf10051369f0889",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "02ccbc36cb961e1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4eb4ee0cc2fe9987",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f239f1be99cccb0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Paper/Paper.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f2e5f1dec967e540",
+  "lastOpenFiles": [
+    "Paper/Paper.md",
+    "Ophichi/Common enumeration.md",
+    "spider/Spiderhtb.md",
+    "Untitled.md",
+    "we then repeat the process above.md",
+    "Pasted image 20211028193120.png",
+    "spider/static png/nmap.png",
+    "spider/static png/40 .png",
+    "spider/static png/adm.png",
+    "Ophichi/Pasted image 20210703161123.png"
+  ]
+}
