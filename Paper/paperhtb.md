@@ -1,5 +1,5 @@
 
-![[Pasted image 20211028192537.png]]
+![image](https://user-images.githubusercontent.com/64952843/165166129-a70c82e7-12d8-4280-965e-f8cdd97b6913.png)
 
 # [PAPER- BOX]  
 Hi folks, today I am going to solve an easy rated hack the box machine,Paper created by secnigma.So without any further intro, let's jump in.
