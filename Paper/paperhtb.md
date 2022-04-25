@@ -14,7 +14,7 @@ Hi folks, today I am going to solve an easy rated hack the box machine,Paper cre
 #### code-Nmap
 
 ```bash
-nmap -sC -sV  -A -oN nmap.txt  10.10.11.143 
+nmap -sC -sV  -A -oN nmap/paper 10.10.11.143 
 ```
 
   #### output
@@ -120,7 +120,7 @@ New path exported: /home/dwight/.local/bin:/home/dwight/bin:/usr/local/bin:/usr/
 
 ```
 
-Then after doing some digging abou the CVE i found out that the vunerability could lalow an unauthenticated user to view private or draft posts due to an issue within WP_Query.you can read more using this https://wpscan.com/vulnerability/3413b879-785f-4c9f-aa8a-5a4a1d5e0ba2
+Then after doing some digging abou the CVE i found out that the vunerability could lalow an unauthenticated user to view private or draft posts due to an issue within WP_Query.you can read more using this [**here**](https://wpscan.com/vulnerability/3413b879-785f-4c9f-aa8a-5a4a1d5e0ba2)
 
 so i decide to change my url to this so i can view the draft posts http://office.paper/?static=1
 
@@ -239,7 +239,7 @@ export BIND_ADDRESS=127.0.0.1
 <!=====End of file ../hubot/.env=====>
 ```
 
-so i since i have the password and i now ho was the admin so i decided to ssh to get the injection 
+so i since i have the password and i now who was the admin  who is `dwight`so i decided to ssh to get the injection 
 
 #### code-ssh
 ```shell
@@ -252,8 +252,9 @@ successful code injection and i got the shell
 
 
 ## Takeover
- After geting the reverse shell we have to do some adjusment to our reverse shell to make it ready for using by doing a stty escalation to get an interactive shell:
- #### code-stty
+ After geting the  shell we have to do some adjusment to our reverse shell to make it ready for using by doing a stty escalation to get an interactive shell:
+ 
+#### code-stty
  ```bash
  python3 -c 'import pty;pty.spawn("/bin/bash")'
  [ctrl] + z
@@ -274,7 +275,7 @@ cat user.txt
 ```
 
 ##  Privillage Escalation
-so we now need to get the root so i decide to use the same password with the sudo but it refused the password seems  to be not the same so i decide to use **linpeas** which is s **a well-known enumeration script that searches for possible paths to escalate privileges on Linux/Unix* targets**. https://github.com/carlospolop/PEASS-ng use the latest i downloaded linpeas to my local machine and fowarded it to the box 
+so we now need to get the root so i decide to use the same password with the sudo but it refused the password seems  to be not the same so i decide to use **linpeas**  which is s **a well-known enumeration script that searches for possible paths to escalate privileges on Linux/Unix* targets**. https://github.com/carlospolop/PEASS-ng use the latest i downloaded linpeas to my local machine and fowarded it to the box 
 
 use this code to get your ip  tun and use that ip to foward linpeas to the box
 
@@ -433,6 +434,6 @@ Then boom i got the root access!
 
 ![[root.png]]
 
-And hence i found the root in the root folder
+Successfully obtained the flag file with root privileges
 
     -------------------------END successful attack @leshack98----------------------

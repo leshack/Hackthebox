@@ -1,18 +1,23 @@
 
-   # OPHIUCHI BOX
-   ![[Pasted image 20211028191625.png]]
-                                   
-   
-   ![[Pasted image 20210705202930.png]]
-								   
+
+   ![[Pasted image 20211028191625.png]] 
+# [OPHICHI- BOX]   
+
 # Common Enumeration
-  ## Namp
+
+## Namp
   
   *TCP over SSH
   *HTTP Default page
   *Host 8.2p1 Ubuntu 4ubuntu0.1 
-  
-  
+
+#### code-Nmap
+```bash
+nmap -sC -sV  -A -oN nmap.txt  10.10.10.227
+```
+
+#### output
+
 ```bash
 			map.txt 10.10.10.227
 			Nmap scan report for 10.10.10.227
@@ -26,24 +31,25 @@
 			|_  256 17:6b:c3:a8:fc:5d:36:08:a1:40:89:d2:f4:0a:c6:46 (ED25519)
 			8080/tcp open  http    Apache Tomcat 9.0.38
 ```
-## Apache Tomcat 9.0.38
- Looking for the information of tomat changelog found out that it was recently changed so am no going to dig much on that;
 
-##### Screenshot 1
+
+## Apache Tomcat 9.0.38
+ Looking for the information of tomat changelog I found out that it was recently changed so am not going to dig much on that;
+
+#### Output
+
  ![[Pasted image 20210703161123.png]]
- 
- ## Checking the web browser at 
-   *10.10.10.227:8080
+
+## Default Page-YAML
+ Checking the web browser at http://10.10.10.227
    
-   ##### Screenshot 2
+#### output
    ![[Pasted image 20210703161641.png]]
    
-  
-  
-  it brings a parse yaml and by writing anything then executing it brings an error of security reason
+ it brings a parse yaml and by writing anything then executing it brings an error of security reason
    
   
-  ##### Screenshot 3
+#### Output
   ![[Pasted image 20210703161903.png]]
    
    
