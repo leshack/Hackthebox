@@ -58,6 +58,8 @@ port[80]-http
 port[443]-ssl/http
 
 ## Default Page
+so lets check the default page
+
 ![image](https://user-images.githubusercontent.com/64952843/165171058-8cc621a3-7a06-4eec-ba3d-2839c97db292.png)
 
 so i did not have a clue then i decide to curl the page to see if there are additional things then i found someting exitting the back end server so a hostname

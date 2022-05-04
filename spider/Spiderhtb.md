@@ -80,7 +80,7 @@ gobuster dir -u  http://spider.htb  -w /usr/share/wordlists/SecLists/Discovery/W
 ===============================================================
 ```
 
-First i register myself with random crecidentials:-http://spider.htb/register
+First i register myself with random crecidentials:- http://spider.htb/register
  #### Registration-panel
 ![[]]
 

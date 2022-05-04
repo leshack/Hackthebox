@@ -43,7 +43,8 @@ port[22]-ssh
 port[80]-http
 
 ## Default Page- PLAY
-http://10.10.11.136 
+so lets chek at the Default page at  http://10.10.11.136 
+
 
 ![[Pandora/pandora png/web.png]]
 
