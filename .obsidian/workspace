@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Undetected/undetectedhtb.md",
+            "file": "Search/searchhtb.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Undetected/undetectedhtb.md",
+                "file": "Search/searchhtb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "74e508672937b425",
   "lastOpenFiles": [
+    "Search/searchhtb.md",
     "Undetected/undetectedhtb.md",
     "Paper/paperhtb.md",
     "Backdoor/backdoorhtb.md",
@@ -97,7 +98,6 @@
     "Pandora/pandorahtb.md",
     "ophiuchi done.pdf",
     "Late/latehtb.md",
-    "README.md",
-    "SPIDERHTB.pdf"
+    "README.md"
   ]
 }
