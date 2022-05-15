@@ -2,8 +2,8 @@
 
 # [UNICODE- BOX]            
 
-  Hi folks, today I am going to solve a medium rated hack the box machine,Unicode created by webspl01t3r.So without any further intro, let's jump in.
-# common enumeration
+  Hi folks, today I am going to solve a medium rated hack the box machine,Unicode created by webspl01t3r.So without any further intro, let's jump in. 
+# common enumeration   
 
 ## Nmap
  *TCP over SSH
@@ -474,13 +474,26 @@ strings /usr/bin/treport
 
 ![[python.png]]
 
-We copy the binary back to our local machines and begin analysing and testing. It is extremely important that we use Python version 3.8 for the following steps. Using a tool called `pyinsxtractor`  [pyinsxtractor](https://raw.githubusercontent.com/extremecoders-re/pyinstxtractor/master/pyinstxtractor.py) we can extract the `.pyc` file and try to decode it.
+We copy the binary back to our local machines and begin analysing and testing. It is extremely important that we use [Python version 3.8](https://github.com/deadsnakes/python3.8) for the following steps. Using a tool called `pyinsxtractor`  [pyinsxtractor](https://raw.githubusercontent.com/extremecoders-re/pyinstxtractor/master/pyinstxtractor.py) we can extract the `.pyc` file and try to decode it.
+
+#### code-pyinsxtractor
+```bash
+ leshack-pyinstxtractor treport   
+```
+
+#### output
+![[treport2.png]]
+Now we need to install `uncompyle6` to decode the `.pyc` file  you will need python3.8.0  i found a good article [here](https://linuxize.com/post/how-to-install-python-3-8-on-ubuntu-18-04/) you can get[ uncompyle6 ](https://github.com/rocky/python-uncompyle6) which supports the python version first install python then use the python to execute the `uncomplyle6`  so as to map it with the version we have just recovered and begin to extract the source code.
+
+#### code-uncomplyle6
+```bash
+ uncompyle6 treport_extracted/treport.pyc  
+```
 
 #### output
 
-Now we need to install `uncompyle6` to decode the `.pyc` file we have just recovered and begin to extract the source code.
+![[uncomply.png]]
 
-#### output
 
 Now that we have the source code we begin our review and we notice heavy filtering on the `download function`. But, we notice that the characters `{}` and `,`are not filtered.
 
