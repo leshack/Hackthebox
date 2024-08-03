@@ -9,5 +9,6 @@
   },
   "promptDelete": true,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "alwaysUpdateLinks": true
 }

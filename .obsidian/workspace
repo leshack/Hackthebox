@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Unicode/Unicodehtb.md",
+            "file": "spider/Spiderhtb.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unicode/Unicodehtb.md",
+                "file": "spider/Spiderhtb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "74e508672937b425",
   "lastOpenFiles": [
+    "spider/Spiderhtb.md",
     "Unicode/Unicodehtb.md",
-    "Spiderhtb.pdf",
-    "SPIDERHTB.pdf",
     "Paper.pdf",
     "ophiuchi done.pdf",
+    "Paper/paperhtb.md",
+    "Late/latehtb.md",
+    "Spiderhtb.pdf",
+    "SPIDERHTB.pdf",
     "Backdoor/backdoorhtb.md",
-    "Undetected/undetectedhtb.md",
-    "Ophichi/Common enumeration.md",
-    "Search/searchhtb.md",
-    "spider/Spiderhtb.md"
+    "Undetected/undetectedhtb.md"
   ]
 }
