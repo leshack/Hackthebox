@@ -4,7 +4,8 @@ Hands on servers successful pwned machines:
 # Lame
 
 
-![lamepwnd](lamepwnd.png)
+![lamepwnd](Screenshots/lamepwnd.png)
+
 
 
 
