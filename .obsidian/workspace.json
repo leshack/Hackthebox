@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "0ee7087e8aa95238",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Windows-Easy/Legacy/Legacy.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d3ef448638ffb0ed",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Easy/Lame/Lame.md",
+                "file": "Windows/Windows-Easy/Legacy/Legacy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,33 +149,34 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d602bdbdbf2f0798",
+  "active": "0ee7087e8aa95238",
   "lastOpenFiles": [
-    "README.md",
     "Linux/Linux-Easy/Lame/Lame.md",
+    "Windows/Windows-Easy/Legacy/Legacy.md",
+    "Windows/Windows-Easy/Legacy/Screenshots/learnlegacy.png",
+    "Windows/Windows-Easy/Legacy/Screenshots/legacyrootuserflag.png",
+    "Windows/Windows-Easy/Legacy/Screenshots/pwnedlegacy.png",
+    "Windows/Windows-Easy/Legacy/Screenshots/shelllegacy.png",
+    "Windows/Windows-Easy/Legacy/Screenshots/meterpreterlegacy.png",
+    "Windows/Windows-Easy/Legacy/Screenshots/metasploitoption.png",
+    "Windows/Windows-Easy/Legacy/Screenshots/metasploitlegacy.png",
+    "Windows/Windows-Easy/Legacy/Screenshots/nmaplegacy.png",
+    "Windows/Windows-Easy/Legacy/Screenshots",
+    "Windows/Windows-Easy/Legacy",
+    "Windows/Windows-Hard",
+    "Windows/Windows-Medium",
+    "Windows/Windows-Easy",
+    "Windows/Windows-Insane",
+    "Linux/Linux-Easy/Lame/Lame.pdf",
+    "README.md",
     "Group/spider/Spiderhtb.md",
     "Group/Search/searchhtb.md",
     "Linux/Linux-Easy/Lame/Screenshots/rootlameflag.png",
     "Linux/Linux-Easy/Lame/Screenshots/lamepwnd.png",
-    "Linux/Linux-Easy/Lame/Screenshots/userlameflag.png",
-    "Linux/Linux-Easy/Lame/Screenshots/metasploitlamesamba2.png",
-    "Linux/Linux-Easy/Lame/Screenshots/metasploitftplame.png",
-    "Linux/Linux-Easy/Lame/Screenshots/metasploitlamesamba1.png",
-    "Linux/Linux-Easy/Lame/Screenshots/sambalame.png",
-    "Linux/Linux-Easy/Lame/Screenshots/smbclientlame.png",
-    "Linux/Linux-Easy/Lame/Screenshots/smbmaplame2.png",
-    "Linux/Linux-Easy/Lame/Screenshots/smbmaplame1.png",
     "Group/spider/Spiderhtb.pdf",
     "Group/Search/searchhtb.pdf",
     "logo.md",
     "Linux/Linux-Easy/Lame/Screenshots",
-    "Linux/Linux-Easy/Lame",
-    "Linux/Linux-Hard",
-    "Linux/Linux-Medium",
-    "Linux/Linux-Easy",
-    "Linux/Linux-Insane",
-    "Windows",
-    "Group",
     "Group/Backdoor/backdoorhtb.md",
     "Group/Armageddon/Untitled.md",
     "Group/HTB Academy/NMAP/NMAP -LABs.md",

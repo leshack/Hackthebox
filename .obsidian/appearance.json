@@ -1,5 +1,9 @@
 {
   "baseFontSize": 15,
   "translucency": true,
-  "accentColor": ""
+  "accentColor": "",
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "Hack"
 }
