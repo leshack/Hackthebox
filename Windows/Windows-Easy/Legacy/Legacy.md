@@ -122,7 +122,7 @@ root flag from `C:\Documents and Settings\Administrator\Desktop\root.txt`
 
 # The Mitigation: MS08–067
 
-The adventure wouldn’t be complete without discussing the mitigation of this vulnerability. Microsoft released a security update, MS08–067, to patch this critical flaw. This update was crucial for Windows 2000, XP, Vista, and Windows Server 2003 and 2008 users, addressing the vulnerable component in the Server service to prevent such remote exploits.
+The adventure wouldn’t be complete without discussing the mitigation of this vulnerability. Microsoft released a security update, MS08–067, to patch this critical flaw. This update was crucial for Windows 2000, XP, Vista, and Windows Server 2003 and 2008 users, addressing the vulnerable component in the Server service to prevent such remote exploits. [Bulletin](https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067)
 
 ![](/Windows/Windows-Easy/Legacy/Screenshots/learnlegacy.png)
 
