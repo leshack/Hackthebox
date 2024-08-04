@@ -111,20 +111,20 @@ Running the module immediately grants a root shell.
 shell
 ```
 
-![](Windows/Windows-Easy/Legacy/Screenshots/shelllegacy.png)
+![](/Windows/Windows-Easy/Legacy/Screenshots/shelllegacy.png)
 
 The user flag can be obtained from `C:\Documents and Settings\john\Desktop\user.txt` and the
 root flag from `C:\Documents and Settings\Administrator\Desktop\root.txt`
 ###### output
 
-![](Windows/Windows-Easy/Legacy/Screenshots/legacyrootuserflag.png)
+![](/Windows/Windows-Easy/Legacy/Screenshots/legacyrootuserflag.png)
 
 
 # The Mitigation: MS08–067
 
 The adventure wouldn’t be complete without discussing the mitigation of this vulnerability. Microsoft released a security update, MS08–067, to patch this critical flaw. This update was crucial for Windows 2000, XP, Vista, and Windows Server 2003 and 2008 users, addressing the vulnerable component in the Server service to prevent such remote exploits.
 
-![](Windows/Windows-Easy/Legacy/Screenshots/learnlegacy.png)
+![](/Windows/Windows-Easy/Legacy/Screenshots/learnlegacy.png)
 
 	-------------------------END successful attack @lesley----------------------
 
