@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "0ee7087e8aa95238",
+            "id": "822ca3a44838aeeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Legacy/Legacy.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows-Easy/Legacy/Legacy.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,18 +149,23 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0ee7087e8aa95238",
+  "active": "822ca3a44838aeeb",
   "lastOpenFiles": [
+    "Windows/Windows-Easy/Devel/Devel.md",
     "Linux/Linux-Easy/Lame/Lame.md",
     "Windows/Windows-Easy/Legacy/Legacy.md",
-    "Windows/Windows-Easy/Legacy/Screenshots/learnlegacy.png",
-    "Windows/Windows-Easy/Legacy/Screenshots/legacyrootuserflag.png",
-    "Windows/Windows-Easy/Legacy/Screenshots/pwnedlegacy.png",
-    "Windows/Windows-Easy/Legacy/Screenshots/shelllegacy.png",
-    "Windows/Windows-Easy/Legacy/Screenshots/meterpreterlegacy.png",
-    "Windows/Windows-Easy/Legacy/Screenshots/metasploitoption.png",
-    "Windows/Windows-Easy/Legacy/Screenshots/metasploitlegacy.png",
-    "Windows/Windows-Easy/Legacy/Screenshots/nmaplegacy.png",
+    "Windows/Windows-Easy/Devel/Screenshots/suggestdevel.png",
+    "Windows/Windows-Easy/Devel/Screenshots/kitproddevel.png",
+    "Windows/Windows-Easy/Devel/Screenshots/flagsdevel.png",
+    "Windows/Windows-Easy/Devel/Screenshots/develpwned.png",
+    "Windows/Windows-Easy/Devel/Screenshots/rootdevel.png",
+    "Windows/Windows-Easy/Devel/Screenshots/session2devel.png",
+    "Windows/Windows-Easy/Devel/Screenshots/potentialdevel.png",
+    "Windows/Windows-Easy/Devel/Screenshots/moduledevel.png",
+    "Windows/Windows-Easy/Devel/Screenshots/sessiondevel.png",
+    "README.md",
+    "Windows/Windows-Easy/Devel/Screenshots",
+    "Windows/Windows-Easy/Devel",
     "Windows/Windows-Easy/Legacy/Screenshots",
     "Windows/Windows-Easy/Legacy",
     "Windows/Windows-Hard",
@@ -168,15 +173,10 @@
     "Windows/Windows-Easy",
     "Windows/Windows-Insane",
     "Linux/Linux-Easy/Lame/Lame.pdf",
-    "README.md",
     "Group/spider/Spiderhtb.md",
     "Group/Search/searchhtb.md",
-    "Linux/Linux-Easy/Lame/Screenshots/rootlameflag.png",
-    "Linux/Linux-Easy/Lame/Screenshots/lamepwnd.png",
     "Group/spider/Spiderhtb.pdf",
-    "Group/Search/searchhtb.pdf",
     "logo.md",
-    "Linux/Linux-Easy/Lame/Screenshots",
     "Group/Backdoor/backdoorhtb.md",
     "Group/Armageddon/Untitled.md",
     "Group/HTB Academy/NMAP/NMAP -LABs.md",

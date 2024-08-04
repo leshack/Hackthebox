@@ -6,9 +6,9 @@ Hi folks, today I am going to solve an Easy rated hack the box machine which was
 # common enumeration
 
 ## Nmap
-  *Ftp and ssh
-  *Samba
-  *Unix Debian
+  *msrpc
+  *netbios-ssn
+  *Windows-XP
   
 ###### code-nmap
 

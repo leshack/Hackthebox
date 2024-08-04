@@ -8,9 +8,13 @@ Hands on servers successful pwned machines:
 
 ![lamepwnd](/Linux/Linux-Easy/Lame/Screenshots/lamepwnd.png)
 
+# Legacy
 
+![](/Windows/Windows-Easy/Legacy/Screenshots/pwnedlegacy.png)
 
+# DEVEL 
 
+![](Windows/Windows-Easy/Devel/Screenshots/develpwned.png)
 
 
 ![backdoor](https://user-images.githubusercontent.com/64952843/165172553-218f7845-b352-441e-9d8d-5af46cc7e7e7.png)
