@@ -133,3 +133,32 @@ After creating the account we log on to the upload and we find the instruction o
 ![](/Linux/Linux-Medium/Popcorn/Screenshots/kalitorrentpopcorn.png)
 
 After uploading the kali torrent we get a new page that it intresting where there is a `screenshot` 
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/torrentkalipopcorn.png)
+
+When we edit the torrent we find that there is a place where we can upload a screenshot image 
+![](/Linux/Linux-Medium/Popcorn/Screenshots/screenshottorrent.png)
+
+When we upload an image we get a success message of the image 
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/successimagepopcorn.png)
+
+so when we navigate to [http://popcorn.htb/torrent/upload/](http://popcorn.htb/torrent/upload/) we find that our image has been uploaded 
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/imageuploadedpopcorn.png)
+
+so lets go try a php file  
+
+```sh
+echo "<?php echo "Hello, World!"; ?>" > popcorn.php
+```
+
+After Uploading we get an Invalid File item 
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/invalidfile.png)
+
+So we open burpsuite to see how its doing the upload of the image  and we find that the content type is `image/png` 
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/burpimagepopcorn.png)
+
+so we can see the request of the php and be able to modify it so that we can be able to pass the filters but we would need a bit of the image `bytes` this is how the php request is from `burpsuite`
