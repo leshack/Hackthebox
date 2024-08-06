@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Popcorn/Popcorn.md",
+                "file": "Linux/Linux-Medium/Popcorn/Pop.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Medium/Popcorn/Popcorn.md",
+                "file": "Linux/Linux-Medium/Popcorn/Pop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,8 +173,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "08d221b055c30fa8",
+  "active": "a9f825e8ac9ad102",
   "lastOpenFiles": [
+    "Linux/Linux-Medium/Popcorn/Screenshots/Pasted image 20240806223653.png",
     "Linux/Linux-Medium/Popcorn/Pop.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
     "README.md",
@@ -188,7 +189,6 @@
     "Linux/Linux-Medium/Popcorn/Screenshots/motd1.png",
     "Linux/Linux-Medium/Popcorn/Screenshots/motd.png",
     "Linux/Linux-Medium/Popcorn/Screenshots/usertxt.png",
-    "Linux/Linux-Medium/Popcorn/Screenshots/shellpopcorn.png",
     "Group/Paper/paperhtb.md",
     "Group/spider/Spiderhtb.md",
     "Windows/Windows-Easy/Devel/Devel.md",
