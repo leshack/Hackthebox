@@ -32,12 +32,24 @@
             }
           },
           {
+            "id": "a64c095738da54bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux-Medium/Popcorn/Popcorn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d3ef448638ffb0ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Group/Search/searchhtb.md",
+                "file": "Windows/Windows-Easy/Devel/Devel.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Group/spider/Spiderhtb.md",
+                "file": "Group/Paper/paperhtb.md",
                 "mode": "source",
                 "source": false
               }
@@ -151,19 +163,26 @@
   },
   "active": "822ca3a44838aeeb",
   "lastOpenFiles": [
-    "Windows/Windows-Easy/Devel/Devel.md",
+    "Linux/Linux-Medium/Popcorn/Popcorn.md",
     "Linux/Linux-Easy/Lame/Lame.md",
-    "Windows/Windows-Easy/Legacy/Legacy.md",
-    "Windows/Windows-Easy/Devel/Screenshots/suggestdevel.png",
-    "Windows/Windows-Easy/Devel/Screenshots/kitproddevel.png",
-    "Windows/Windows-Easy/Devel/Screenshots/flagsdevel.png",
-    "Windows/Windows-Easy/Devel/Screenshots/develpwned.png",
-    "Windows/Windows-Easy/Devel/Screenshots/rootdevel.png",
-    "Windows/Windows-Easy/Devel/Screenshots/session2devel.png",
-    "Windows/Windows-Easy/Devel/Screenshots/potentialdevel.png",
-    "Windows/Windows-Easy/Devel/Screenshots/moduledevel.png",
-    "Windows/Windows-Easy/Devel/Screenshots/sessiondevel.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/rootflagpop.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/popcornpwned.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/rootpopcorn.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/devshm.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/motdscript.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/motdpriv.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/motd1.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/motd.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/usertxt.png",
+    "Linux/Linux-Medium/Popcorn/Screenshots/shellpopcorn.png",
+    "Group/Paper/paperhtb.md",
+    "Group/spider/Spiderhtb.md",
+    "Windows/Windows-Easy/Devel/Devel.md",
+    "Group/Search/searchhtb.md",
     "README.md",
+    "Linux/Linux-Medium/Popcorn/Screenshots",
+    "Linux/Linux-Medium/Popcorn",
+    "Windows/Windows-Easy/Legacy/Legacy.md",
     "Windows/Windows-Easy/Devel/Screenshots",
     "Windows/Windows-Easy/Devel",
     "Windows/Windows-Easy/Legacy/Screenshots",
@@ -172,16 +191,11 @@
     "Windows/Windows-Medium",
     "Windows/Windows-Easy",
     "Windows/Windows-Insane",
-    "Linux/Linux-Easy/Lame/Lame.pdf",
-    "Group/spider/Spiderhtb.md",
-    "Group/Search/searchhtb.md",
-    "Group/spider/Spiderhtb.pdf",
     "logo.md",
     "Group/Backdoor/backdoorhtb.md",
     "Group/Armageddon/Untitled.md",
     "Group/HTB Academy/NMAP/NMAP -LABs.md",
     "Group/Unicode/Unicodehtb.md",
-    "Group/Paper/paperhtb.md",
     "Group/Late/latehtb.md",
     "Group/Undetected/undetectedhtb.md"
   ]

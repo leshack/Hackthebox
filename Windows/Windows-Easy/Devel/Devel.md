@@ -45,7 +45,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 41.46 seconds
 ```
 
-looking at the results find out that their are 2 ports open and the machine is a windows operating system. 
+looking at the results we find out that their are 2 ports open and the machine is a windows operating system. 
 
 port[21]-ftp
 port[80]-https
