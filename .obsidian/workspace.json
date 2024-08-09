@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "a9b6c4c571ed8450",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux-Easy/Beep/Beep.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d3ef448638ffb0ed",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Medium/Popcorn/Popcorn.md",
+                "file": "Linux/Linux-Easy/Beep/Beep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,22 +173,24 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a64c095738da54bd",
+  "active": "a9b6c4c571ed8450",
   "lastOpenFiles": [
-    "Linux/Linux-Medium/Popcorn/Pop.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
-    "Linux/Linux-Medium/Popcorn/Screenshots/Pasted image 20240806223653.png",
-    "README.md",
+    "Linux/Linux-Easy/Beep/Beep.md",
+    "Linux/Linux-Easy/Beep/Screenshots/bruteforce.png",
+    "Linux/Linux-Easy/Beep/Screenshots/beeppwned.png",
+    "Linux/Linux-Easy/Beep/Screenshots/userflag.png",
+    "Linux/Linux-Easy/Beep/Screenshots/rootflag.png",
+    "Linux/Linux-Easy/Beep/Screenshots/ssh.png",
+    "Linux/Linux-Easy/Beep/Screenshots/pottential users.png",
+    "Linux/Linux-Easy/Beep/Screenshots/configpass.png",
+    "Linux/Linux-Easy/Beep/Screenshots/aboutconfig.png",
+    "Linux/Linux-Easy/Beep/Screenshots/beeppage.png",
+    "Linux/Linux-Easy/Beep/Screenshots/elastic.png",
+    "Linux/Linux-Easy/Beep/Screenshots",
     "Linux/Linux-Easy/Lame/Lame.md",
-    "Linux/Linux-Medium/Popcorn/Screenshots/rootflagpop.png",
-    "Linux/Linux-Medium/Popcorn/Screenshots/popcornpwned.png",
-    "Linux/Linux-Medium/Popcorn/Screenshots/rootpopcorn.png",
-    "Linux/Linux-Medium/Popcorn/Screenshots/devshm.png",
-    "Linux/Linux-Medium/Popcorn/Screenshots/motdscript.png",
-    "Linux/Linux-Medium/Popcorn/Screenshots/motdpriv.png",
-    "Linux/Linux-Medium/Popcorn/Screenshots/motd1.png",
-    "Linux/Linux-Medium/Popcorn/Screenshots/motd.png",
-    "Linux/Linux-Medium/Popcorn/Screenshots/usertxt.png",
+    "Linux/Linux-Medium/Popcorn/Pop.md",
+    "README.md",
     "Group/Paper/paperhtb.md",
     "Group/spider/Spiderhtb.md",
     "Windows/Windows-Easy/Devel/Devel.md",
@@ -191,7 +205,6 @@
     "Windows/Windows-Hard",
     "Windows/Windows-Medium",
     "Windows/Windows-Easy",
-    "Windows/Windows-Insane",
     "logo.md",
     "Group/Backdoor/backdoorhtb.md",
     "Group/Armageddon/Untitled.md",
