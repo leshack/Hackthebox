@@ -60,6 +60,9 @@ as we can see their is an RCE exploit a python script so we examine the file
 
 ![](/Windows/Windows-Easy/Optimum/Screenshots/exploit.png)
 
+we then set a pthon server  which will be used to get our exploit to the machine 
+
+![](/Windows/Windows-Easy/Optimum/Screenshots/pythonserver.png)
 we can see that it exploits with the `%00`  null bytes but this scripts generates for us a url to execute a reverse shell on the machine.
 
 ```sh
