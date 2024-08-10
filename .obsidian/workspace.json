@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d602bdbdbf2f0798",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux-Easy/Lame/Lame.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "822ca3a44838aeeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a64c095738da54bd",
             "type": "leaf",
             "state": {
@@ -56,31 +32,31 @@
             }
           },
           {
-            "id": "d3ef448638ffb0ed",
+            "id": "e62f79caef0ab749",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Devel/Devel.md",
+                "file": "Windows/Windows-Easy/Optimum/optimum.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "686bc105b9a029b0",
+            "id": "779732cc777ac9cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Group/Paper/paperhtb.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Easy/Beep/Beep.md",
+                "file": "Windows/Windows-Easy/Optimum/optimum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,27 +149,31 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a9b6c4c571ed8450",
+  "active": "e62f79caef0ab749",
   "lastOpenFiles": [
-    "Linux/Linux-Medium/Popcorn/Popcorn.md",
+    "README.md",
+    "Windows/Windows-Easy/Optimum/optimum.md",
+    "Windows/Windows-Easy/Optimum/Screenshots/pwnedOptimum.png",
     "Linux/Linux-Easy/Beep/Beep.md",
-    "Linux/Linux-Easy/Beep/Screenshots/bruteforce.png",
-    "Linux/Linux-Easy/Beep/Screenshots/beeppwned.png",
-    "Linux/Linux-Easy/Beep/Screenshots/userflag.png",
-    "Linux/Linux-Easy/Beep/Screenshots/rootflag.png",
-    "Linux/Linux-Easy/Beep/Screenshots/ssh.png",
-    "Linux/Linux-Easy/Beep/Screenshots/pottential users.png",
-    "Linux/Linux-Easy/Beep/Screenshots/configpass.png",
-    "Linux/Linux-Easy/Beep/Screenshots/aboutconfig.png",
-    "Linux/Linux-Easy/Beep/Screenshots/beeppage.png",
-    "Linux/Linux-Easy/Beep/Screenshots/elastic.png",
+    "Windows/Windows-Easy/Optimum/Screenshots/rootflag.png",
+    "Windows/Windows-Easy/Optimum/Screenshots/root.png",
+    "Windows/Windows-Easy/Optimum/Screenshots/InvokeMs.png",
+    "Windows/Windows-Easy/Optimum/Screenshots/InvokeMs016.png",
+    "Untitled.md",
+    "Windows/Windows-Easy/Optimum/Screenshots/a.png",
+    "Windows/Windows-Easy/Optimum/Screenshots/a.png",
+    "Windows/Windows-Easy/Optimum/Screenshots/searchsploit2.png",
+    "Windows/Windows-Easy/Optimum/Screenshots/ms16.png",
+    "Windows/Windows-Easy/Optimum/Screenshots/sherlork.png",
+    "Linux/Linux-Medium/Popcorn/Popcorn.md",
+    "Windows/Windows-Easy/Optimum/Screenshots",
+    "Windows/Windows-Easy/Devel/Devel.md",
+    "Windows/Windows-Easy/Optimum",
     "Linux/Linux-Easy/Beep/Screenshots",
     "Linux/Linux-Easy/Lame/Lame.md",
     "Linux/Linux-Medium/Popcorn/Pop.md",
-    "README.md",
     "Group/Paper/paperhtb.md",
     "Group/spider/Spiderhtb.md",
-    "Windows/Windows-Easy/Devel/Devel.md",
     "Group/Search/searchhtb.md",
     "Linux/Linux-Medium/Popcorn/Screenshots",
     "Linux/Linux-Medium/Popcorn",
@@ -203,8 +183,6 @@
     "Windows/Windows-Easy/Legacy/Screenshots",
     "Windows/Windows-Easy/Legacy",
     "Windows/Windows-Hard",
-    "Windows/Windows-Medium",
-    "Windows/Windows-Easy",
     "logo.md",
     "Group/Backdoor/backdoorhtb.md",
     "Group/Armageddon/Untitled.md",

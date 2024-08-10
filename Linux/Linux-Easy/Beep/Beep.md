@@ -104,6 +104,8 @@ now when you load the page again you get it working
 
 now after doing so information gathering i now go and intiate a gobuster so that i can be able to enumerate active directories from the website. We run it with `k` flag so as to skip the `tls` verification.
 
+# Exploitation
+
 ```sh
 gobuster dir -u https://10.10.10.7 -w /usr/share/seclists/Discovery/Web-Content/raft-small-words.txt -k
 ```
