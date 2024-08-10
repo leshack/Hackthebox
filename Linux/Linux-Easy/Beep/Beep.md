@@ -2,7 +2,7 @@
 ![logo](/logo.png)
 
 # [Beep- BOX]  
-Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 15 Mar 2017 as the first machine on HTB,Beep created by ch4p.So without any further intro, let'sf jump in.
+Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 15 Mar 2017 as the fifth machine on HTB,Beep created by ch4p.So without any further intro, let'sf jump in.
 
 # common enumeration
 
