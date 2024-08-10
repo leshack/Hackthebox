@@ -27,6 +27,9 @@ Hands on servers successful pwned machines:
 # OPTIMUM
 ![](/Windows/Windows-Easy/Optimum/Screenshots/pwnedOptimum.png)
 
+# BASTARD
+
+![](Windows/Windows-Medium/Bastard/Screenshots/bastardpwned.png)
 
 ![backdoor](https://user-images.githubusercontent.com/64952843/165172553-218f7845-b352-441e-9d8d-5af46cc7e7e7.png)
 
