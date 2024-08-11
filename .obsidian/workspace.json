@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Optimum/optimum.md",
+                "file": "Linux/Linux-Medium/Popcorn/Popcorn.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Arctic/Arctic.md",
+                "file": "Linux/Linux-Medium/Cronos/Cronos.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "%00",
+                "query": "pty",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows-Easy/Arctic/Arctic.md",
+                "file": "Linux/Linux-Medium/Cronos/Cronos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,20 +139,26 @@
   },
   "active": "793b0ab6cab93389",
   "lastOpenFiles": [
+    "Linux/Linux-Medium/Popcorn/Popcorn.md",
+    "Group/Backdoor/backdoorhtb.md",
+    "Linux/Linux-Medium/Cronos/Cronos.md",
+    "Linux/Linux-Medium/Cronos/Screenshots/cronospwned.png",
+    "Linux/Linux-Medium/Cronos/Screenshots/rootflag.png",
+    "Linux/Linux-Medium/Cronos/Screenshots/rootuser.png",
+    "Linux/Linux-Medium/Cronos/Screenshots/artisan.png",
+    "Linux/Linux-Medium/Cronos/Screenshots/revershshell.png",
+    "Linux/Linux-Medium/Cronos/Screenshots/reverseshell.png",
+    "Linux/Linux-Medium/Cronos/Screenshots/laravel.png",
+    "Linux/Linux-Medium/Cronos/Screenshots/executed.png",
+    "Linux/Linux-Medium/Cronos/Screenshots/LinEnum.png",
+    "Linux/Linux-Medium/Cronos/Screenshots/wget.png",
+    "Group/Paper/paperhtb.md",
+    "Windows/Windows-Easy/Optimum/optimum.md",
+    "Windows/Windows-Easy/Arctic/Arctic.md",
+    "Linux/Linux-Medium/Cronos/Screenshots",
+    "Linux/Linux-Medium/Cronos",
     "Windows/Windows-Medium/Bastard/Bastard.md",
     "README.md",
-    "Windows/Windows-Easy/Arctic/Arctic.md",
-    "Windows/Windows-Easy/Arctic/Screenshots/ms075.png",
-    "Windows/Windows-Easy/Arctic/Screenshots/ms075.png",
-    "Windows/Windows-Easy/Optimum/optimum.md",
-    "Windows/Windows-Easy/Arctic/Screenshots/64bit.png",
-    "Windows/Windows-Easy/Arctic/Screenshots/32Bit.png",
-    "Windows/Windows-Easy/Arctic/Screenshots/migrateto.png",
-    "Windows/Windows-Easy/Arctic/Screenshots/migratec.png",
-    "Windows/Windows-Easy/Arctic/Screenshots/Arcticpwned.png",
-    "Windows/Windows-Easy/Arctic/Screenshots/flags.png",
-    "Windows/Windows-Easy/Arctic/Screenshots/rootpriv.png",
-    "Windows/Windows-Easy/Arctic/Screenshots/ms15ex.png",
     "Linux/Linux-Medium/Tenten/Tenten.md",
     "Windows/Windows-Easy/Arctic/Screenshots",
     "Windows/Windows-Easy/Arctic",
@@ -162,22 +168,17 @@
     "Linux/Linux-Medium/Tenten/Untitled 1.md",
     "Untitled 1.md",
     "Linux/Linux-Medium/Tenten",
-    "Linux/Linux-Medium/Untitled",
     "Untitled.md",
     "Windows/Windows-Medium/Bastard/Screenshots",
     "Windows/Windows-Medium/Bastard",
     "Linux/Linux-Easy/Beep/Beep.md",
-    "Linux/Linux-Medium/Popcorn/Popcorn.md",
-    "Windows/Windows-Easy/Optimum/Screenshots",
     "Windows/Windows-Easy/Devel/Devel.md",
     "Linux/Linux-Easy/Lame/Lame.md",
     "Linux/Linux-Medium/Popcorn/Pop.md",
-    "Group/Paper/paperhtb.md",
     "Group/spider/Spiderhtb.md",
     "Group/Search/searchhtb.md",
     "Windows/Windows-Easy/Legacy/Legacy.md",
     "logo.md",
-    "Group/Backdoor/backdoorhtb.md",
     "Group/Armageddon/Untitled.md",
     "Group/HTB Academy/NMAP/NMAP -LABs.md",
     "Group/Unicode/Unicodehtb.md",
