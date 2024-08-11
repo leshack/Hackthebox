@@ -89,6 +89,10 @@ for i in $(seq 1 20); do echo -n "$i: "; curl -s http://tenten.htb/index.php/job
 
 As we can see that is what we uploaded but when we try to look for it in the web browser we find that we are unable so we look for a script that abuses the Job manager [exploit](https://gist.github.com/DoMINAToR98/4ed677db5832e4b4db41c9fa48e7bdef) we modify for ranges and file types.
 
+from our ealier scan on `wpscan` it show as two vulnerable plugin 
+
+![](/Linux/Linux-Medium/Tenten/Screenshots/wpscan.png)
+
 ```sh
 import requests
 
