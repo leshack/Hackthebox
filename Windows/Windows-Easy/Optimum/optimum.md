@@ -101,7 +101,7 @@ Just by looking at the `systeminfo` we get that their are hot fixes that where d
 
 ![](/Windows/Windows-Easy/Optimum/Screenshots/hotfix.png)
 
-Now we search and find that their is script that checks for vulnerablitities of missing software patches for local privilege escalation vulnerabilities. [sherlork](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1) now we save the script and be able to execte if so that we can run.
+Now we search and find that their is script that checks for vulnerablitities of missing software patches for local privilege escalation vulnerabilities. [sherlork](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1) now we save the script and be able to execute if so that we can run.
 
 from the script just copy the function find Allvulns and put at the end of the script them from the session run
 

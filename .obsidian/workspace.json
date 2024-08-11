@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a64c095738da54bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux-Medium/Popcorn/Popcorn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9b6c4c571ed8450",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux-Easy/Beep/Beep.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e62f79caef0ab749",
             "type": "leaf",
             "state": {
@@ -66,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1d89bf2a2f9b78ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux-Medium/Tenten/Tenten.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "%00",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,25 +139,30 @@
   },
   "active": "779732cc777ac9cd",
   "lastOpenFiles": [
-    "Linux/Linux-Medium/Tenten/Screenshots/wpscan.png",
-    "Linux/Linux-Medium/Tenten/Screenshots/Pasted image 20240811113313.png",
-    "Pasted image 20240811113313.png",
-    "Linux/Linux-Medium/Tenten/Tenten.md",
-    "Linux/Linux-Medium/Tenten/Screenshots/Tentenpwned.png",
-    "Windows/Windows-Medium/Bastard/Bastard.md",
-    "Linux/Linux-Medium/Tenten/Screenshots/rootflag.png",
-    "Linux/Linux-Medium/Tenten/Screenshots/root.png",
-    "Linux/Linux-Medium/Tenten/Screenshots/binbash.png",
-    "Linux/Linux-Medium/Tenten/Screenshots/privillage.png",
-    "Linux/Linux-Medium/Tenten/Screenshots/userflag.png",
-    "Linux/Linux-Medium/Tenten/Screenshots/tarkis.png",
-    "Linux/Linux-Medium/Tenten/Screenshots/rootfail.png",
-    "Group/Backdoor/backdoorhtb.md",
-    "Group/Paper/paperhtb.md",
+    "Windows/Windows-Easy/Arctic/Arctic.md",
+    "Windows/Windows-Easy/Arctic/Screenshots/ms075.png",
+    "Windows/Windows-Easy/Arctic/Screenshots/ms075.png",
     "Windows/Windows-Easy/Optimum/optimum.md",
-    "Linux/Linux-Medium/Tenten/Screenshots",
+    "Windows/Windows-Easy/Arctic/Screenshots/64bit.png",
+    "Windows/Windows-Easy/Arctic/Screenshots/32Bit.png",
+    "Windows/Windows-Easy/Arctic/Screenshots/migrateto.png",
+    "Windows/Windows-Easy/Arctic/Screenshots/migratec.png",
+    "Windows/Windows-Easy/Arctic/Screenshots/Arcticpwned.png",
+    "Windows/Windows-Easy/Arctic/Screenshots/flags.png",
+    "Windows/Windows-Easy/Arctic/Screenshots/rootpriv.png",
+    "Windows/Windows-Easy/Arctic/Screenshots/ms15ex.png",
+    "Windows/Windows-Medium/Bastard/Bastard.md",
+    "Linux/Linux-Medium/Tenten/Tenten.md",
+    "Windows/Windows-Easy/Arctic/Screenshots",
+    "Windows/Windows-Easy/Arctic",
     "README.md",
+    "Linux/Linux-Medium/Tenten/Screenshots",
+    "Linux/Linux-Medium/Tenten/Untitled",
+    "Untitled",
+    "Linux/Linux-Medium/Tenten/Untitled 1.md",
+    "Untitled 1.md",
     "Linux/Linux-Medium/Tenten",
+    "Linux/Linux-Medium/Untitled",
     "Untitled.md",
     "Windows/Windows-Medium/Bastard/Screenshots",
     "Windows/Windows-Medium/Bastard",
@@ -201,17 +170,14 @@
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
     "Windows/Windows-Easy/Optimum/Screenshots",
     "Windows/Windows-Easy/Devel/Devel.md",
-    "Windows/Windows-Easy/Optimum",
-    "Linux/Linux-Easy/Beep/Screenshots",
     "Linux/Linux-Easy/Lame/Lame.md",
     "Linux/Linux-Medium/Popcorn/Pop.md",
+    "Group/Paper/paperhtb.md",
     "Group/spider/Spiderhtb.md",
     "Group/Search/searchhtb.md",
-    "Linux/Linux-Medium/Popcorn/Screenshots",
-    "Linux/Linux-Medium/Popcorn",
     "Windows/Windows-Easy/Legacy/Legacy.md",
-    "Windows/Windows-Easy/Devel/Screenshots",
     "logo.md",
+    "Group/Backdoor/backdoorhtb.md",
     "Group/Armageddon/Untitled.md",
     "Group/HTB Academy/NMAP/NMAP -LABs.md",
     "Group/Unicode/Unicodehtb.md",
