@@ -186,6 +186,6 @@ it just does a `bin/bash` and enable us to run comands so lets run it
 
 and just that way we are root.
 
-![](Linux/Linux-Medium/Tenten/Screenshots/rootflag.png)
+![](/Linux/Linux-Medium/Tenten/Screenshots/rootflag.png)
 
 	-------------------------END successful attack @lesley----------------------
