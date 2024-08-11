@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Medium/Cronos/Cronos.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,11 +137,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "793b0ab6cab93389",
+  "active": "779732cc777ac9cd",
   "lastOpenFiles": [
+    "Linux/Linux-Medium/Cronos/Cronos.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
     "Group/Backdoor/backdoorhtb.md",
-    "Linux/Linux-Medium/Cronos/Cronos.md",
     "Linux/Linux-Medium/Cronos/Screenshots/cronospwned.png",
     "Linux/Linux-Medium/Cronos/Screenshots/rootflag.png",
     "Linux/Linux-Medium/Cronos/Screenshots/rootuser.png",
