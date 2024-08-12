@@ -1,7 +1,7 @@
 ![logo](/logo.png)
 
 # [Cronos- BOX]  
-Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 122 Mar 2017 as the sixth machine on HTB,Cronos created by ch4p.So without any further intro, let'sf jump in.
+Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 12 Mar 2017 as the tenth machine on HTB,Cronos created by ch4p.So without any further intro, let'sf jump in.
 
 # common enumeration
 
@@ -44,7 +44,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 30.95 seconds
 ```
 
-looking at the results  we find out that there is 3 ports open and its a `Ubuntu`and its running an `Apache server`. 
+looking at the results  we find out that there are 3 ports open and its a `Ubuntu`and its running an `Apache server`. 
 
 port[22]-ssh
 port[53]-dns
