@@ -7,8 +7,7 @@ Hi folks, today I am going to solve an Easy rated hack the box machine which was
 
 ## Nmap
   *http
-  *HFS
-  *HttpFileserver
+  *Microsoft-IIS
   
 ###### code-nmap
 
@@ -95,6 +94,8 @@ After migrating we can now be able to run `sysinfo`
 ![](/Windows/Windows-Easy/Grandpa/Screenshots/sysinfo.png)
 
 now i run suggester to find exploits which are vulnerable
+
+# Privillage Exploitation
 
 ```sh
 search local_exploit_suggester

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Arctic/Arctic.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Optimum/optimum.md",
+                "file": "Windows/Windows-Easy/Grandpa/Grandpa.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Grandpa/Grandpa.md",
+                "file": "Windows/Windows-Easy/Granny/Granny.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows-Easy/Grandpa/Grandpa.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,23 +136,26 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "779732cc777ac9cd",
+  "active": "e62f79caef0ab749",
   "lastOpenFiles": [
-    "Windows/Windows-Easy/Optimum/optimum.md",
-    "Windows/Windows-Easy/Grandpa/Grandpa.md",
-    "Windows/Windows-Easy/Grandpa/Screenshots/grandpapwned.png",
-    "Windows/Windows-Easy/Grandpa/Screenshots/rootflag.png",
-    "Windows/Windows-Easy/Grandpa/Screenshots/userflag.png",
-    "Windows/Windows-Easy/Grandpa/Screenshots/shellroot.png",
-    "Windows/Windows-Easy/Grandpa/Screenshots/shell2.png",
-    "Windows/Windows-Easy/Grandpa/Screenshots/exploits.png",
-    "Windows/Windows-Easy/Grandpa/Screenshots/suggester.png",
-    "Windows/Windows-Easy/Grandpa/Screenshots/sysinfo.png",
-    "Linux/Linux-Medium/Cronos/Cronos.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",
+    "Windows/Windows-Easy/Granny/Granny.md",
+    "Windows/Windows-Easy/Granny/Screenshots/GrannyPwned.png",
+    "Windows/Windows-Easy/Grandpa/Grandpa.md",
+    "Windows/Windows-Easy/Granny/Screenshots/root.png",
+    "Windows/Windows-Easy/Granny/Screenshots/shell.png",
+    "Windows/Windows-Easy/Granny/Screenshots/msf.png",
+    "Windows/Windows-Easy/Granny/Screenshots/eploits.png",
+    "Windows/Windows-Easy/Granny/Screenshots/sy64.png",
+    "Windows/Windows-Easy/Granny/Screenshots/meterpreter.png",
+    "Windows/Windows-Easy/Granny/Screenshots/searchsploit.png",
+    "Windows/Windows-Easy/Granny/Screenshots/granny.png",
+    "Windows/Windows-Easy/Granny/Screenshots/nmap.png",
+    "Windows/Windows-Easy/Optimum/optimum.md",
+    "Windows/Windows-Easy/Granny/Screenshots",
+    "Windows/Windows-Easy/Granny",
+    "Linux/Linux-Medium/Cronos/Cronos.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
-    "Windows/Windows-Easy/Grandpa/Screenshots/hotfix.png",
-    "Windows/Windows-Easy/Grandpa/Screenshots/systeminfo.png",
     "README.md",
     "Windows/Windows-Easy/Grandpa/Screenshots",
     "Windows/Windows-Easy/Grandpa",
@@ -167,10 +169,8 @@
     "Windows/Windows-Easy/Arctic",
     "Linux/Linux-Medium/Tenten/Screenshots",
     "Linux/Linux-Medium/Tenten/Untitled",
-    "Untitled",
     "Linux/Linux-Medium/Tenten/Untitled 1.md",
     "Untitled 1.md",
-    "Linux/Linux-Medium/Tenten",
     "Untitled.md",
     "Linux/Linux-Easy/Beep/Beep.md",
     "Windows/Windows-Easy/Devel/Devel.md",
@@ -182,7 +182,6 @@
     "logo.md",
     "Group/Armageddon/Untitled.md",
     "Group/HTB Academy/NMAP/NMAP -LABs.md",
-    "Group/Unicode/Unicodehtb.md",
-    "Group/Late/latehtb.md"
+    "Group/Unicode/Unicodehtb.md"
   ]
 }
