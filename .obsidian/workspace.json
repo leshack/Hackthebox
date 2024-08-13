@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Windows/Windows-Easy/Granny/Granny.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,8 +137,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e62f79caef0ab749",
+  "active": "779732cc777ac9cd",
   "lastOpenFiles": [
+    "README.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",
     "Windows/Windows-Easy/Granny/Granny.md",
     "Windows/Windows-Easy/Granny/Screenshots/GrannyPwned.png",
@@ -156,7 +158,6 @@
     "Windows/Windows-Easy/Granny",
     "Linux/Linux-Medium/Cronos/Cronos.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
-    "README.md",
     "Windows/Windows-Easy/Grandpa/Screenshots",
     "Windows/Windows-Easy/Grandpa",
     "Group/Backdoor/backdoorhtb.md",

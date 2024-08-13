@@ -1,7 +1,7 @@
 ![logo](/logo.png)
 
 # [Granny- BOX]  
-Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 12 Apr 2017 as the twe machine on HTB,Granny created by ch4p.So without any further intro, let'sf jump in.
+Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 12 Apr 2017 as the twelfth machine on HTB,Granny created by ch4p.So without any further intro, let'sf jump in.
 
 # common enumeration
 
