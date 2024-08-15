@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Grandpa/Grandpa.md",
+                "file": "Group/Backdoor/backdoorhtb.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Granny/Granny.md",
+                "file": "Linux/Linux-Medium/October/October.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows-Easy/Granny/Granny.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,39 +136,40 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "779732cc777ac9cd",
+  "active": "e62f79caef0ab749",
   "lastOpenFiles": [
-    "README.md",
+    "Linux/Linux-Medium/October/October.md",
+    "Linux/Linux-Medium/October/Screenshots/errorlog.png",
+    "Linux/Linux-Medium/October/Screenshots/octoberpwned.png",
+    "Linux/Linux-Medium/October/Screenshots/root.png",
+    "Group/Backdoor/backdoorhtb.md",
+    "Linux/Linux-Medium/Cronos/Cronos.md",
+    "Windows/Windows-Medium/Bastard/Bastard.md",
+    "Linux/Linux-Medium/October/Screenshots/overflow2.png",
+    "Linux/Linux-Medium/October/Screenshots/strings.png",
+    "Linux/Linux-Medium/October/Screenshots/system.png",
+    "Linux/Linux-Medium/October/Screenshots/libc.png",
+    "Linux/Linux-Medium/October/Screenshots/md5sum.png",
+    "Linux/Linux-Medium/October/Screenshots/md5.png",
+    "Linux/Linux-Medium/October/Screenshots/ovflw.png",
     "Windows/Windows-Easy/Arctic/Arctic.md",
-    "Windows/Windows-Easy/Granny/Granny.md",
-    "Windows/Windows-Easy/Granny/Screenshots/GrannyPwned.png",
+    "Linux/Linux-Medium/Popcorn/Popcorn.md",
+    "Linux/Linux-Medium/Tenten/Tenten.md",
     "Windows/Windows-Easy/Grandpa/Grandpa.md",
-    "Windows/Windows-Easy/Granny/Screenshots/root.png",
-    "Windows/Windows-Easy/Granny/Screenshots/shell.png",
-    "Windows/Windows-Easy/Granny/Screenshots/msf.png",
-    "Windows/Windows-Easy/Granny/Screenshots/eploits.png",
-    "Windows/Windows-Easy/Granny/Screenshots/sy64.png",
-    "Windows/Windows-Easy/Granny/Screenshots/meterpreter.png",
-    "Windows/Windows-Easy/Granny/Screenshots/searchsploit.png",
-    "Windows/Windows-Easy/Granny/Screenshots/granny.png",
-    "Windows/Windows-Easy/Granny/Screenshots/nmap.png",
+    "README.md",
+    "Windows/Windows-Easy/Granny/Granny.md",
+    "Linux/Linux-Medium/October/Screenshots",
+    "Linux/Linux-Medium/October",
     "Windows/Windows-Easy/Optimum/optimum.md",
     "Windows/Windows-Easy/Granny/Screenshots",
     "Windows/Windows-Easy/Granny",
-    "Linux/Linux-Medium/Cronos/Cronos.md",
-    "Linux/Linux-Medium/Popcorn/Popcorn.md",
     "Windows/Windows-Easy/Grandpa/Screenshots",
     "Windows/Windows-Easy/Grandpa",
-    "Group/Backdoor/backdoorhtb.md",
     "Group/Paper/paperhtb.md",
     "Linux/Linux-Medium/Cronos/Screenshots",
     "Linux/Linux-Medium/Cronos",
-    "Windows/Windows-Medium/Bastard/Bastard.md",
-    "Linux/Linux-Medium/Tenten/Tenten.md",
     "Windows/Windows-Easy/Arctic/Screenshots",
     "Windows/Windows-Easy/Arctic",
-    "Linux/Linux-Medium/Tenten/Screenshots",
-    "Linux/Linux-Medium/Tenten/Untitled",
     "Linux/Linux-Medium/Tenten/Untitled 1.md",
     "Untitled 1.md",
     "Untitled.md",
@@ -182,7 +182,6 @@
     "Windows/Windows-Easy/Legacy/Legacy.md",
     "logo.md",
     "Group/Armageddon/Untitled.md",
-    "Group/HTB Academy/NMAP/NMAP -LABs.md",
-    "Group/Unicode/Unicodehtb.md"
+    "Group/HTB Academy/NMAP/NMAP -LABs.md"
   ]
 }
