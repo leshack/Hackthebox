@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e62f79caef0ab749",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "793b0ab6cab93389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Group/Backdoor/backdoorhtb.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "779732cc777ac9cd",
             "type": "leaf",
             "state": {
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Medium/October/October.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,27 +112,30 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e62f79caef0ab749",
+  "active": "779732cc777ac9cd",
   "lastOpenFiles": [
-    "Linux/Linux-Medium/October/October.md",
-    "Linux/Linux-Medium/October/Screenshots/errorlog.png",
-    "Linux/Linux-Medium/October/Screenshots/octoberpwned.png",
-    "Linux/Linux-Medium/October/Screenshots/root.png",
+    "Pasted image 20240816224126.png",
+    "Pasted image 20240816224118.png",
+    "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
+    "Linux/Linux-Insane/Brainfuck/Screenshots/exploit2.png",
+    "README.md",
     "Group/Backdoor/backdoorhtb.md",
+    "Linux/Linux-Medium/October/October.md",
+    "Linux/Linux-Insane/Brainfuck/Screenshots/Brainfuckpwned.png",
+    "Linux/Linux-Insane/Brainfuck/Screenshots/rootflag.png",
+    "Linux/Linux-Insane/Brainfuck/Screenshots/decrypt.png",
+    "Linux/Linux-Insane/Brainfuck/Screenshots/rsaen.png",
+    "Linux/Linux-Insane/Brainfuck/Screenshots/user.png",
+    "Linux/Linux-Insane/Brainfuck/Screenshots/shell.png",
+    "Linux/Linux-Insane/Brainfuck/Screenshots/john.png",
+    "Linux/Linux-Insane/Brainfuck/Screenshots",
+    "Linux/Linux-Insane/Brainfuck",
     "Linux/Linux-Medium/Cronos/Cronos.md",
     "Windows/Windows-Medium/Bastard/Bastard.md",
-    "Linux/Linux-Medium/October/Screenshots/overflow2.png",
-    "Linux/Linux-Medium/October/Screenshots/strings.png",
-    "Linux/Linux-Medium/October/Screenshots/system.png",
-    "Linux/Linux-Medium/October/Screenshots/libc.png",
-    "Linux/Linux-Medium/October/Screenshots/md5sum.png",
-    "Linux/Linux-Medium/October/Screenshots/md5.png",
-    "Linux/Linux-Medium/October/Screenshots/ovflw.png",
     "Windows/Windows-Easy/Arctic/Arctic.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
     "Linux/Linux-Medium/Tenten/Tenten.md",
     "Windows/Windows-Easy/Grandpa/Grandpa.md",
-    "README.md",
     "Windows/Windows-Easy/Granny/Granny.md",
     "Linux/Linux-Medium/October/Screenshots",
     "Linux/Linux-Medium/October",
@@ -168,8 +147,6 @@
     "Group/Paper/paperhtb.md",
     "Linux/Linux-Medium/Cronos/Screenshots",
     "Linux/Linux-Medium/Cronos",
-    "Windows/Windows-Easy/Arctic/Screenshots",
-    "Windows/Windows-Easy/Arctic",
     "Linux/Linux-Medium/Tenten/Untitled 1.md",
     "Untitled 1.md",
     "Untitled.md",
@@ -181,7 +158,6 @@
     "Group/Search/searchhtb.md",
     "Windows/Windows-Easy/Legacy/Legacy.md",
     "logo.md",
-    "Group/Armageddon/Untitled.md",
-    "Group/HTB Academy/NMAP/NMAP -LABs.md"
+    "Group/Armageddon/Untitled.md"
   ]
 }

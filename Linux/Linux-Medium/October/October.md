@@ -1,7 +1,7 @@
 ![logo](/logo.png)
 
 # [October- BOX]  
-Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 20 Apr 2017 as the 13th machine on HTB,October created by ch4p.So without any further intro, let'sf jump in.
+Hi folks, today I am going to solve an medium rated hack the box machine which was released on 20 Apr 2017 as the 13th machine on HTB,October created by ch4p.So without any further intro, let'sf jump in.
 
 # common enumeration
 
@@ -170,4 +170,7 @@ while true; do /usr/local/bin/ovrflw $(python -c 'print "\x90"*112 + "\x10\x83\x
 You can get the `root.txt` now since we have root privillage
 
 ![](/Linux/Linux-Medium/October/Screenshots/root.png)
+
+	-------------------------END successful attack @lesley----------------------
+
 
