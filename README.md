@@ -65,6 +65,9 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Medium/Lazy/Screenshots/LazyPwned.png)
 
+# Sneaky
+
+![](/Linux/Linux-Medium/Sneaky/Screenshots/sneakypwned.png)
 
 
 

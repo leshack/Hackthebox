@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Lazy/Lazy.md",
+                "file": "Linux/Linux-Medium/Sneaky/Sneaky.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba741786981754db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux-Medium/Tenten/Tenten.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pty",
+                "query": "gdb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Medium/Lazy/Lazy.md",
+                "file": "Linux/Linux-Medium/Sneaky/Sneaky.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,39 +138,40 @@
   },
   "active": "779732cc777ac9cd",
   "lastOpenFiles": [
-    "Pasted image 20240818101812.png",
-    "Linux/Linux-Medium/Lazy/Lazy.md",
-    "Linux/Linux-Medium/Lazy/Screenshots/padbuster.png",
+    "Linux/Linux-Medium/Sneaky/Screenshots/nmapipv6.png",
+    "Linux/Linux-Medium/Sneaky/Sneaky.md",
     "README.md",
+    "Linux/Linux-Medium/Sneaky/Screenshots/sneakypwned.png",
+    "Linux/Linux-Medium/Tenten/Tenten.md",
+    "Linux/Linux-Medium/Sneaky/Screenshots/rootflag.png",
+    "Linux/Linux-Medium/Sneaky/Screenshots/chal.png",
+    "Linux/Linux-Medium/Sneaky/Screenshots/binary.png",
     "Linux/Linux-Medium/October/October.md",
-    "Linux/Linux-Medium/Lazy/Screenshots/LazyPwned.png",
-    "Linux/Linux-Medium/Lazy/Screenshots/pwd.png",
-    "Linux/Linux-Medium/Lazy/Screenshots/strings.png",
-    "Linux/Linux-Medium/Lazy/Screenshots/backup.png",
-    "Linux/Linux-Medium/Lazy/Screenshots/flag.png",
-    "Linux/Linux-Medium/Lazy/Screenshots/shell.png",
-    "Linux/Linux-Medium/Lazy/Screenshots/joomla.png",
-    "Linux/Linux-Medium/Lazy/Screenshots/padd.png",
+    "Group/Backdoor/backdoorhtb.md",
+    "Linux/Linux-Medium/Sneaky/Screenshots/suid.png",
+    "Linux/Linux-Medium/Sneaky/Screenshots/wget.png",
+    "Linux/Linux-Medium/Sneaky/Screenshots/userflag.png",
+    "Linux/Linux-Medium/Sneaky/Screenshots/shell.png",
+    "Linux/Linux-Medium/Sneaky/Screenshots/Ivp6b.png",
+    "Linux/Linux-Medium/Lazy/Lazy.md",
+    "Linux/Linux-Medium/Sneaky/Screenshots",
+    "Linux/Linux-Medium/Sneaky",
     "Linux/Linux-Medium/Lazy/Screenshots",
     "Linux/Linux-Medium/Lazy",
     "python-pty-shells",
     "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
-    "Group/Backdoor/backdoorhtb.md",
     "Linux/Linux-Insane/Brainfuck/Screenshots",
     "Linux/Linux-Insane/Brainfuck",
     "Linux/Linux-Medium/Cronos/Cronos.md",
     "Windows/Windows-Medium/Bastard/Bastard.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
-    "Linux/Linux-Medium/Tenten/Tenten.md",
     "Windows/Windows-Easy/Grandpa/Grandpa.md",
     "Windows/Windows-Easy/Granny/Granny.md",
     "Linux/Linux-Medium/October/Screenshots",
     "Linux/Linux-Medium/October",
     "Windows/Windows-Easy/Optimum/optimum.md",
     "Windows/Windows-Easy/Granny/Screenshots",
-    "Windows/Windows-Easy/Granny",
-    "Windows/Windows-Easy/Grandpa/Screenshots",
     "Group/Paper/paperhtb.md",
     "Linux/Linux-Medium/Tenten/Untitled 1.md",
     "Untitled 1.md",
@@ -169,7 +182,6 @@
     "Linux/Linux-Medium/Popcorn/Pop.md",
     "Group/spider/Spiderhtb.md",
     "Group/Search/searchhtb.md",
-    "Windows/Windows-Easy/Legacy/Legacy.md",
-    "logo.md"
+    "Windows/Windows-Easy/Legacy/Legacy.md"
   ]
 }

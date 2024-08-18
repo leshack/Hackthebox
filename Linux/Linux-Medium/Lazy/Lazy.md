@@ -50,7 +50,11 @@ when we naviagate to [http://10.10.10.18](http://10.10.10.18)  we find a page fo
 
 ![](/Linux/Linux-Medium/Lazy/Screenshots/defaultpage.png)
 
-we find nothing of intreast on the page so lets try enumerate directories with `gobuster`
+we find nothing of intreasting on the page so lets try enumerate directories with `gobuster`
+
+```sh
+gobuster dir -u http://10.10.10.18 -w /usr/share/seclists/Discovery/Web-Content/raft-small-words.txt -k 
+```
 
 ![](/Linux/Linux-Medium/Lazy/Screenshots/gobuster.png)
 
@@ -73,6 +77,8 @@ so lets send this request to `sequencer` so that we can analyze if the cookie ke
 After doing the sequencer we now go back to check if we have an Sql injection by using the admin to see it is a user in the system.
 
 ![](/Linux/Linux-Medium/Lazy/Screenshots/admin.png)
+
+# Exploitation
 
 so we know admin exists so lets try register `admin` again with some sql injection so that we can see if admin is logged in because of bad serialization.But first we can be able to do a `padbuster` 
 
