@@ -61,6 +61,10 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Insane/Brainfuck/Screenshots/Brainfuckpwned.png)
 
+# LAZY
+
+![](/Linux/Linux-Medium/Lazy/Screenshots/LazyPwned.png)
+
 
 
 
