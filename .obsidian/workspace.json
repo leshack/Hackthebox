@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Hard/Joker/Joker.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,11 +137,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "779732cc777ac9cd",
+  "active": "a9f825e8ac9ad102",
   "lastOpenFiles": [
+    "Linux/Linux-Hard/Joker/Screenshots/jokerpwned.png",
+    "Linux/Linux-Hard/Joker/Joker.md",
     "Linux/Linux-Medium/Tenten/Tenten.md",
     "Group/Backdoor/backdoorhtb.md",
-    "Linux/Linux-Hard/Joker/Joker.md",
     "Linux/Linux-Hard/Joker/Screenshots/backupfile.png",
     "Linux/Linux-Hard/Joker/Screenshots/root.png",
     "Linux/Linux-Hard/Joker/Screenshots/backup.png",
