@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Sneaky/Sneaky.md",
+                "file": "Linux/Linux-Hard/Joker/Joker.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gdb",
+                "query": "pty",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Medium/Sneaky/Sneaky.md",
+                "file": "Linux/Linux-Hard/Joker/Joker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,21 +138,25 @@
   },
   "active": "779732cc777ac9cd",
   "lastOpenFiles": [
-    "Linux/Linux-Medium/Sneaky/Screenshots/nmapipv6.png",
-    "Linux/Linux-Medium/Sneaky/Sneaky.md",
-    "README.md",
-    "Linux/Linux-Medium/Sneaky/Screenshots/sneakypwned.png",
     "Linux/Linux-Medium/Tenten/Tenten.md",
-    "Linux/Linux-Medium/Sneaky/Screenshots/rootflag.png",
-    "Linux/Linux-Medium/Sneaky/Screenshots/chal.png",
-    "Linux/Linux-Medium/Sneaky/Screenshots/binary.png",
-    "Linux/Linux-Medium/October/October.md",
     "Group/Backdoor/backdoorhtb.md",
-    "Linux/Linux-Medium/Sneaky/Screenshots/suid.png",
-    "Linux/Linux-Medium/Sneaky/Screenshots/wget.png",
-    "Linux/Linux-Medium/Sneaky/Screenshots/userflag.png",
-    "Linux/Linux-Medium/Sneaky/Screenshots/shell.png",
-    "Linux/Linux-Medium/Sneaky/Screenshots/Ivp6b.png",
+    "Linux/Linux-Hard/Joker/Joker.md",
+    "Linux/Linux-Hard/Joker/Screenshots/backupfile.png",
+    "Linux/Linux-Hard/Joker/Screenshots/root.png",
+    "Linux/Linux-Hard/Joker/Screenshots/backup.png",
+    "Linux/Linux-Hard/Joker/Screenshots/lash.png",
+    "Linux/Linux-Hard/Joker/Screenshots/userflag.png",
+    "Linux/Linux-Hard/Joker/Screenshots/aleko.png",
+    "Linux/Linux-Hard/Joker/Screenshots/shell1.png",
+    "Linux/Linux-Hard/Joker/Screenshots/ssh.png",
+    "Linux/Linux-Hard/Joker/Screenshots/rows.png",
+    "Group/Ophichi/Common enumeration.md",
+    "Linux/Linux-Medium/Sneaky/Sneaky.md",
+    "Linux/Linux-Hard/Joker/Screenshots/alekos.png",
+    "README.md",
+    "Linux/Linux-Hard/Joker/Screenshots",
+    "Linux/Linux-Hard/Joker",
+    "Linux/Linux-Medium/October/October.md",
     "Linux/Linux-Medium/Lazy/Lazy.md",
     "Linux/Linux-Medium/Sneaky/Screenshots",
     "Linux/Linux-Medium/Sneaky",
@@ -169,9 +173,7 @@
     "Windows/Windows-Easy/Grandpa/Grandpa.md",
     "Windows/Windows-Easy/Granny/Granny.md",
     "Linux/Linux-Medium/October/Screenshots",
-    "Linux/Linux-Medium/October",
     "Windows/Windows-Easy/Optimum/optimum.md",
-    "Windows/Windows-Easy/Granny/Screenshots",
     "Group/Paper/paperhtb.md",
     "Linux/Linux-Medium/Tenten/Untitled 1.md",
     "Untitled 1.md",
@@ -180,8 +182,6 @@
     "Windows/Windows-Easy/Devel/Devel.md",
     "Linux/Linux-Easy/Lame/Lame.md",
     "Linux/Linux-Medium/Popcorn/Pop.md",
-    "Group/spider/Spiderhtb.md",
-    "Group/Search/searchhtb.md",
-    "Windows/Windows-Easy/Legacy/Legacy.md"
+    "Group/spider/Spiderhtb.md"
   ]
 }

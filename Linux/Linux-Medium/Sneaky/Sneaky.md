@@ -8,7 +8,7 @@ Hi folks, today I am going to solve an medium rated hack the box machine which w
 
 ## Nmap
   *http
-  *Joomla
+  *bufferoverflow
   
 ###### code-nmap
 
@@ -35,7 +35,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 18.19 seconds
 ```
 
-oloking at the results  we find out that there are 1 ports open and its a `Ubuntu`and its running an `Apache httpd 2.4.7`. 
+looking at the results  we find out that there are 1 ports open and its a `Ubuntu`and its running an `Apache httpd 2.4.7`. 
 
 port[80]-http
 
