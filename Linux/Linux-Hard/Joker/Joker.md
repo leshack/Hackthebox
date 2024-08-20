@@ -42,10 +42,10 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 55.27 seconds
 ```
 
-looking at the results  we find out that there are 1 ports open and its a `Ubuntu`and its running an `squid 3.5.12`. 
+looking at the results  we find out that there are 2 ports open and its a `Ubuntu`and its running an `squid 3.5.12`. 
 
 port[22]-http
-port[3128]
+port[3128]-http-proxy Squid
 
 when we naviagate to [http://10.10.10.21:3128](http://10.10.10.21:3128)  we find a page  `error page`
 
@@ -188,7 +188,7 @@ but when i edit the file to add my ssh am unable to exit from the nano. so i hav
 export TERM=screen-256color
 export SHELL=bash
 stty rows 29 cols 135
-rest
+reset
 ```
 
 to check for colums and rows in you machine run
