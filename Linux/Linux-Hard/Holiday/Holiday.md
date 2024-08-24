@@ -209,6 +209,8 @@ you can get user flag here
 
 ![](/Linux/Linux-Hard/Holiday/Screenshots/userflag.png)
 
+# Privillage Escalation 
+
 running `sudo -l` show the that you can run the `/usr/bin/npm i *`  
 
 so we create an `index.js` in `/dev/shm` so that when the machine is rebooted it will delete the files from here and a directory in it as `privsec`

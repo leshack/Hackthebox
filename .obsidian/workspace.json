@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Hard/Holiday/Holiday.md",
+                "file": "Linux/Linux-Easy/Bank/Bank.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Haircut/Haircut.md",
+                "file": "Linux/Linux-Hard/Holiday/Holiday.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -72,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "export",
+                "query": "LinEn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,22 +137,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "779732cc777ac9cd",
+  "active": "ba741786981754db",
   "lastOpenFiles": [
-    "Linux/Linux-Medium/Haircut/Haircut.md",
-    "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
-    "Linux/Linux-Hard/Holiday/Holiday.md",
+    "Linux/Linux-Easy/Bank/Bank.md",
     "README.md",
-    "Linux/Linux-Hard/Holiday/Screenshots/pwed.png",
-    "Linux/Linux-Hard/Holiday/Screenshots/rootflag.png",
-    "Linux/Linux-Hard/Holiday/Screenshots/root.png",
-    "Linux/Linux-Hard/Holiday/Screenshots/sudol.png",
-    "Linux/Linux-Hard/Holiday/Screenshots/userflag.png",
-    "Linux/Linux-Hard/Holiday/Screenshots/takeover.png",
-    "Linux/Linux-Hard/Holiday/Screenshots/shell.png",
-    "Linux/Linux-Hard/Holiday/Screenshots/httpserver.png",
-    "Linux/Linux-Hard/Holiday/Screenshots/burpshell1.png",
-    "Linux/Linux-Hard/Holiday/Screenshots/burpshell.png",
+    "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
+    "Linux/Linux-Easy/Bank/Screenshots/Bankpwned.png",
+    "Linux/Linux-Hard/Holiday/Holiday.md",
+    "Linux/Linux-Medium/Cronos/Cronos.md",
+    "Linux/Linux-Easy/Bank/Screenshots/rootflag.png",
+    "Linux/Linux-Easy/Bank/Screenshots/root.png",
+    "Linux/Linux-Easy/Bank/Screenshots/emergency.png",
+    "Linux/Linux-Easy/Bank/Screenshots/LinEnum.png",
+    "Linux/Linux-Easy/Bank/Screenshots/userflag.png",
+    "Linux/Linux-Easy/Bank/Screenshots/stty.png",
+    "Linux/Linux-Easy/Bank/Screenshots/shell.png",
+    "Linux/Linux-Easy/Bank/Screenshots/bash.png",
+    "Group/Ophichi/Common enumeration.md",
+    "Linux/Linux-Medium/Haircut/Haircut.md",
+    "Linux/Linux-Easy/Bank/Screenshots/id.png",
+    "Linux/Linux-Easy/Bank/Screenshots",
+    "Linux/Linux-Easy/Bank",
     "Linux/Linux-Hard/Joker/Joker.md",
     "Linux/Linux-Hard/Holiday/Screenshots",
     "Linux/Linux-Hard/Holiday",
@@ -161,7 +167,6 @@
     "Linux/Linux-Medium/Haircut/Screenshoots",
     "Linux/Linux-Medium/Haircut",
     "Group/Backdoor/backdoorhtb.md",
-    "Group/Ophichi/Common enumeration.md",
     "Linux/Linux-Medium/Sneaky/Sneaky.md",
     "Linux/Linux-Hard/Joker/Screenshots",
     "Linux/Linux-Hard/Joker",
@@ -169,9 +174,6 @@
     "Linux/Linux-Medium/Lazy/Lazy.md",
     "Linux/Linux-Medium/Sneaky/Screenshots",
     "Linux/Linux-Medium/Sneaky",
-    "Linux/Linux-Medium/Lazy/Screenshots",
-    "Linux/Linux-Medium/Lazy",
-    "Linux/Linux-Medium/Cronos/Cronos.md",
     "Windows/Windows-Medium/Bastard/Bastard.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
@@ -181,7 +183,6 @@
     "Group/Paper/paperhtb.md",
     "Linux/Linux-Medium/Tenten/Untitled 1.md",
     "Untitled 1.md",
-    "Untitled.md",
-    "Linux/Linux-Easy/Beep/Beep.md"
+    "Untitled.md"
   ]
 }
