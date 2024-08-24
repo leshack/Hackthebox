@@ -65,17 +65,21 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Medium/Lazy/Screenshots/LazyPwned.png)
 
-# Sneaky
+# SNEAKY
 
 ![](/Linux/Linux-Medium/Sneaky/Screenshots/sneakypwned.png)
 
-# Joker
+# JOKER
 
 ![](/Linux/Linux-Hard/Joker/Screenshots/jokerpwned.png)
 
-# Haircut
+# HAIRCUT
 
 ![](Linux/Linux-Medium/Haircut/Screenshoots/HaircutPwned.png)
+
+# HOLIDAY
+
+![](/Linux/Linux-Hard/Holiday/Screenshots/pwed.png)
 
 
 ![backdoor](https://user-images.githubusercontent.com/64952843/165172553-218f7845-b352-441e-9d8d-5af46cc7e7e7.png)

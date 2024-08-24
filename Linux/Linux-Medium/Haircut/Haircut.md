@@ -44,10 +44,10 @@ Nmap done: 1 IP address (1 host up) scanned in 39.78 seconds
 
 looking at the results  we find out that there are 2 ports open and its a `Ubuntu`and its running an `ngix 1.10.0`. 
 
-port[22]-http
+port[22]-ssh
 port[80]-nginx
 
-when we naviagate to [http://10.10.10.24](http://10.10.10.24)  we find a page with seem to be a haircut website
+when we naviagate to [http://10.10.10.24](http://10.10.10.24)  we find a page which seem to be a haircut website
 
 ![](/Linux/Linux-Medium/Haircut/Screenshoots/haircut.png)
 
@@ -229,3 +229,4 @@ Then we get root `flag.txt`
 ![](/Linux/Linux-Medium/Haircut/Screenshoots/root.png)
 
 
+	-------------------------END successful attack @lesley------------

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Hard/Joker/Joker.md",
+                "file": "Linux/Linux-Hard/Holiday/Holiday.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Hard/Joker/Joker.md",
+                "file": "Linux/Linux-Hard/Holiday/Holiday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,20 +139,24 @@
   "active": "779732cc777ac9cd",
   "lastOpenFiles": [
     "Linux/Linux-Medium/Haircut/Haircut.md",
-    "Linux/Linux-Hard/Joker/Joker.md",
+    "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
+    "Linux/Linux-Hard/Holiday/Holiday.md",
     "README.md",
-    "Linux/Linux-Medium/Haircut/Screenshoots/HaircutPwned.png",
-    "Linux/Linux-Medium/Haircut/Screenshoots/root.png",
-    "Linux/Linux-Medium/Haircut/Screenshoots/etc.png",
-    "Linux/Linux-Medium/Haircut/Screenshoots/rootshell.png",
-    "Linux/Linux-Medium/Haircut/Screenshoots/libhax.png",
-    "Linux/Linux-Medium/Haircut/Screenshoots/LinEnum.png",
-    "Linux/Linux-Medium/Haircut/Screenshoots/screen.png",
-    "Linux/Linux-Medium/Haircut/Screenshoots/user.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/pwed.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/rootflag.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/root.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/sudol.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/userflag.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/takeover.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/shell.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/httpserver.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/burpshell1.png",
+    "Linux/Linux-Hard/Holiday/Screenshots/burpshell.png",
+    "Linux/Linux-Hard/Joker/Joker.md",
+    "Linux/Linux-Hard/Holiday/Screenshots",
+    "Linux/Linux-Hard/Holiday",
     "Group/spider/Spiderhtb.md",
     "Group/Unicode/Unicodehtb.md",
-    "Linux/Linux-Medium/Haircut/Screenshoots/revershell.png",
-    "Linux/Linux-Medium/Haircut/Screenshoots/exploit.png",
     "Linux/Linux-Medium/Tenten/Tenten.md",
     "Linux/Linux-Medium/Haircut/Screenshoots",
     "Linux/Linux-Medium/Haircut",
@@ -167,9 +171,6 @@
     "Linux/Linux-Medium/Sneaky",
     "Linux/Linux-Medium/Lazy/Screenshots",
     "Linux/Linux-Medium/Lazy",
-    "python-pty-shells",
-    "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
-    "Linux/Linux-Insane/Brainfuck/Screenshots",
     "Linux/Linux-Medium/Cronos/Cronos.md",
     "Windows/Windows-Medium/Bastard/Bastard.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",
@@ -181,7 +182,6 @@
     "Linux/Linux-Medium/Tenten/Untitled 1.md",
     "Untitled 1.md",
     "Untitled.md",
-    "Linux/Linux-Easy/Beep/Beep.md",
-    "Windows/Windows-Easy/Devel/Devel.md"
+    "Linux/Linux-Easy/Beep/Beep.md"
   ]
 }
