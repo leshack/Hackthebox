@@ -143,6 +143,13 @@ stty rows 29 cols 135
 reset
 ```
 
+to check for colums and rows in you machine run
+
+```sh
+stty -a | head -n1 | cut -d ';' -f 2-3 | cut -b2- | sed 's/; /\n/'
+```
+
+
 we can now get the user flag
 
 ![](/Linux/Linux-Medium/Haircut/Screenshoots/user.png)

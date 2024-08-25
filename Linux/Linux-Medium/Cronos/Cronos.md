@@ -175,17 +175,24 @@ so trying this it works
 ![](/Linux/Linux-Medium/Cronos/Screenshots/shell.png)
 ## Takeover
  After geting the reverse shell we have to do some adjusment to our reverse shell to make it ready for using by doing a stty escalation to get an interactive shell:
- #### code-stty
+#### code-stty
  ```bash
  python3 -c 'import pty;pty.spawn("/bin/bash")'
  [ctrl] + z
- stty raw -echo
- fg [Enter] two times
+ stty raw -echo ; fg
  ```
- 
- Then setting the TERM so that you are able to clean the terminal:
- ```bash
- export TERM=xterm
+
+```sh
+export TERM=screen-256color
+export SHELL=bash
+stty rows 29 cols 135
+reset
+```
+
+to check for colums and rows in you machine run
+
+```sh
+stty -a | head -n1 | cut -d ';' -f 2-3 | cut -b2- | sed 's/; /\n/'
 ```
 
 user flag can be obtained

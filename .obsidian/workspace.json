@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Haircut/Haircut.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac171401f024472e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Hard/Calamity/Calamity.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Europa/Europa.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rm /tmp/f;",
+                "query": "nc ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Hard/Calamity/Calamity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,30 +124,34 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ac171401f024472e",
+  "active": "779732cc777ac9cd",
   "lastOpenFiles": [
-    "Linux/Linux-Medium/Europa/Screenshots/europa.png",
-    "Linux/Linux-Medium/Europa/Europa.md",
-    "Linux/Linux-Medium/Haircut/Haircut.md",
-    "Linux/Linux-Medium/Europa/Screenshots/rootflag.png",
-    "Linux/Linux-Medium/Europa/Screenshots/root.png",
-    "Linux/Linux-Medium/Europa/Screenshots/privsec.png",
-    "Linux/Linux-Medium/Europa/Screenshots/logsh.png",
-    "Linux/Linux-Medium/Europa/Screenshots/cronjobs.png",
-    "Linux/Linux-Medium/Europa/Screenshots/LinEnum.png",
-    "Linux/Linux-Medium/Europa/Screenshots/useeflag.png",
-    "Linux/Linux-Medium/Europa/Screenshots/stty.png",
-    "Linux/Linux-Medium/Cronos/Cronos.md",
-    "Linux/Linux-Medium/Europa/Screenshots/shell.png",
-    "Linux/Linux-Medium/Europa/Screenshots/payload.png",
-    "Linux/Linux-Hard/Joker/Joker.md",
-    "Group/Ophichi/Common enumeration.md",
-    "Linux/Linux-Easy/Bank/Bank.md",
+    "README.md",
+    "Linux/Linux-Medium/October/October.md",
+    "Linux/Linux-Hard/Calamity/Calamity.md",
+    "Linux/Linux-Hard/Calamity/Screenshots/calamitypwned.png",
+    "Linux/Linux-Hard/Calamity/Screenshots/rootflag.png",
+    "Linux/Linux-Hard/Calamity/Screenshots/root.png",
+    "Linux/Linux-Hard/Calamity/Screenshots/lxcrun.png",
+    "Linux/Linux-Hard/Calamity/Screenshots/lxcbuild.png",
+    "Linux/Linux-Hard/Calamity/Screenshots/lxc.png",
+    "Linux/Linux-Hard/Calamity/Screenshots/cptohtb.png",
+    "Linux/Linux-Hard/Calamity/Screenshots/clone.png",
+    "Linux/Linux-Hard/Calamity/Screenshots/app.png",
+    "Linux/Linux-Hard/Calamity/Screenshots/ssh.png",
     "Linux/Linux-Hard/Holiday/Holiday.md",
+    "Linux/Linux-Hard/Joker/Joker.md",
+    "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
+    "Linux/Linux-Medium/Cronos/Cronos.md",
+    "Linux/Linux-Medium/Haircut/Haircut.md",
+    "Linux/Linux-Medium/Europa/Europa.md",
+    "Linux/Linux-Easy/Bank/Bank.md",
+    "Linux/Linux-Hard/Calamity/Untitled",
+    "Linux/Linux-Hard/Calamity/Screenshots",
+    "Linux/Linux-Hard/Calamity",
+    "Group/Ophichi/Common enumeration.md",
     "Linux/Linux-Medium/Europa/Screenshots",
     "Linux/Linux-Medium/Europa",
-    "README.md",
-    "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
     "Linux/Linux-Easy/Bank/Screenshots",
     "Linux/Linux-Easy/Bank",
     "Linux/Linux-Hard/Holiday/Screenshots",
@@ -169,12 +160,8 @@
     "Group/Unicode/Unicodehtb.md",
     "Linux/Linux-Medium/Tenten/Tenten.md",
     "Linux/Linux-Medium/Haircut/Screenshoots",
-    "Linux/Linux-Medium/Haircut",
     "Group/Backdoor/backdoorhtb.md",
     "Linux/Linux-Medium/Sneaky/Sneaky.md",
-    "Linux/Linux-Hard/Joker/Screenshots",
-    "Linux/Linux-Hard/Joker",
-    "Linux/Linux-Medium/October/October.md",
     "Linux/Linux-Medium/Lazy/Lazy.md",
     "Windows/Windows-Medium/Bastard/Bastard.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",
@@ -183,7 +170,6 @@
     "Windows/Windows-Easy/Granny/Granny.md",
     "Windows/Windows-Easy/Optimum/optimum.md",
     "Group/Paper/paperhtb.md",
-    "Linux/Linux-Medium/Tenten/Untitled 1.md",
-    "Untitled 1.md"
+    "Linux/Linux-Medium/Tenten/Untitled 1.md"
   ]
 }

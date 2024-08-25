@@ -203,6 +203,12 @@ stty rows 29 cols 135
 reset
 ```
 
+to check for colums and rows in you machine run
+
+```sh
+stty -a | head -n1 | cut -d ';' -f 2-3 | cut -b2- | sed 's/; /\n/'
+```
+
 ![](/Linux/Linux-Hard/Holiday/Screenshots/takeover.png)
 
 you can get user flag here
