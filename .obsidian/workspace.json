@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Hard/Calamity/Calamity.md",
+                "file": "Linux/Linux-Hard/Charon/Charon.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c6a680a76227155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux-Hard/Calamity/Calamity.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Hard/Calamity/Calamity.md",
+                "file": "Linux/Linux-Hard/Charon/Charon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,19 +138,22 @@
   },
   "active": "779732cc777ac9cd",
   "lastOpenFiles": [
-    "README.md",
-    "Linux/Linux-Medium/October/October.md",
     "Linux/Linux-Hard/Calamity/Calamity.md",
-    "Linux/Linux-Hard/Calamity/Screenshots/calamitypwned.png",
-    "Linux/Linux-Hard/Calamity/Screenshots/rootflag.png",
-    "Linux/Linux-Hard/Calamity/Screenshots/root.png",
-    "Linux/Linux-Hard/Calamity/Screenshots/lxcrun.png",
-    "Linux/Linux-Hard/Calamity/Screenshots/lxcbuild.png",
-    "Linux/Linux-Hard/Calamity/Screenshots/lxc.png",
-    "Linux/Linux-Hard/Calamity/Screenshots/cptohtb.png",
-    "Linux/Linux-Hard/Calamity/Screenshots/clone.png",
-    "Linux/Linux-Hard/Calamity/Screenshots/app.png",
-    "Linux/Linux-Hard/Calamity/Screenshots/ssh.png",
+    "README.md",
+    "Linux/Linux-Hard/Charon/Charon.md",
+    "Linux/Linux-Hard/Charon/Screenshots/charonpwned.png",
+    "Linux/Linux-Hard/Charon/Screenshots/rootflag.png",
+    "Linux/Linux-Hard/Charon/Screenshots/binsh.png",
+    "Linux/Linux-Hard/Charon/Screenshots/suid.png",
+    "Linux/Linux-Hard/Charon/Screenshots/runLinEnum.png",
+    "Linux/Linux-Hard/Charon/Screenshots/Linenum.png",
+    "Linux/Linux-Hard/Charon/Screenshots/catuser.png",
+    "Linux/Linux-Hard/Charon/Screenshots/decoderpass.png",
+    "Linux/Linux-Hard/Charon/Screenshots/decoder.png",
+    "Linux/Linux-Hard/Charon/Screenshots/stty.png",
+    "Linux/Linux-Hard/Charon/Screenshots",
+    "Linux/Linux-Hard/Charon",
+    "Linux/Linux-Medium/October/October.md",
     "Linux/Linux-Hard/Holiday/Holiday.md",
     "Linux/Linux-Hard/Joker/Joker.md",
     "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
@@ -155,11 +170,9 @@
     "Linux/Linux-Easy/Bank/Screenshots",
     "Linux/Linux-Easy/Bank",
     "Linux/Linux-Hard/Holiday/Screenshots",
-    "Linux/Linux-Hard/Holiday",
     "Group/spider/Spiderhtb.md",
     "Group/Unicode/Unicodehtb.md",
     "Linux/Linux-Medium/Tenten/Tenten.md",
-    "Linux/Linux-Medium/Haircut/Screenshoots",
     "Group/Backdoor/backdoorhtb.md",
     "Linux/Linux-Medium/Sneaky/Sneaky.md",
     "Linux/Linux-Medium/Lazy/Lazy.md",
@@ -169,7 +182,6 @@
     "Windows/Windows-Easy/Grandpa/Grandpa.md",
     "Windows/Windows-Easy/Granny/Granny.md",
     "Windows/Windows-Easy/Optimum/optimum.md",
-    "Group/Paper/paperhtb.md",
-    "Linux/Linux-Medium/Tenten/Untitled 1.md"
+    "Group/Paper/paperhtb.md"
   ]
 }
