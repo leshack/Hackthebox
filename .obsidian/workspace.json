@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Easy/Bank/Bank.md",
+                "file": "Linux/Linux-Medium/Haircut/Haircut.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Hard/Holiday/Holiday.md",
+                "file": "Linux/Linux-Medium/Europa/Europa.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,8 +73,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LinEn",
-                "matchingCase": false,
+                "query": "rm /tmp/f;",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Hard/Holiday/Holiday.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,28 +137,32 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ba741786981754db",
+  "active": "ac171401f024472e",
   "lastOpenFiles": [
+    "Linux/Linux-Medium/Europa/Screenshots/europa.png",
+    "Linux/Linux-Medium/Europa/Europa.md",
+    "Linux/Linux-Medium/Haircut/Haircut.md",
+    "Linux/Linux-Medium/Europa/Screenshots/rootflag.png",
+    "Linux/Linux-Medium/Europa/Screenshots/root.png",
+    "Linux/Linux-Medium/Europa/Screenshots/privsec.png",
+    "Linux/Linux-Medium/Europa/Screenshots/logsh.png",
+    "Linux/Linux-Medium/Europa/Screenshots/cronjobs.png",
+    "Linux/Linux-Medium/Europa/Screenshots/LinEnum.png",
+    "Linux/Linux-Medium/Europa/Screenshots/useeflag.png",
+    "Linux/Linux-Medium/Europa/Screenshots/stty.png",
+    "Linux/Linux-Medium/Cronos/Cronos.md",
+    "Linux/Linux-Medium/Europa/Screenshots/shell.png",
+    "Linux/Linux-Medium/Europa/Screenshots/payload.png",
+    "Linux/Linux-Hard/Joker/Joker.md",
+    "Group/Ophichi/Common enumeration.md",
     "Linux/Linux-Easy/Bank/Bank.md",
+    "Linux/Linux-Hard/Holiday/Holiday.md",
+    "Linux/Linux-Medium/Europa/Screenshots",
+    "Linux/Linux-Medium/Europa",
     "README.md",
     "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
-    "Linux/Linux-Easy/Bank/Screenshots/Bankpwned.png",
-    "Linux/Linux-Hard/Holiday/Holiday.md",
-    "Linux/Linux-Medium/Cronos/Cronos.md",
-    "Linux/Linux-Easy/Bank/Screenshots/rootflag.png",
-    "Linux/Linux-Easy/Bank/Screenshots/root.png",
-    "Linux/Linux-Easy/Bank/Screenshots/emergency.png",
-    "Linux/Linux-Easy/Bank/Screenshots/LinEnum.png",
-    "Linux/Linux-Easy/Bank/Screenshots/userflag.png",
-    "Linux/Linux-Easy/Bank/Screenshots/stty.png",
-    "Linux/Linux-Easy/Bank/Screenshots/shell.png",
-    "Linux/Linux-Easy/Bank/Screenshots/bash.png",
-    "Group/Ophichi/Common enumeration.md",
-    "Linux/Linux-Medium/Haircut/Haircut.md",
-    "Linux/Linux-Easy/Bank/Screenshots/id.png",
     "Linux/Linux-Easy/Bank/Screenshots",
     "Linux/Linux-Easy/Bank",
-    "Linux/Linux-Hard/Joker/Joker.md",
     "Linux/Linux-Hard/Holiday/Screenshots",
     "Linux/Linux-Hard/Holiday",
     "Group/spider/Spiderhtb.md",
@@ -172,8 +176,6 @@
     "Linux/Linux-Hard/Joker",
     "Linux/Linux-Medium/October/October.md",
     "Linux/Linux-Medium/Lazy/Lazy.md",
-    "Linux/Linux-Medium/Sneaky/Screenshots",
-    "Linux/Linux-Medium/Sneaky",
     "Windows/Windows-Medium/Bastard/Bastard.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
@@ -182,7 +184,6 @@
     "Windows/Windows-Easy/Optimum/optimum.md",
     "Group/Paper/paperhtb.md",
     "Linux/Linux-Medium/Tenten/Untitled 1.md",
-    "Untitled 1.md",
-    "Untitled.md"
+    "Untitled 1.md"
   ]
 }
