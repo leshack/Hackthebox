@@ -83,6 +83,10 @@ directly to the server.
 
 ![](/Linux/Linux-Easy/Blocky/Screenshots/strings.png)
 
+you can use the `Jd-gui`
+
+![](/Linux/Linux-Easy/Blocky/Screenshots/gdgui.png)
+
 we find credentials of the phpmyadmin lets log in to see the wordpress database
 
 ![](/Linux/Linux-Easy/Blocky/Screenshots/phpmyadmin.png)

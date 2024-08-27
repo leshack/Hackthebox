@@ -37,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Cronos/Cronos.md",
+                "file": "Windows/Windows-Easy/Blue/Blue.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Easy/Blocky/Blocky.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,21 +137,24 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7c6a680a76227155",
+  "active": "ba741786981754db",
   "lastOpenFiles": [
-    "README.md",
+    "Windows/Windows-Easy/Blue/Blue.md",
+    "Windows/Windows-Easy/Blue/Screenshots/BluePwned.png",
     "Linux/Linux-Easy/Blocky/Blocky.md",
-    "Linux/Linux-Easy/Blocky/Screenshots/BlockyPwned.png",
+    "Windows/Windows-Easy/Blue/Screenshots/shellflags.png",
+    "Windows/Windows-Easy/Blue/Screenshots/meterpreter.png",
+    "Windows/Windows-Easy/Blue/Screenshots/msfblue.png",
+    "Windows/Windows-Easy/Blue/Screenshots/eternalblue.png",
+    "Windows/Windows-Easy/Blue/Screenshots/nmap.png",
+    "Windows/Windows-Easy/Blue/Screenshots/msfconsole.png",
+    "Linux/Linux-Easy/Blocky/Screenshots/gdgui.png",
     "Linux/Linux-Medium/Cronos/Cronos.md",
+    "Windows/Windows-Easy/Blue/Screenshots",
+    "Windows/Windows-Easy/Blue",
+    "README.md",
+    "Linux/Linux-Easy/Blocky/Screenshots/BlockyPwned.png",
     "Linux/Linux-Easy/Blocky/Screenshots/sudouser.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/userflag.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/shell.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/userlist.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/phpmyadmin.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/strings.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/plugins.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/gobuster.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/wordpress.png",
     "Linux/Linux-Insane/Jail/Jail.md",
     "Linux/Linux-Easy/Blocky/Screenshots",
     "Linux/Linux-Easy/Blocky",
@@ -173,15 +177,12 @@
     "Linux/Linux-Easy/Bank/Bank.md",
     "Linux/Linux-Hard/Calamity/Untitled",
     "Linux/Linux-Hard/Calamity/Screenshots",
-    "Linux/Linux-Hard/Calamity",
     "Group/Ophichi/Common enumeration.md",
-    "Linux/Linux-Medium/Europa/Screenshots",
     "Group/spider/Spiderhtb.md",
     "Group/Unicode/Unicodehtb.md",
     "Group/Backdoor/backdoorhtb.md",
     "Windows/Windows-Medium/Bastard/Bastard.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",
-    "Windows/Windows-Easy/Grandpa/Grandpa.md",
-    "Windows/Windows-Easy/Granny/Granny.md"
+    "Windows/Windows-Easy/Grandpa/Grandpa.md"
   ]
 }
