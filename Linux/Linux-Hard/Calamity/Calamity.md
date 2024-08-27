@@ -9,7 +9,7 @@ Hi folks, today I am going to solve an Hard rated hack the box machine which was
 ## Nmap
   *http
   *ssh
-  *binary
+  *OverflowBuffer
 ###### code-nmap
 
 ```code

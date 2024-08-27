@@ -8,7 +8,7 @@ Hi folks, today I am going to solve an medium rated hack the box machine which w
 
 ## Nmap
   *http
-  *bufferoverflow
+  *OverflowBuffer
   
 ###### code-nmap
 
