@@ -45,7 +45,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 30.71 seconds
 ```
 
-looking at the results  we find out that there are 4 ports open and its a `Debian`and its running an `lighttpd`. 
+looking at the results  we find out that there are 3 ports open and its a `Debian`and its running an `lighttpd`. 
 
 
 port[22]-ssh
