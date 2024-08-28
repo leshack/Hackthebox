@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Blue/Blue.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Easy/Shocker/Shocker.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,10 +137,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ba741786981754db",
+  "active": "e6745ab2fb3f8d13",
   "lastOpenFiles": [
     "Windows/Windows-Easy/Blue/Blue.md",
     "Linux/Linux-Easy/Shocker/Shocker.md",
+    "Linux/Linux-Easy/Shocker/Screenshots/shockerpwned.png",
     "Linux/Linux-Easy/Shocker/Screenshots/shellroot.png",
     "Linux/Linux-Easy/Shocker/Screenshots/sudol.png",
     "Linux/Linux-Medium/Cronos/Cronos.md",
@@ -153,7 +154,6 @@
     "Linux/Linux-Easy/Shocker/Screenshots/usersh.png",
     "Linux/Linux-Easy/Shocker/Screenshots/browser.png",
     "README.md",
-    "Linux/Linux-Easy/Shocker/Screenshots/nmap.png",
     "Linux/Linux-Easy/Shocker/Screenshots",
     "Linux/Linux-Easy/Shocker",
     "Linux/Linux-Easy/Blocky/Blocky.md",

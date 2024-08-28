@@ -128,3 +128,5 @@ you can get `root` shell
 ![](/Linux/Linux-Easy/Shocker/Screenshots/shellroot.png)
 
 	-------------------------END successful attack @lesley----------------------
+
+
