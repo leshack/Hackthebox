@@ -63,7 +63,7 @@ wpscan --url http://blocky.htb -e ap --plugins-detection aggressive  --disable-t
 
 ![](/Linux/Linux-Easy/Blocky/Screenshots/wordpress.png)
 
-I also start `gobuster` and run it on the background to enumerste existing directories.
+I also start `gobuster` and run it on the background to enumerate existing directories.
 
 ```sh
 gobuster dir -u http://blocky.htb -w /usr/share/seclists/Discovery/Web-Content/raft-small-words-lowercase.txt -k  

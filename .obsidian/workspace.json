@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Easy/Blocky/Blocky.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Easy/Mirai/Mirai.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Easy/Mirai/Mirai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,22 +139,25 @@
   },
   "active": "ba741786981754db",
   "lastOpenFiles": [
-    "Windows/Windows-Easy/Blue/Blue.md",
-    "Windows/Windows-Easy/Blue/Screenshots/BluePwned.png",
+    "README.md",
     "Linux/Linux-Easy/Blocky/Blocky.md",
-    "Windows/Windows-Easy/Blue/Screenshots/shellflags.png",
-    "Windows/Windows-Easy/Blue/Screenshots/meterpreter.png",
-    "Windows/Windows-Easy/Blue/Screenshots/msfblue.png",
-    "Windows/Windows-Easy/Blue/Screenshots/eternalblue.png",
-    "Windows/Windows-Easy/Blue/Screenshots/nmap.png",
-    "Windows/Windows-Easy/Blue/Screenshots/msfconsole.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/gdgui.png",
+    "Linux/Linux-Easy/Mirai/Mirai.md",
+    "Linux/Linux-Easy/Mirai/Screenshots/miraipwned.png",
+    "Windows/Windows-Easy/Blue/Blue.md",
+    "Linux/Linux-Easy/Mirai/Screenshots/rootflag.png",
+    "Linux/Linux-Easy/Mirai/Screenshots/extundelete.png",
+    "Linux/Linux-Easy/Mirai/Screenshots/copied.png",
+    "Linux/Linux-Easy/Mirai/Screenshots/image.png",
+    "Linux/Linux-Easy/Mirai/Screenshots/strings.png",
+    "Linux/Linux-Easy/Mirai/Screenshots/damit.png",
+    "Linux/Linux-Easy/Mirai/Screenshots/dfh.png",
+    "Linux/Linux-Easy/Mirai/Screenshots/root.png",
+    "Linux/Linux-Easy/Mirai/Screenshots/pi.png",
+    "Linux/Linux-Easy/Mirai/Screenshots",
+    "Linux/Linux-Easy/Mirai",
     "Linux/Linux-Medium/Cronos/Cronos.md",
     "Windows/Windows-Easy/Blue/Screenshots",
     "Windows/Windows-Easy/Blue",
-    "README.md",
-    "Linux/Linux-Easy/Blocky/Screenshots/BlockyPwned.png",
-    "Linux/Linux-Easy/Blocky/Screenshots/sudouser.png",
     "Linux/Linux-Insane/Jail/Jail.md",
     "Linux/Linux-Easy/Blocky/Screenshots",
     "Linux/Linux-Easy/Blocky",
@@ -175,14 +178,11 @@
     "Linux/Linux-Hard/Charon",
     "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
     "Linux/Linux-Easy/Bank/Bank.md",
-    "Linux/Linux-Hard/Calamity/Untitled",
-    "Linux/Linux-Hard/Calamity/Screenshots",
     "Group/Ophichi/Common enumeration.md",
     "Group/spider/Spiderhtb.md",
     "Group/Unicode/Unicodehtb.md",
     "Group/Backdoor/backdoorhtb.md",
     "Windows/Windows-Medium/Bastard/Bastard.md",
-    "Windows/Windows-Easy/Arctic/Arctic.md",
-    "Windows/Windows-Easy/Grandpa/Grandpa.md"
+    "Windows/Windows-Easy/Arctic/Arctic.md"
   ]
 }
