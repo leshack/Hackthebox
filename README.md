@@ -113,6 +113,11 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Easy/Shocker/Screenshots/shockerpwned.png)
 
+# SENSE
+
+
+![](/Linux/Linux-Easy/OpenBSD/Sense/Screenshots/SensePwned.png)
+
 
 
 ![backdoor](https://user-images.githubusercontent.com/64952843/165172553-218f7845-b352-441e-9d8d-5af46cc7e7e7.png)

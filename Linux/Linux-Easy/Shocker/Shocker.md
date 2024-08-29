@@ -1,7 +1,7 @@
 ![logo](/logo.png)
 
 # [Shocker- BOX]  
-Hi folks, today I am going to solve an Easy rated hack the box machine which was released on on 30 Sep 2017 as the tenth machine on HTB,Shocker created by[mrb3n](https://app.hackthebox.com/users/2984) .So without any further intro, let'sf jump in.
+Hi folks, today I am going to solve an Easy rated hack the box machine which was released on 30 Sep 2017 as the tenth machine on HTB,Shocker created by [mrb3n](https://app.hackthebox.com/users/2984) .So without any further intro, let'sf jump in.
 
 # common enumeration
 
