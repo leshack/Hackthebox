@@ -7,7 +7,7 @@ Hi folks, today I am going to solve an Easy rated hack the box machine which was
 
 ## Nmap
   *http
-  *
+  *Pfsense
   *OpenBSD
   
 ###### code-nmap
@@ -42,7 +42,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 64.73 seconds
 ```
 
-looking at the results  we find out that there are 2 ports open and its a `Ubuntu`and its running an `Apache`. 
+looking at the results  we find out that there are 2 ports open and its a `OpenBSD`and its running an `lighttpd`. 
 
 port[80]-  http
 port[443]-http
@@ -59,7 +59,7 @@ and we find a browser with a login credentials of `Pf Sense`
 
 ![](/Linux/Linux-Easy/OpenBSD/Sense/Screenshots/sense.png)
 
-so lets do a `gobuster` to enumerate all directories 
+so lets start a `gobuster` to enumerate all directories 
 
 ```sh
 gobuster dir -u https://10.10.10.60 -w /usr/share/seclists/Discovery/Web-Content/raft-medium-words-lowercase.txt -k --no-error 

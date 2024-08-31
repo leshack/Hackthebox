@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Easy/OpenBSD/Sense/Sense.md",
+                "file": "Linux/Linux-Medium/Cronos/Cronos.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Easy/Shocker/Shocker.md",
+                "file": "Linux/Linux-Medium/Nineveh/Nineveh.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Medium/Nineveh/Nineveh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,22 +137,26 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e6745ab2fb3f8d13",
+  "active": "a9f825e8ac9ad102",
   "lastOpenFiles": [
-    "Linux/Linux-Easy/Shocker/Shocker.md",
-    "Linux/Linux-Easy/OpenBSD/Sense/Sense.md",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/SensePwned.png",
+    "Linux/Linux-Medium/Nineveh/Screenshots/gobuster.png",
+    "Linux/Linux-Medium/Nineveh/Screenshots/knock.png",
     "README.md",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/flags.png",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/meterpreter.png",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/python.png",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/searchsploit.png",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/graph.png",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/logiin.png",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/systemuser.png",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/gobuster.png",
-    "Linux/Linux-Easy/OpenBSD/Sense/Screenshots/sense.png",
+    "Linux/Linux-Medium/Nineveh/Nineveh.md",
+    "Linux/Linux-Medium/Nineveh/Screenshots/NinevehPwned.png",
+    "Linux/Linux-Medium/Nineveh/Screenshots/knockdetc.png",
+    "Linux/Linux-Medium/Nineveh/Screenshots/knockd.png",
     "Linux/Linux-Medium/Cronos/Cronos.md",
+    "Linux/Linux-Medium/Nineveh/Screenshots/rootflag.png",
+    "Linux/Linux-Medium/Nineveh/Screenshots/privsec.png",
+    "Linux/Linux-Medium/Nineveh/Screenshots/searchsploit.png",
+    "Linux/Linux-Medium/Nineveh/Screenshots/chkrootkit.png",
+    "Linux/Linux-Medium/Nineveh/Screenshots/LinEnum.png",
+    "Linux/Linux-Medium/Nineveh/Screenshots/userflag.png",
+    "Linux/Linux-Easy/OpenBSD/Sense/Sense.md",
+    "Linux/Linux-Easy/Shocker/Shocker.md",
+    "Linux/Linux-Medium/Nineveh/Screenshots",
+    "Linux/Linux-Medium/Nineveh",
     "Linux/Linux-Easy/OpenBSD/Sense/Screenshots",
     "Linux/Linux-Easy/OpenBSD/Sense",
     "Linux/Linux-Easy/OpenBSD",
@@ -164,9 +168,7 @@
     "Linux/Linux-Easy/Mirai/Screenshots",
     "Linux/Linux-Easy/Mirai",
     "Windows/Windows-Easy/Blue/Screenshots",
-    "Windows/Windows-Easy/Blue",
     "Linux/Linux-Insane/Jail/Jail.md",
-    "Linux/Linux-Easy/Blocky/Screenshots",
     "Linux/Linux-Medium/Haircut/Haircut.md",
     "Linux/Linux-Medium/Lazy/Lazy.md",
     "Linux/Linux-Medium/October/October.md",
@@ -182,7 +184,6 @@
     "Linux/Linux-Easy/Bank/Bank.md",
     "Group/Ophichi/Common enumeration.md",
     "Group/spider/Spiderhtb.md",
-    "Group/Unicode/Unicodehtb.md",
-    "Group/Backdoor/backdoorhtb.md"
+    "Group/Unicode/Unicodehtb.md"
   ]
 }
