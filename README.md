@@ -122,6 +122,17 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Medium/Nineveh/Screenshots/NinevehPwned.png)
 
+# APOCALYST 
+
+![](/Linux/Linux-Medium/Apocalyst/Screenshots/AplcalystPwned.png)
+
+
+# CHALLANGES
+## Photon Lockdown
+
+![](/Challanges/Hardware/Photon-Lockdown/Screenshots/photonpwned.png)
+
+
 
 ![backdoor](https://user-images.githubusercontent.com/64952843/165172553-218f7845-b352-441e-9d8d-5af46cc7e7e7.png)
 
