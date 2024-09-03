@@ -126,6 +126,10 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Medium/Apocalyst/Screenshots/AplcalystPwned.png)
 
+# SHREK
+
+![](/Linux/Linux-Hard/Shrek/Screenshots/ShrekPwned.png)
+
 
 # CHALLANGES
 ## Photon Lockdown
