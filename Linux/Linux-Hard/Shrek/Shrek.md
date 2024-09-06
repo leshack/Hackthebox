@@ -178,9 +178,19 @@ As the paper shows, I can abuse this with `chown` using the `--reference=[file]`
 
 Immediately what comes to mind for me is taking ownership of a file like `/etc/passwd` as sec. I need a file to be the reference, so just create one. Then I need the file that will be interpreted as a flag. I’ll name it `--reference=test`. To create a file with this weird name, I’ll run `touch -- --reference=test`. In Linux, `--` tells the shell that anything that follows is a filename, and not an argument. With that in place, I’ll create a symbolic link to `passwd`:
 
+```sh
+n -s /home/src/.bashrc
+touch -- --reference=.bashrc
+ln -s /etc/passwd
+```
+
 ![](/Linux/Linux-Hard/Shrek/Screenshots/symlink.png)
 
 Now I just need to add a root user to `/etc/passwd`. I’ll create a hash
+
+```sh
+openssl passwd -1 leshack
+```
 
 ![](/Linux/Linux-Hard/Shrek/Screenshots/srcpasswd.png)
 

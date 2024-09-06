@@ -130,6 +130,13 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Hard/Shrek/Screenshots/ShrekPwned.png)
 
+# SOLIDSTATE
+
+![](/Linux/Linux-Medium/SolidState/Screenshots/solidstatepwned.png)
+
+# PERM*X* 
+
+![](/Linux/Linux-Easy/PermX/Screenshots/permXPwned.png)
 
 # CHALLANGES
 ## Photon Lockdown
