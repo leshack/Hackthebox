@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Hard/Shrek/Shrek.md",
+                "file": "Windows/Windows-Hard/Mantis/Mantis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "-Pn",
+                "query": "ffuf",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux-Medium/SolidState/SolidState.md",
+                "file": "Windows/Windows-Hard/Mantis/Mantis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,22 +137,25 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e6745ab2fb3f8d13",
+  "active": "b454e29ddfc68c45",
   "lastOpenFiles": [
-    "README.md",
-    "Linux/Linux-Easy/PermX/PermX.md",
     "Linux/Linux-Medium/SolidState/SolidState.md",
+    "README.md",
+    "Windows/Windows-Hard/Mantis/Mantis.md",
+    "Windows/Windows-Hard/Mantis/Screenshots/MantisPwned.png",
+    "Windows/Windows-Hard/Mantis/Screenshots/flags.png",
+    "Windows/Windows-Hard/Mantis/Screenshots/goldenpac.png",
+    "Windows/Windows-Hard/Mantis/Screenshots/lookupname.png",
+    "Windows/Windows-Hard/Mantis/Screenshots/knit.png",
+    "Windows/Windows-Hard/Mantis/Screenshots/klist.png",
+    "Windows/Windows-Hard/Mantis/Screenshots/kinit.png",
+    "Windows/Windows-Hard/Mantis/Screenshots/kebros.png",
+    "Windows/Windows-Hard/Mantis/Screenshots/nslookup.png",
+    "Windows/Windows-Hard/Mantis/Screenshots/crackmapexec.png",
     "Linux/Linux-Hard/Shrek/Shrek.md",
-    "Linux/Linux-Medium/SolidState/Screenshots/solidstatepwned.png",
-    "Linux/Linux-Medium/SolidState/Screenshots/root.png",
-    "Linux/Linux-Medium/SolidState/Screenshots/tmp.png",
-    "Linux/Linux-Medium/SolidState/Screenshots/Linenum.png",
-    "Linux/Linux-Medium/SolidState/Screenshots/interactive.png",
-    "Linux/Linux-Medium/SolidState/Screenshots/exploit.png",
-    "Linux/Linux-Medium/SolidState/Screenshots/exploit.png",
-    "Linux/Linux-Medium/SolidState/Screenshots/userflag.png",
-    "Linux/Linux-Medium/SolidState/Screenshots/ssh.png",
-    "Linux/Linux-Medium/SolidState/Screenshots/retr.png",
+    "Windows/Windows-Hard/Mantis/Screenshots",
+    "Windows/Windows-Hard/Mantis",
+    "Linux/Linux-Easy/PermX/PermX.md",
     "Linux/Linux-Medium/SolidState/Screenshots",
     "Linux/Linux-Medium/SolidState",
     "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
@@ -168,8 +171,6 @@
     "Linux/Linux-Medium/Nineveh/Nineveh.md",
     "Linux/Linux-Easy/Sea/sea.md",
     "Challanges/Hardware/Photon-Lockdown/Photon.md",
-    "Linux/Linux-Easy/Sea/Screenshots",
-    "Linux/Linux-Easy/Sea",
     "Linux/Linux-Easy/OpenBSD/Sense/Sense.md",
     "Windows/Windows-Easy/Blue/Blue.md",
     "Linux/Linux-Easy/Mirai/Mirai.md",
@@ -182,7 +183,6 @@
     "Linux/Linux-Medium/Tenten/Tenten.md",
     "Linux/Linux-Hard/Joker/Joker.md",
     "Linux/Linux-Hard/Holiday/Holiday.md",
-    "Linux/Linux-Hard/Charon/Charon.md",
-    "Linux/Linux-Hard/Calamity/Calamity.md"
+    "Linux/Linux-Hard/Charon/Charon.md"
   ]
 }

@@ -134,6 +134,11 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Medium/SolidState/Screenshots/solidstatepwned.png)
 
+# MANTIS
+
+![](/Windows/Windows-Hard/Mantis/Screenshots/MantisPwned.png)
+
+
 # PERM*X* 
 
 ![](/Linux/Linux-Easy/PermX/Screenshots/permXPwned.png)
