@@ -138,6 +138,9 @@ Hands on servers successful pwned machines:
 
 ![](/Windows/Windows-Hard/Mantis/Screenshots/MantisPwned.png)
 
+# NODE
+
+![](/Linux/Linux-Medium/Node/Screenshots/NodePwned.png)
 
 # PERM*X* 
 

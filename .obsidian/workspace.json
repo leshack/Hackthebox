@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Hard/Mantis/Mantis.md",
+                "file": "Linux/Linux-Medium/Node/Node.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows-Hard/Mantis/Mantis.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,21 +136,24 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b454e29ddfc68c45",
+  "active": "d8049f3face3c1b1",
   "lastOpenFiles": [
+    "Linux/Linux-Medium/Node/Node.md",
+    "Linux/Linux-Medium/Node/Screenshots/NodePwned.png",
     "Linux/Linux-Medium/SolidState/SolidState.md",
+    "Linux/Linux-Medium/Node/Screenshots/rootflag.png",
+    "Linux/Linux-Medium/Node/Screenshots/seachsploit.png",
+    "Linux/Linux-Medium/Node/Screenshots/searchsploit.png",
+    "Linux/Linux-Medium/Node/Screenshots/uname.png",
+    "Linux/Linux-Medium/Node/Screenshots/userflag.png",
+    "Linux/Linux-Medium/Node/Screenshots/Pasted image 20240908150437.png",
+    "Linux/Linux-Medium/Node/Screenshots/shell.png",
+    "Linux/Linux-Medium/Node/Screenshots/scheduler.png",
+    "Linux/Linux-Medium/Node/Screenshots/mongodb.png",
     "README.md",
     "Windows/Windows-Hard/Mantis/Mantis.md",
-    "Windows/Windows-Hard/Mantis/Screenshots/MantisPwned.png",
-    "Windows/Windows-Hard/Mantis/Screenshots/flags.png",
-    "Windows/Windows-Hard/Mantis/Screenshots/goldenpac.png",
-    "Windows/Windows-Hard/Mantis/Screenshots/lookupname.png",
-    "Windows/Windows-Hard/Mantis/Screenshots/knit.png",
-    "Windows/Windows-Hard/Mantis/Screenshots/klist.png",
-    "Windows/Windows-Hard/Mantis/Screenshots/kinit.png",
-    "Windows/Windows-Hard/Mantis/Screenshots/kebros.png",
-    "Windows/Windows-Hard/Mantis/Screenshots/nslookup.png",
-    "Windows/Windows-Hard/Mantis/Screenshots/crackmapexec.png",
+    "Linux/Linux-Medium/Node/Screenshots",
+    "Linux/Linux-Medium/Node",
     "Linux/Linux-Hard/Shrek/Shrek.md",
     "Windows/Windows-Hard/Mantis/Screenshots",
     "Windows/Windows-Hard/Mantis",
@@ -166,8 +168,6 @@
     "Linux/Linux-Hard/Shrek/Screenshots",
     "Linux/Linux-Hard/Shrek",
     "Linux/Linux-Medium/Cronos/Cronos.md",
-    "Linux/Linux-Medium/Apocalyst/Screenshots",
-    "Linux/Linux-Medium/Apocalyst",
     "Linux/Linux-Medium/Nineveh/Nineveh.md",
     "Linux/Linux-Easy/Sea/sea.md",
     "Challanges/Hardware/Photon-Lockdown/Photon.md",
@@ -182,7 +182,6 @@
     "Linux/Linux-Medium/Sneaky/Sneaky.md",
     "Linux/Linux-Medium/Tenten/Tenten.md",
     "Linux/Linux-Hard/Joker/Joker.md",
-    "Linux/Linux-Hard/Holiday/Holiday.md",
-    "Linux/Linux-Hard/Charon/Charon.md"
+    "Linux/Linux-Hard/Holiday/Holiday.md"
   ]
 }
