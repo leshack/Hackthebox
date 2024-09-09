@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Hard/Kotarak/Kotarak.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/SolidState/SolidState.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Node/Node.md",
+                "file": "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ffuf",
+                "query": "nc ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,20 +137,25 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d8049f3face3c1b1",
+  "active": "e6745ab2fb3f8d13",
   "lastOpenFiles": [
-    "Linux/Linux-Medium/Node/Node.md",
-    "Linux/Linux-Medium/Node/Screenshots/NodePwned.png",
     "Linux/Linux-Medium/SolidState/SolidState.md",
-    "Linux/Linux-Medium/Node/Screenshots/rootflag.png",
-    "Linux/Linux-Medium/Node/Screenshots/seachsploit.png",
-    "Linux/Linux-Medium/Node/Screenshots/searchsploit.png",
-    "Linux/Linux-Medium/Node/Screenshots/uname.png",
-    "Linux/Linux-Medium/Node/Screenshots/userflag.png",
-    "Linux/Linux-Medium/Node/Screenshots/Pasted image 20240908150437.png",
-    "Linux/Linux-Medium/Node/Screenshots/shell.png",
-    "Linux/Linux-Medium/Node/Screenshots/scheduler.png",
-    "Linux/Linux-Medium/Node/Screenshots/mongodb.png",
+    "Linux/Linux-Hard/Kotarak/Kotarak.md",
+    "Linux/Linux-Hard/Kotarak/Screenshots/KotarakPwned.png",
+    "Linux/Linux-Hard/Kotarak/Screenshots/rootflag.png",
+    "Linux/Linux-Hard/Kotarak/Screenshots/poc.png",
+    "Linux/Linux-Hard/Kotarak/Screenshots/root.png",
+    "Linux/Linux-Hard/Kotarak/Screenshots/nmapi.png",
+    "Linux/Linux-Hard/Kotarak/Screenshots/exploit.png",
+    "Linux/Linux-Hard/Kotarak/Screenshots/wget.png",
+    "Linux/Linux-Hard/Kotarak/Screenshots/exploit.png",
+    "Linux/Linux-Hard/Kotarak/Screenshots/authbans.png",
+    "Pasted image 20240909221113.png",
+    "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
+    "Linux/Linux-Hard/Charon/Charon.md",
+    "Linux/Linux-Medium/Node/Node.md",
+    "Linux/Linux-Hard/Kotarak/Screenshots",
+    "Linux/Linux-Hard/Kotarak",
     "README.md",
     "Windows/Windows-Hard/Mantis/Mantis.md",
     "Linux/Linux-Medium/Node/Screenshots",
@@ -160,13 +166,10 @@
     "Linux/Linux-Easy/PermX/PermX.md",
     "Linux/Linux-Medium/SolidState/Screenshots",
     "Linux/Linux-Medium/SolidState",
-    "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
     "Linux/Linux-Easy/Shocker/Shocker.md",
     "Linux/Linux-Easy/PermX/Screenshots",
     "Linux/Linux-Easy/PermX",
     "Linux/Linux-Medium/October/October.md",
-    "Linux/Linux-Hard/Shrek/Screenshots",
-    "Linux/Linux-Hard/Shrek",
     "Linux/Linux-Medium/Cronos/Cronos.md",
     "Linux/Linux-Medium/Nineveh/Nineveh.md",
     "Linux/Linux-Easy/Sea/sea.md",
@@ -180,8 +183,6 @@
     "Linux/Linux-Medium/Lazy/Lazy.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
     "Linux/Linux-Medium/Sneaky/Sneaky.md",
-    "Linux/Linux-Medium/Tenten/Tenten.md",
-    "Linux/Linux-Hard/Joker/Joker.md",
-    "Linux/Linux-Hard/Holiday/Holiday.md"
+    "Linux/Linux-Medium/Tenten/Tenten.md"
   ]
 }

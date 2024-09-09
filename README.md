@@ -142,6 +142,10 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Medium/Node/Screenshots/NodePwned.png)
 
+# KOTARAK
+
+![](/Linux/Linux-Hard/Kotarak/Screenshots/KotarakPwned.png)
+
 # PERM*X* 
 
 ![](/Linux/Linux-Easy/PermX/Screenshots/permXPwned.png)
