@@ -51,7 +51,7 @@ looking at the results  we find out that there are 4 ports open and its a `Ubunt
 port[22]-ssh
 port[8009]-Apache Jserv
 port[8080]-  Apache Tomcat 8.5.5
-port[60000]-
+port[60000]-proxy
 
 so when we go the browser at [http://10.10.10.55:8080](http://10.10.10.55:8080)  looking at this i find nothing of interesting as it shows nothing only the status error code.
 

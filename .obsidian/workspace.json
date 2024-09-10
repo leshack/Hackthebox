@@ -13,18 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Hard/Kotarak/Kotarak.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6745ab2fb3f8d13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "README.md",
                 "mode": "source",
                 "source": false
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
+                "file": "Linux/Linux-Medium/Enterprise/Enterprise.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nc ",
+                "query": "Appearance",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Medium/Enterprise/Enterprise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,26 +125,31 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e6745ab2fb3f8d13",
+  "active": "a9f825e8ac9ad102",
   "lastOpenFiles": [
-    "Linux/Linux-Medium/SolidState/SolidState.md",
-    "Linux/Linux-Hard/Kotarak/Kotarak.md",
-    "Linux/Linux-Hard/Kotarak/Screenshots/KotarakPwned.png",
-    "Linux/Linux-Hard/Kotarak/Screenshots/rootflag.png",
-    "Linux/Linux-Hard/Kotarak/Screenshots/poc.png",
-    "Linux/Linux-Hard/Kotarak/Screenshots/root.png",
-    "Linux/Linux-Hard/Kotarak/Screenshots/nmapi.png",
-    "Linux/Linux-Hard/Kotarak/Screenshots/exploit.png",
-    "Linux/Linux-Hard/Kotarak/Screenshots/wget.png",
-    "Linux/Linux-Hard/Kotarak/Screenshots/exploit.png",
-    "Linux/Linux-Hard/Kotarak/Screenshots/authbans.png",
-    "Pasted image 20240909221113.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/dummyuser.png",
+    "README.md",
+    "Linux/Linux-Medium/Cronos/Cronos.md",
+    "Linux/Linux-Medium/Enterprise/Enterprise.md",
+    "Linux/Linux-Medium/Enterprise/Screenshots/EnterprisePwned.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/rootflag.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/rootshell.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/venv.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/overflow.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/LinEnum.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/userflag.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/shelljomal.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/phpshell.png",
+    "Linux/Linux-Medium/Enterprise/Screenshots/upload.png",
     "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
+    "Linux/Linux-Hard/Kotarak/Kotarak.md",
     "Linux/Linux-Hard/Charon/Charon.md",
+    "Linux/Linux-Medium/Enterprise/Screenshots",
+    "Linux/Linux-Medium/Enterprise",
+    "Linux/Linux-Medium/SolidState/SolidState.md",
     "Linux/Linux-Medium/Node/Node.md",
     "Linux/Linux-Hard/Kotarak/Screenshots",
     "Linux/Linux-Hard/Kotarak",
-    "README.md",
     "Windows/Windows-Hard/Mantis/Mantis.md",
     "Linux/Linux-Medium/Node/Screenshots",
     "Linux/Linux-Medium/Node",
@@ -167,10 +160,7 @@
     "Linux/Linux-Medium/SolidState/Screenshots",
     "Linux/Linux-Medium/SolidState",
     "Linux/Linux-Easy/Shocker/Shocker.md",
-    "Linux/Linux-Easy/PermX/Screenshots",
-    "Linux/Linux-Easy/PermX",
     "Linux/Linux-Medium/October/October.md",
-    "Linux/Linux-Medium/Cronos/Cronos.md",
     "Linux/Linux-Medium/Nineveh/Nineveh.md",
     "Linux/Linux-Easy/Sea/sea.md",
     "Challanges/Hardware/Photon-Lockdown/Photon.md",
@@ -182,7 +172,6 @@
     "Linux/Linux-Medium/Haircut/Haircut.md",
     "Linux/Linux-Medium/Lazy/Lazy.md",
     "Linux/Linux-Medium/Popcorn/Popcorn.md",
-    "Linux/Linux-Medium/Sneaky/Sneaky.md",
-    "Linux/Linux-Medium/Tenten/Tenten.md"
+    "Linux/Linux-Medium/Sneaky/Sneaky.md"
   ]
 }
