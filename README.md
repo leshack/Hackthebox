@@ -150,6 +150,9 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Medium/Enterprise/Screenshots/EnterprisePwned.png)
 
+# Bashed
+
+![](/Linux/Linux-Easy/Bashed/Screenshots/BashedPwned.png)
 
 # PERM*X* 
 

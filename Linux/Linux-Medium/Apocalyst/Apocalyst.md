@@ -53,7 +53,7 @@ so when we go the browser at [http://10.10.10.46](http://10.10.10.46) i find a b
 
 so lets add the `hostname` to `/etc/hosts`
 
-I find nothing od interesting so lets start gobuster so that I can be able to enumerate active directories. 
+I find nothing od interesting so lets start gobuster so that I can be able to enumerate active directories folders. 
 
 ```sh
 gobuster dir -u http://10.10.10.46 -w /usr/share/wordlists/dirb/common.txt -k --no-error
