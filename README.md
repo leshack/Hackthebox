@@ -154,6 +154,10 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Easy/Bashed/Screenshots/BashedPwned.png)
 
+# NIBBLES
+
+![](/Linux/Linux-Easy/Nibbles/Screenshots/NibblesPwned.png)
+
 # PERM*X* 
 
 ![](/Linux/Linux-Easy/PermX/Screenshots/permXPwned.png)

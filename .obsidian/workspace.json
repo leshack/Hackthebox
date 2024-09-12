@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Easy/Nibbles/Nibbles.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Easy/Bashed/Bashed.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Linux-Easy/Nibbles/Nibbles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,23 +136,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d8049f3face3c1b1",
+  "active": "a9f825e8ac9ad102",
   "lastOpenFiles": [
+    "Linux/Linux-Easy/Nibbles/Screenshots/ffuf.png",
+    "README.md",
     "Linux/Linux-Easy/Bashed/Bashed.md",
-    "Linux/Linux-Easy/Bashed/Screenshots/BashedPwned.png",
+    "Linux/Linux-Easy/Nibbles/Nibbles.md",
+    "Linux/Linux-Easy/Nibbles/Screenshots/NibblesPwned.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots/shellroot.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots/echosh.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots/mkdir.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots/userflag.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots/sudol.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots/meterpreter.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots/msfconsole.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots/loggedin.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots/images.png",
+    "Linux/Linux-Easy/Nibbles/Screenshots",
+    "Linux/Linux-Easy/Nibbles",
     "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
-    "Linux/Linux-Easy/Bashed/Screenshots/rootflag.png",
-    "Linux/Linux-Easy/Bashed/Screenshots/bashi.png",
-    "Linux/Linux-Easy/Bashed/Screenshots/sudol.png",
-    "Linux/Linux-Easy/Bashed/Screenshots/linenum.png",
-    "Linux/Linux-Easy/Bashed/Screenshots/stty.png",
-    "Linux/Linux-Easy/Bashed/Screenshots/shell2.png",
-    "Linux/Linux-Easy/Bashed/Screenshots/userflag.png",
-    "Linux/Linux-Easy/Bashed/Screenshots/shell.png",
-    "Linux/Linux-Easy/Bashed/Screenshots/gobuster.png",
     "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
     "Linux/Linux-Easy/Beep/Beep.md",
-    "README.md",
     "Linux/Linux-Medium/Enterprise/Enterprise.md",
     "Linux/Linux-Easy/Bashed/Screenshots",
     "Linux/Linux-Easy/Bashed",
@@ -169,8 +173,6 @@
     "Linux/Linux-Medium/Node/Screenshots",
     "Linux/Linux-Medium/Node",
     "Linux/Linux-Hard/Shrek/Shrek.md",
-    "Windows/Windows-Hard/Mantis/Screenshots",
-    "Windows/Windows-Hard/Mantis",
     "Linux/Linux-Easy/PermX/PermX.md",
     "Linux/Linux-Easy/Shocker/Shocker.md",
     "Linux/Linux-Medium/October/October.md",
@@ -181,7 +183,6 @@
     "Windows/Windows-Easy/Blue/Blue.md",
     "Linux/Linux-Easy/Mirai/Mirai.md",
     "Linux/Linux-Easy/Blocky/Blocky.md",
-    "Linux/Linux-Insane/Jail/Jail.md",
-    "Linux/Linux-Medium/Haircut/Haircut.md"
+    "Linux/Linux-Insane/Jail/Jail.md"
   ]
 }
