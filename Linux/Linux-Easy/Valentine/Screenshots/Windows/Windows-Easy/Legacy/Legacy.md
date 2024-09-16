@@ -18,7 +18,7 @@ nmap -sV -sC -oA nmap/legacy 10.10.10.4
 
 ###### output
 
-![nmaplegacy](/Windows/Windows-Easy/Legacy/Screenshots/nmaplegacy.png)
+![nmaplegacy](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Legacy/Screenshots/nmaplegacy.png)
 
 ```code
 ❯ nmap -sV -sC -oA nmap/legacy 10.10.10.4                                                                                           ─╯
@@ -85,7 +85,7 @@ If so, Windows XP SP3 English is the correct target.
 
 ###### output
 
-![metasploitlegacy](/Windows/Windows-Easy/Legacy/Screenshots/metasploitlegacy.png)
+![metasploitlegacy](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Legacy/Screenshots/metasploitlegacy.png)
 
 ###### code
 
@@ -99,11 +99,11 @@ run
 
 ###### output
 
-![metasploitoption](/Windows/Windows-Easy/Legacy/Screenshots/metasploitoption.png)
+![metasploitoption](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Legacy/Screenshots/metasploitoption.png)
 
 Running the module immediately grants a root shell. 
 
-![metasploitoption](/Windows/Windows-Easy/Legacy/Screenshots/meterpreterlegacy.png)
+![metasploitoption](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Legacy/Screenshots/meterpreterlegacy.png)
 
 ###### code
 
@@ -111,20 +111,20 @@ Running the module immediately grants a root shell.
 shell
 ```
 
-![](/Windows/Windows-Easy/Legacy/Screenshots/shelllegacy.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Legacy/Screenshots/shelllegacy.png)
 
 The user flag can be obtained from `C:\Documents and Settings\john\Desktop\user.txt` and the
 root flag from `C:\Documents and Settings\Administrator\Desktop\root.txt`
 ###### output
 
-![](/Windows/Windows-Easy/Legacy/Screenshots/legacyrootuserflag.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Legacy/Screenshots/legacyrootuserflag.png)
 
 
 # The Mitigation: MS08–067
 
 The adventure wouldn’t be complete without discussing the mitigation of this vulnerability. Microsoft released a security update, MS08–067, to patch this critical flaw. This update was crucial for Windows 2000, XP, Vista, and Windows Server 2003 and 2008 users, addressing the vulnerable component in the Server service to prevent such remote exploits. [Bulletin](https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067)
 
-![](/Windows/Windows-Easy/Legacy/Screenshots/learnlegacy.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Legacy/Screenshots/learnlegacy.png)
 
 	-------------------------END successful attack @lesley----------------------
 

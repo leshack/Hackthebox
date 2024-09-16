@@ -18,7 +18,7 @@ nmap -sV -sC -oA nmap/blue 10.10.10.40
 
 ###### Output 
 
-![](/Windows/Windows-Easy/Blue/Screenshots/nmap.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Blue/Screenshots/nmap.png)
 
 
 looking at the results  we find out that there are 4 ports open and its a `Windows`and its running an `Windows 7 Professional`. 
@@ -43,11 +43,11 @@ set RPORT 445
 run
 ```
 
-![](/Windows/Windows-Easy/Blue/Screenshots/msfconsole.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Blue/Screenshots/msfconsole.png)
 
 Now that is a window 7 profesional and smb 2.1 it had vulnerability called `EternalBlue`
 
-![](/Windows/Windows-Easy/Blue/Screenshots/eternalblue.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Blue/Screenshots/eternalblue.png)
 
 
 # Exploitation 
@@ -61,15 +61,15 @@ set LPORT 4444
 run
 ```
 
-![](/Windows/Windows-Easy/Blue/Screenshots/msfblue.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Blue/Screenshots/msfblue.png)
 
 and just like that we get a `Meterpreter` 
 
-![](/Windows/Windows-Easy/Blue/Screenshots/meterpreter.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Blue/Screenshots/meterpreter.png)
 
 it grants as a root privillage lets get the flags
 
-![](/Windows/Windows-Easy/Blue/Screenshots/shellflags.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Blue/Screenshots/shellflags.png)
 
 	-------------------------END successful attack @lesley----------------------
 

