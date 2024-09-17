@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Windows/Windows-Easy/Arctic/Arctic.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Appearance",
+                "query": "![](W",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Windows/Windows-Easy/Arctic/Arctic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +139,16 @@
   },
   "active": "b454e29ddfc68c45",
   "lastOpenFiles": [
+    "Windows/Windows-Medium/Bastard/Bastard.md",
+    "Windows/Windows-Easy/Optimum/optimum.md",
+    "Windows/Windows-Easy/Legacy/Legacy.md",
+    "Windows/Windows-Easy/Granny/Granny.md",
+    "Windows/Windows-Easy/Grandpa/Grandpa.md",
+    "Windows/Windows-Easy/Devel/Devel.md",
+    "Windows/Windows-Easy/Blue/Blue.md",
+    "Windows/Windows-Easy/Arctic/Arctic.md",
+    "Windows/Windows-Hard/Mantis/Mantis.md",
+    "README.md",
     "Linux/Linux-Easy/Valentine/Valentine.md",
     "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
     "Linux/Linux-Easy/Valentine/Screenshots/rootflag.png",
@@ -154,7 +164,6 @@
     "Linux/Linux-Easy/Nibbles/Nibbles.md",
     "Linux/Linux-Easy/Valentine/Screenshots",
     "Linux/Linux-Easy/Valentine",
-    "README.md",
     "Linux/Linux-Easy/Bashed/Bashed.md",
     "Linux/Linux-Easy/Nibbles/Screenshots",
     "Linux/Linux-Easy/Nibbles",
@@ -172,17 +181,9 @@
     "Linux/Linux-Medium/Node/Node.md",
     "Linux/Linux-Hard/Kotarak/Screenshots",
     "Linux/Linux-Hard/Kotarak",
-    "Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Mantis.md",
     "Linux/Linux-Hard/Shrek/Shrek.md",
     "Linux/Linux-Easy/PermX/PermX.md",
     "Linux/Linux-Easy/Shocker/Shocker.md",
-    "Linux/Linux-Medium/October/October.md",
-    "Linux/Linux-Medium/Nineveh/Nineveh.md",
-    "Linux/Linux-Easy/Sea/sea.md",
-    "Challanges/Hardware/Photon-Lockdown/Photon.md",
-    "Linux/Linux-Easy/OpenBSD/Sense/Sense.md",
-    "Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Blue/Blue.md",
-    "Linux/Linux-Easy/Mirai/Mirai.md",
-    "Linux/Linux-Easy/Blocky/Blocky.md"
+    "Linux/Linux-Medium/October/October.md"
   ]
 }

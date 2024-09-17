@@ -10,11 +10,11 @@ Hands on servers successful pwned machines:
 
 # Legacy
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Legacy/Screenshots/pwnedlegacy.png)
+![](Windows/Windows-Easy/Legacy/Screenshots/pwnedlegacy.png)
 
 # DEVEL 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Devel/Screenshots/develpwned.png)
+![](Windows/Windows-Easy/Devel/Screenshots/develpwned.png)
 
 # POPCORN
 
@@ -26,11 +26,11 @@ Hands on servers successful pwned machines:
 
 # OPTIMUM
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Optimum/Screenshots/pwnedOptimum.png)
+![](Windows/Windows-Easy/Optimum/Screenshots/pwnedOptimum.png)
 
 # BASTARD
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Medium/Bastard/Screenshots/bastardpwned.png)
+![](Windows/Windows-Medium/Bastard/Screenshots/bastardpwned.png)
 
 # Tenten
 
@@ -38,7 +38,7 @@ Hands on servers successful pwned machines:
 
 # ARCTIC
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Arctic/Screenshots/Arcticpwned.png)
+![](Windows/Windows-Easy/Arctic/Screenshots/Arcticpwned.png)
 
 # CRONOS
 
@@ -46,12 +46,12 @@ Hands on servers successful pwned machines:
 
 # GRANDPA
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/grandpapwned.png)
+![](Windows/Windows-Easy/Grandpa/Screenshots/grandpapwned.png)
 
 
 # GRANNY
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Granny/Screenshots/GrannyPwned.png)
+![](Windows/Windows-Easy/Granny/Screenshots/GrannyPwned.png)
 
 # OCTOBER
 
@@ -103,7 +103,7 @@ Hands on servers successful pwned machines:
 
 # BLUE
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Blue/Screenshots/BluePwned.png)
+![](Windows/Windows-Easy/Blue/Screenshots/BluePwned.png)
 
 # MIRAI
 
@@ -136,7 +136,7 @@ Hands on servers successful pwned machines:
 
 # MANTIS
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Hard/Mantis/Screenshots/MantisPwned.png)
+![](Windows/Windows-Hard/Mantis/Screenshots/MantisPwned.png)
 
 # NODE
 

