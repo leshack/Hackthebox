@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Easy/Valentine/Valentine.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Arctic/Arctic.md",
+                "file": "Windows/Windows-Medium/Chatterbox/Chatterbox.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
+                "file": "Windows/Windows-Medium/Bastard/Bastard.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows-Easy/Arctic/Arctic.md",
+                "file": "Windows/Windows-Medium/Chatterbox/Chatterbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,28 +139,31 @@
   },
   "active": "b454e29ddfc68c45",
   "lastOpenFiles": [
+    "README.md",
     "Windows/Windows-Medium/Bastard/Bastard.md",
+    "Windows/Windows-Medium/Chatterbox/Chatterbox.md",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/ChatterboxPwned.png",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/rootflag.png",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/Pasted image 20240923201406.png",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/root.png",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/icacls.png",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/userflag.png",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/shell.png",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/listenning.png",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/exploit.png",
+    "Windows/Windows-Medium/Chatterbox/Screenshots/shellcode.png",
+    "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
+    "Linux/Linux-Easy/Valentine/Valentine.md",
+    "Windows/Windows-Easy/Arctic/Arctic.md",
+    "Windows/Windows-Medium/Chatterbox/Screenshots",
+    "Windows/Windows-Medium/Chatterbox",
     "Windows/Windows-Easy/Optimum/optimum.md",
     "Windows/Windows-Easy/Legacy/Legacy.md",
     "Windows/Windows-Easy/Granny/Granny.md",
     "Windows/Windows-Easy/Grandpa/Grandpa.md",
     "Windows/Windows-Easy/Devel/Devel.md",
     "Windows/Windows-Easy/Blue/Blue.md",
-    "Windows/Windows-Easy/Arctic/Arctic.md",
     "Windows/Windows-Hard/Mantis/Mantis.md",
-    "README.md",
-    "Linux/Linux-Easy/Valentine/Valentine.md",
-    "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
-    "Linux/Linux-Easy/Valentine/Screenshots/rootflag.png",
-    "Linux/Linux-Easy/Valentine/Screenshots/ValentinePwned.png",
-    "Linux/Linux-Easy/Valentine/Screenshots/tmux.png",
-    "Linux/Linux-Easy/Valentine/Screenshots/ps.png",
-    "Linux/Linux-Easy/Valentine/Screenshots/userflag.png",
-    "Linux/Linux-Easy/Valentine/Screenshots/hypessh.png",
-    "Linux/Linux-Easy/Valentine/Screenshots/encryption.png",
-    "Linux/Linux-Easy/Valentine/Screenshots/encryt.png",
-    "Linux/Linux-Easy/Valentine/Screenshots/name.png",
-    "Linux/Linux-Easy/Valentine/Screenshots/love.png",
     "Linux/Linux-Easy/Nibbles/Nibbles.md",
     "Linux/Linux-Easy/Valentine/Screenshots",
     "Linux/Linux-Easy/Valentine",
@@ -179,11 +182,7 @@
     "Linux/Linux-Medium/Enterprise",
     "Linux/Linux-Medium/SolidState/SolidState.md",
     "Linux/Linux-Medium/Node/Node.md",
-    "Linux/Linux-Hard/Kotarak/Screenshots",
-    "Linux/Linux-Hard/Kotarak",
     "Linux/Linux-Hard/Shrek/Shrek.md",
-    "Linux/Linux-Easy/PermX/PermX.md",
-    "Linux/Linux-Easy/Shocker/Shocker.md",
-    "Linux/Linux-Medium/October/October.md"
+    "Linux/Linux-Easy/PermX/PermX.md"
   ]
 }
