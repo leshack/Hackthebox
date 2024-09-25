@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Windows/Windows-Easy/Jerry/Jerry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,8 +137,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d8049f3face3c1b1",
+  "active": "b454e29ddfc68c45",
   "lastOpenFiles": [
+    "README.md",
     "Windows/Windows-Easy/Jerry/Jerry.md",
     "Windows/Windows-Easy/Jerry/Screenshots/JerryPwned.png",
     "Linux/Linux-Hard/Kotarak/Kotarak.md",
@@ -154,7 +156,6 @@
     "Windows/Windows-Medium/Chatterbox/Chatterbox.md",
     "Windows/Windows-Easy/Jerry/Screenshots",
     "Windows/Windows-Easy/Jerry",
-    "README.md",
     "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
     "Linux/Linux-Easy/Valentine/Valentine.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",

@@ -48,9 +48,7 @@ I managed App which directs to `manager/html` provides us with password and user
 
 ![](/Windows/Windows-Easy/Jerry/Screenshots/manager.png)
 
-and am in the tomcat so let me find where to abuse tomcat from like how we did to Kotarak
-
-![Kotarak](/Linux/Linux-Hard/Kotarak/kotarak)
+and am in the tomcat so let me find where to abuse tomcat from like how we did to ![Kotarak](/Linux/Linux-Hard/Kotarak/Kotarak.md)
 
 
 ![](/Windows/Windows-Easy/Jerry/Screenshots/tomcat.png)
