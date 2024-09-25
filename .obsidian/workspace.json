@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Medium/Chatterbox/Chatterbox.md",
+                "file": "Windows/Windows-Easy/Jerry/Jerry.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Medium/Bastard/Bastard.md",
+                "file": "Linux/Linux-Hard/Kotarak/Kotarak.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "![](W",
+                "query": "tomcat",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows-Medium/Chatterbox/Chatterbox.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,21 +136,25 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b454e29ddfc68c45",
+  "active": "d8049f3face3c1b1",
   "lastOpenFiles": [
-    "README.md",
+    "Windows/Windows-Easy/Jerry/Jerry.md",
+    "Windows/Windows-Easy/Jerry/Screenshots/JerryPwned.png",
+    "Linux/Linux-Hard/Kotarak/Kotarak.md",
+    "Windows/Windows-Easy/Jerry/Screenshots/flags.png",
+    "Windows/Windows-Easy/Jerry/Screenshots/whoami.png",
+    "Windows/Windows-Easy/Jerry/Screenshots/shell.png",
+    "Windows/Windows-Easy/Jerry/Screenshots/tomcatexploit.png",
+    "Windows/Windows-Easy/Jerry/Screenshots/msfvenom.png",
+    "Windows/Windows-Easy/Jerry/Screenshots/war.png",
     "Windows/Windows-Medium/Bastard/Bastard.md",
+    "Windows/Windows-Easy/Jerry/Screenshots/tomcat.png",
+    "Windows/Windows-Easy/Jerry/Screenshots/manager.png",
+    "Windows/Windows-Easy/Jerry/Screenshots/browser.png",
     "Windows/Windows-Medium/Chatterbox/Chatterbox.md",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/ChatterboxPwned.png",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/rootflag.png",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/Pasted image 20240923201406.png",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/root.png",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/icacls.png",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/userflag.png",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/shell.png",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/listenning.png",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/exploit.png",
-    "Windows/Windows-Medium/Chatterbox/Screenshots/shellcode.png",
+    "Windows/Windows-Easy/Jerry/Screenshots",
+    "Windows/Windows-Easy/Jerry",
+    "README.md",
     "Linux/Linux-Medium/Apocalyst/Apocalyst.md",
     "Linux/Linux-Easy/Valentine/Valentine.md",
     "Windows/Windows-Easy/Arctic/Arctic.md",
@@ -176,13 +179,9 @@
     "Linux/Linux-Easy/Bashed/Screenshots",
     "Linux/Linux-Easy/Bashed",
     "Linux/Linux-Medium/Cronos/Cronos.md",
-    "Linux/Linux-Hard/Kotarak/Kotarak.md",
     "Linux/Linux-Hard/Charon/Charon.md",
-    "Linux/Linux-Medium/Enterprise/Screenshots",
-    "Linux/Linux-Medium/Enterprise",
     "Linux/Linux-Medium/SolidState/SolidState.md",
     "Linux/Linux-Medium/Node/Node.md",
-    "Linux/Linux-Hard/Shrek/Shrek.md",
-    "Linux/Linux-Easy/PermX/PermX.md"
+    "Linux/Linux-Hard/Shrek/Shrek.md"
   ]
 }

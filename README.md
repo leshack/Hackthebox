@@ -146,11 +146,11 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Hard/Kotarak/Screenshots/KotarakPwned.png)
 
-# Enterprise
+# ENTERPRISE
 
 ![](/Linux/Linux-Medium/Enterprise/Screenshots/EnterprisePwned.png)
 
-# Bashed
+# BASHED
 
 ![](/Linux/Linux-Easy/Bashed/Screenshots/BashedPwned.png)
 
@@ -162,9 +162,13 @@ Hands on servers successful pwned machines:
 
 ![](/Linux/Linux-Easy/Valentine/Screenshots/ValentinePwned.png)
 
-# Chatterbox
+# CHATTERBOX
 
 ![](/Windows/Windows-Medium/Chatterbox/Screenshots/ChatterboxPwned.png)
+
+# JERRY
+
+![](/Windows/Windows-Easy/Jerry/Screenshots/JerryPwned.png)
 
 
 # PERM*X* 
