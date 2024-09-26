@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows-Easy/Jerry/Jerry.md",
+                "file": "Solaris/Sunday/Sunday.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux-Hard/Kotarak/Kotarak.md",
+                "file": "Windows/Windows-Easy/Jerry/Jerry.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows-Easy/Jerry/Jerry.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,22 +136,26 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b454e29ddfc68c45",
+  "active": "d8049f3face3c1b1",
   "lastOpenFiles": [
-    "README.md",
+    "Solaris/Sunday/Sunday.md",
+    "Solaris/Sunday/Screenshots/SundayPwned.png",
     "Windows/Windows-Easy/Jerry/Jerry.md",
-    "Windows/Windows-Easy/Jerry/Screenshots/JerryPwned.png",
+    "Solaris/Sunday/Screenshots/rootflag.png",
+    "Solaris/Sunday/Screenshots/troll.png",
+    "Solaris/Sunday/Screenshots/wget.png",
+    "Solaris/Sunday/Screenshots/root.png",
+    "Solaris/Sunday/Screenshots/hashact.png",
+    "Solaris/Sunday/Screenshots/userflag.png",
+    "Solaris/Sunday/Screenshots/sammy.png",
+    "Solaris/Sunday/Screenshots/enumfinger.png",
+    "Solaris/Sunday/Screenshots/echobase64.png",
     "Linux/Linux-Hard/Kotarak/Kotarak.md",
-    "Windows/Windows-Easy/Jerry/Screenshots/flags.png",
-    "Windows/Windows-Easy/Jerry/Screenshots/whoami.png",
-    "Windows/Windows-Easy/Jerry/Screenshots/shell.png",
-    "Windows/Windows-Easy/Jerry/Screenshots/tomcatexploit.png",
-    "Windows/Windows-Easy/Jerry/Screenshots/msfvenom.png",
-    "Windows/Windows-Easy/Jerry/Screenshots/war.png",
+    "Solaris/Sunday/Screenshots",
+    "Solaris/Sunday",
+    "Solaris",
+    "README.md",
     "Windows/Windows-Medium/Bastard/Bastard.md",
-    "Windows/Windows-Easy/Jerry/Screenshots/tomcat.png",
-    "Windows/Windows-Easy/Jerry/Screenshots/manager.png",
-    "Windows/Windows-Easy/Jerry/Screenshots/browser.png",
     "Windows/Windows-Medium/Chatterbox/Chatterbox.md",
     "Windows/Windows-Easy/Jerry/Screenshots",
     "Windows/Windows-Easy/Jerry",
@@ -173,16 +176,12 @@
     "Linux/Linux-Easy/Valentine",
     "Linux/Linux-Easy/Bashed/Bashed.md",
     "Linux/Linux-Easy/Nibbles/Screenshots",
-    "Linux/Linux-Easy/Nibbles",
     "Linux/Linux-Insane/Brainfuck/Brainfuck.md",
     "Linux/Linux-Easy/Beep/Beep.md",
     "Linux/Linux-Medium/Enterprise/Enterprise.md",
-    "Linux/Linux-Easy/Bashed/Screenshots",
-    "Linux/Linux-Easy/Bashed",
     "Linux/Linux-Medium/Cronos/Cronos.md",
     "Linux/Linux-Hard/Charon/Charon.md",
     "Linux/Linux-Medium/SolidState/SolidState.md",
-    "Linux/Linux-Medium/Node/Node.md",
-    "Linux/Linux-Hard/Shrek/Shrek.md"
+    "Linux/Linux-Medium/Node/Node.md"
   ]
 }

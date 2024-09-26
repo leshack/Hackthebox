@@ -6,9 +6,8 @@ Hi folks, today I am going to solve an Medium rated hack the box machine which w
 # common enumeration
 
 ## Nmap
-  *http
-  *Ms15-051
-  *Drupal
+  *Tomcat
+  *War
   
 ###### code-nmap
 

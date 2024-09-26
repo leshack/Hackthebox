@@ -170,6 +170,9 @@ Hands on servers successful pwned machines:
 
 ![](/Windows/Windows-Easy/Jerry/Screenshots/JerryPwned.png)
 
+# SUNDAY
+![](/Solaris/Sunday/Screenshots/SundayPwned.png)
+
 
 # PERM*X* 
 
